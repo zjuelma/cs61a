@@ -1,0 +1,1795 @@
+[
+    {
+        "label": "parse",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "NodeVisitor",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "NodeVisitor",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "NodeVisitor",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "mul",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "socketserver",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socketserver",
+        "description": "socketserver",
+        "detail": "socketserver",
+        "documentation": {}
+    },
+    {
+        "label": "ssl",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ssl",
+        "description": "ssl",
+        "detail": "ssl",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "server",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPServer",
+        "importPath": "http.server",
+        "description": "http.server",
+        "isExtraImport": true,
+        "detail": "http.server",
+        "documentation": {}
+    },
+    {
+        "label": "URLError",
+        "importPath": "urllib.error",
+        "description": "urllib.error",
+        "isExtraImport": true,
+        "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "unquote",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_qs",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "isExtraImport": true,
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "urlopen",
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "isExtraImport": true,
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "gui_files.svg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gui_files.svg",
+        "description": "gui_files.svg",
+        "detail": "gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "hog",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hog",
+        "description": "hog",
+        "detail": "hog",
+        "documentation": {}
+    },
+    {
+        "label": "GOAL_SCORE",
+        "importPath": "hog",
+        "description": "hog",
+        "isExtraImport": true,
+        "detail": "hog",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "hog",
+        "description": "hog",
+        "isExtraImport": true,
+        "detail": "hog",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "dice",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dice",
+        "description": "dice",
+        "detail": "dice",
+        "documentation": {}
+    },
+    {
+        "label": "six_sided",
+        "importPath": "dice",
+        "description": "dice",
+        "isExtraImport": true,
+        "detail": "dice",
+        "documentation": {}
+    },
+    {
+        "label": "make_test_dice",
+        "importPath": "dice",
+        "description": "dice",
+        "isExtraImport": true,
+        "detail": "dice",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "trace",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "interact",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "redirect_stdout",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "default_graphics",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "default_graphics",
+        "description": "default_graphics",
+        "detail": "default_graphics",
+        "documentation": {}
+    },
+    {
+        "label": "code",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "code",
+        "description": "code",
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inspect",
+        "description": "inspect",
+        "detail": "inspect",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "signal",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "signal",
+        "description": "signal",
+        "detail": "signal",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ExclusionChecker",
+        "kind": 6,
+        "importPath": "homework.hw01.construct_check",
+        "description": "homework.hw01.construct_check",
+        "peekOfCode": "class ExclusionChecker(NodeVisitor):\n    \"\"\"An AST visitor that checks that certain constructs are excluded from\n    parts of a program.  ExclusionChecker(EXC) checks that AST node types\n    whose names are in the sequence or set EXC are not present.  Its check\n    method visits nodes in a given function of a source file checking that the\n    indicated node types are not used.\"\"\"\n    def __init__(self, disallow=()):\n        \"\"\"DISALLOW is the initial default list of disallowed\n        node-type names.\"\"\"\n        self._disallow = set(disallow)",
+        "detail": "homework.hw01.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "homework.hw01.construct_check",
+        "description": "homework.hw01.construct_check",
+        "peekOfCode": "def check(source_file, checked_funcs, disallow, source=None):\n    \"\"\"Checks that AST nodes whose type names are present in DISALLOW\n    (an object supporting 'in') are not present in the function(s) named\n    CHECKED_FUNCS in SOURCE.  By default, SOURCE is the contents of the\n    file SOURCE_FILE.  CHECKED_FUNCS is either a string (indicating a single\n    name) or an object of some other type that supports 'in'. CHECKED_FUNCS\n    may contain __main__ to indicate an entire  module. Prints reports of\n    each prohibited node and returns True iff none are found.\n    See ast.__dir__() for AST type names.  The special node name 'Recursion'\n    checks for overtly recursive calls (i.e., calls of the form NAME(...) where",
+        "detail": "homework.hw01.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "_NAMES",
+        "kind": 5,
+        "importPath": "homework.hw01.construct_check",
+        "description": "homework.hw01.construct_check",
+        "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
+        "detail": "homework.hw01.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "a_plus_abs_b",
+        "kind": 2,
+        "importPath": "homework.hw01.hw01",
+        "description": "homework.hw01.hw01",
+        "peekOfCode": "def a_plus_abs_b(a, b):\n    \"\"\"Return a+abs(b), but without calling abs.\n    >>> a_plus_abs_b(2, 3)\n    5\n    >>> a_plus_abs_b(2, -3)\n    5\n    >>> a_plus_abs_b(-1, 4)\n    3\n    >>> a_plus_abs_b(-1, -4)\n    3",
+        "detail": "homework.hw01.hw01",
+        "documentation": {}
+    },
+    {
+        "label": "a_plus_abs_b_syntax_check",
+        "kind": 2,
+        "importPath": "homework.hw01.hw01",
+        "description": "homework.hw01.hw01",
+        "peekOfCode": "def a_plus_abs_b_syntax_check():\n    \"\"\"Check that you didn't change the return statement of a_plus_abs_b.\n    >>> # You aren't expected to understand the code of this test.\n    >>> import inspect, re\n    >>> re.findall(r'^\\s*(return .*)', inspect.getsource(a_plus_abs_b), re.M)\n    ['return f(a, b)']\n    \"\"\"\n    # You don't need to edit this function. It's just here to check your work.\ndef two_of_three(i, j, k):\n    \"\"\"Return m*m + n*n, where m and n are the two smallest members of the",
+        "detail": "homework.hw01.hw01",
+        "documentation": {}
+    },
+    {
+        "label": "two_of_three",
+        "kind": 2,
+        "importPath": "homework.hw01.hw01",
+        "description": "homework.hw01.hw01",
+        "peekOfCode": "def two_of_three(i, j, k):\n    \"\"\"Return m*m + n*n, where m and n are the two smallest members of the\n    positive numbers i, j, and k.\n    >>> two_of_three(1, 2, 3)\n    5\n    >>> two_of_three(5, 3, 1)\n    10\n    >>> two_of_three(10, 2, 8)\n    68\n    >>> two_of_three(5, 5, 5)",
+        "detail": "homework.hw01.hw01",
+        "documentation": {}
+    },
+    {
+        "label": "two_of_three_syntax_check",
+        "kind": 2,
+        "importPath": "homework.hw01.hw01",
+        "description": "homework.hw01.hw01",
+        "peekOfCode": "def two_of_three_syntax_check():\n    \"\"\"Check that your two_of_three code consists of nothing but a return statement.\n    >>> # You aren't expected to understand the code of this test.\n    >>> import inspect, ast\n    >>> [type(x).__name__ for x in ast.parse(inspect.getsource(two_of_three)).body[0].body]\n    ['Expr', 'Return']\n    \"\"\"\n    # You don't need to edit this function. It's just here to check your work.\ndef largest_factor(n):\n    \"\"\"Return the largest factor of n that is smaller than n.",
+        "detail": "homework.hw01.hw01",
+        "documentation": {}
+    },
+    {
+        "label": "largest_factor",
+        "kind": 2,
+        "importPath": "homework.hw01.hw01",
+        "description": "homework.hw01.hw01",
+        "peekOfCode": "def largest_factor(n):\n    \"\"\"Return the largest factor of n that is smaller than n.\n    >>> largest_factor(15) # factors are 1, 3, 5\n    5\n    >>> largest_factor(80) # factors are 1, 2, 4, 5, 8, 10, 16, 20, 40\n    40\n    >>> largest_factor(13) # factor is 1 since 13 is prime\n    1\n    \"\"\"\n    \"*** YOUR CODE HERE ***\"",
+        "detail": "homework.hw01.hw01",
+        "documentation": {}
+    },
+    {
+        "label": "hailstone",
+        "kind": 2,
+        "importPath": "homework.hw01.hw01",
+        "description": "homework.hw01.hw01",
+        "peekOfCode": "def hailstone(n):\n    \"\"\"Print the hailstone sequence starting at n and return its\n    length.\n    >>> a = hailstone(10)\n    10\n    5\n    16\n    8\n    4\n    2",
+        "detail": "homework.hw01.hw01",
+        "documentation": {}
+    },
+    {
+        "label": "ExclusionChecker",
+        "kind": 6,
+        "importPath": "homework.hw02.construct_check",
+        "description": "homework.hw02.construct_check",
+        "peekOfCode": "class ExclusionChecker(NodeVisitor):\n    \"\"\"An AST visitor that checks that certain constructs are excluded from\n    parts of a program.  ExclusionChecker(EXC) checks that AST node types\n    whose names are in the sequence or set EXC are not present.  Its check\n    method visits nodes in a given function of a source file checking that the\n    indicated node types are not used.\"\"\"\n    def __init__(self, disallow=()):\n        \"\"\"DISALLOW is the initial default list of disallowed\n        node-type names.\"\"\"\n        self._disallow = set(disallow)",
+        "detail": "homework.hw02.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "homework.hw02.construct_check",
+        "description": "homework.hw02.construct_check",
+        "peekOfCode": "def check(source_file, checked_funcs, disallow, source=None):\n    \"\"\"Checks that AST nodes whose type names are present in DISALLOW\n    (an object supporting 'in') are not present in the function(s) named\n    CHECKED_FUNCS in SOURCE.  By default, SOURCE is the contents of the\n    file SOURCE_FILE.  CHECKED_FUNCS is either a string (indicating a single\n    name) or an object of some other type that supports 'in'. CHECKED_FUNCS\n    may contain __main__ to indicate an entire  module. Prints reports of\n    each prohibited node and returns True iff none are found.\n    See ast.__dir__() for AST type names.  The special node name 'Recursion'\n    checks for overtly recursive calls (i.e., calls of the form NAME(...) where",
+        "detail": "homework.hw02.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "_NAMES",
+        "kind": 5,
+        "importPath": "homework.hw02.construct_check",
+        "description": "homework.hw02.construct_check",
+        "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
+        "detail": "homework.hw02.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "product",
+        "kind": 2,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "def product(n, term):\n    \"\"\"Return the product of the first n terms in a sequence.\n    n: a positive integer\n    term:  a function that takes one argument to produce the term\n    >>> product(3, identity)  # 1 * 2 * 3\n    6\n    >>> product(5, identity)  # 1 * 2 * 3 * 4 * 5\n    120\n    >>> product(3, square)    # 1^2 * 2^2 * 3^2\n    36",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "accumulate",
+        "kind": 2,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "def accumulate(fuse, start, n, term):\n    \"\"\"Return the result of fusing together the first n terms in a sequence \n    and start.  The terms to be fused are term(1), term(2), ..., term(n). \n    The function fuse is a two-argument commutative & associative function.\n    >>> accumulate(add, 0, 5, identity)  # 0 + 1 + 2 + 3 + 4 + 5\n    15\n    >>> accumulate(add, 11, 5, identity) # 11 + 1 + 2 + 3 + 4 + 5\n    26\n    >>> accumulate(add, 11, 0, identity) # 11 (fuse is never used)\n    11",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "summation_using_accumulate",
+        "kind": 2,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "def summation_using_accumulate(n, term):\n    \"\"\"Returns the sum: term(1) + ... + term(n), using accumulate.\n    >>> summation_using_accumulate(5, square)\n    55\n    >>> summation_using_accumulate(5, triple)\n    45\n    >>> # This test checks that the body of the function is just a return statement.\n    >>> import inspect, ast\n    >>> [type(x).__name__ for x in ast.parse(inspect.getsource(summation_using_accumulate)).body[0].body]\n    ['Expr', 'Return']",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "product_using_accumulate",
+        "kind": 2,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "def product_using_accumulate(n, term):\n    \"\"\"Returns the product: term(1) * ... * term(n), using accumulate.\n    >>> product_using_accumulate(4, square)\n    576\n    >>> product_using_accumulate(6, triple)\n    524880\n    >>> # This test checks that the body of the function is just a return statement.\n    >>> import inspect, ast\n    >>> [type(x).__name__ for x in ast.parse(inspect.getsource(product_using_accumulate)).body[0].body]\n    ['Expr', 'Return']",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "make_repeater",
+        "kind": 2,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "def make_repeater(f, n):\n    \"\"\"Returns the function that computes the nth application of f.\n    >>> add_three = make_repeater(increment, 3)\n    >>> add_three(5)\n    8\n    >>> make_repeater(triple, 5)(1) # 3 * 3 * 3 * 3 * 3 * 1\n    243\n    >>> make_repeater(square, 2)(5) # square(square(5))\n    625\n    >>> make_repeater(square, 3)(5) # square(square(square(5)))",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 5,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "square = lambda x: x * x\nidentity = lambda x: x\ntriple = lambda x: 3 * x\nincrement = lambda x: x + 1\nHW_SOURCE_FILE=__file__\ndef product(n, term):\n    \"\"\"Return the product of the first n terms in a sequence.\n    n: a positive integer\n    term:  a function that takes one argument to produce the term\n    >>> product(3, identity)  # 1 * 2 * 3",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "identity",
+        "kind": 5,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "identity = lambda x: x\ntriple = lambda x: 3 * x\nincrement = lambda x: x + 1\nHW_SOURCE_FILE=__file__\ndef product(n, term):\n    \"\"\"Return the product of the first n terms in a sequence.\n    n: a positive integer\n    term:  a function that takes one argument to produce the term\n    >>> product(3, identity)  # 1 * 2 * 3\n    6",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "triple",
+        "kind": 5,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "triple = lambda x: 3 * x\nincrement = lambda x: x + 1\nHW_SOURCE_FILE=__file__\ndef product(n, term):\n    \"\"\"Return the product of the first n terms in a sequence.\n    n: a positive integer\n    term:  a function that takes one argument to produce the term\n    >>> product(3, identity)  # 1 * 2 * 3\n    6\n    >>> product(5, identity)  # 1 * 2 * 3 * 4 * 5",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "increment",
+        "kind": 5,
+        "importPath": "homework.hw02.hw02",
+        "description": "homework.hw02.hw02",
+        "peekOfCode": "increment = lambda x: x + 1\nHW_SOURCE_FILE=__file__\ndef product(n, term):\n    \"\"\"Return the product of the first n terms in a sequence.\n    n: a positive integer\n    term:  a function that takes one argument to produce the term\n    >>> product(3, identity)  # 1 * 2 * 3\n    6\n    >>> product(5, identity)  # 1 * 2 * 3 * 4 * 5\n    120",
+        "detail": "homework.hw02.hw02",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab00.tests.python-basics",
+        "description": "lab.lab00.tests.python-basics",
+        "peekOfCode": "test = {\n  'name': 'Python Basics',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> x = 20\n          >>> x + 2",
+        "detail": "lab.lab00.tests.python-basics",
+        "documentation": {}
+    },
+    {
+        "label": "twenty_twenty_four",
+        "kind": 2,
+        "importPath": "lab.lab00.lab00",
+        "description": "lab.lab00.lab00",
+        "peekOfCode": "def twenty_twenty_four():\n    \"\"\"Come up with the most creative expression that evaluates to 2024\n    using only numbers and the +, *, and - operators.\n    >>> twenty_twenty_four()\n    2024\n    \"\"\"\n    return 2*2*2*2*2*2*2*2*2*2*2-2*2*2*2-2*2*2",
+        "detail": "lab.lab00.lab00",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab01.tests.control",
+        "description": "lab.lab01.tests.control",
+        "peekOfCode": "test = {\n  'name': 'Control',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> def xk(c, d):\n          ...     if c == 4:",
+        "detail": "lab.lab01.tests.control",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab01.tests.debugging-quiz",
+        "description": "lab.lab01.tests.debugging-quiz",
+        "peekOfCode": "test = {\n  'name': 'debugging-quiz',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'answer': 'h(x + y * 5)',\n          'choices': [\n            'f(\"hi\")',",
+        "detail": "lab.lab01.tests.debugging-quiz",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab01.tests.if-statements",
+        "description": "lab.lab01.tests.if-statements",
+        "peekOfCode": "test = {\n  'name': 'What If?',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> def ab(c, d):\n          ...     if c > 5:",
+        "detail": "lab.lab01.tests.if-statements",
+        "documentation": {}
+    },
+    {
+        "label": "falling",
+        "kind": 2,
+        "importPath": "lab.lab01.lab01",
+        "description": "lab.lab01.lab01",
+        "peekOfCode": "def falling(n, k):\n    \"\"\"Compute the falling factorial of n to depth k.\n    >>> falling(6, 3)  # 6 * 5 * 4\n    120\n    >>> falling(4, 3)  # 4 * 3 * 2\n    24\n    >>> falling(4, 1)  # 4\n    4\n    >>> falling(4, 0)\n    1",
+        "detail": "lab.lab01.lab01",
+        "documentation": {}
+    },
+    {
+        "label": "divisible_by_k",
+        "kind": 2,
+        "importPath": "lab.lab01.lab01",
+        "description": "lab.lab01.lab01",
+        "peekOfCode": "def divisible_by_k(n, k):\n    \"\"\"\n    >>> a = divisible_by_k(10, 2)  # 2, 4, 6, 8, and 10 are divisible by 2\n    2\n    4\n    6\n    8\n    10\n    >>> a\n    5",
+        "detail": "lab.lab01.lab01",
+        "documentation": {}
+    },
+    {
+        "label": "sum_digits",
+        "kind": 2,
+        "importPath": "lab.lab01.lab01",
+        "description": "lab.lab01.lab01",
+        "peekOfCode": "def sum_digits(y):\n    \"\"\"Sum all the digits of y.\n    >>> sum_digits(10) # 1 + 0 = 1\n    1\n    >>> sum_digits(4224) # 4 + 2 + 2 + 4 = 12\n    12\n    >>> sum_digits(1234567890)\n    45\n    >>> a = sum_digits(123) # make sure that you are using return rather than print\n    >>> a",
+        "detail": "lab.lab01.lab01",
+        "documentation": {}
+    },
+    {
+        "label": "double_eights",
+        "kind": 2,
+        "importPath": "lab.lab01.lab01",
+        "description": "lab.lab01.lab01",
+        "peekOfCode": "def double_eights(n):\n    \"\"\"Return true if n has two eights in a row.\n    >>> double_eights(8)\n    False\n    >>> double_eights(88)\n    True\n    >>> double_eights(2882)\n    True\n    >>> double_eights(880088)\n    True",
+        "detail": "lab.lab01.lab01",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab02.tests.hof-wwpd",
+        "description": "lab.lab02.tests.hof-wwpd",
+        "peekOfCode": "test = {\n  'name': 'Higher Order Functions',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> # If Python displays <function...>, type Function, if it errors type Error, if it displays nothing type Nothing\n          >>> def cake():",
+        "detail": "lab.lab02.tests.hof-wwpd",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab02.tests.lambda",
+        "description": "lab.lab02.tests.lambda",
+        "peekOfCode": "test = {\n  'name': 'Lambda the Free',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'answer': '28893e4c2667b89b674188e063237622',\n          'choices': [\n            'A lambda expression does not automatically bind the function that it returns to a name.',",
+        "detail": "lab.lab02.tests.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab02.tests.short-circuit",
+        "description": "lab.lab02.tests.short-circuit",
+        "peekOfCode": "test = {\n  'name': 'The Truth Will Prevail',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> True and 13\n          7edad8d629f285ca759c95da679fd452",
+        "detail": "lab.lab02.tests.short-circuit",
+        "documentation": {}
+    },
+    {
+        "label": "composite_identity",
+        "kind": 2,
+        "importPath": "lab.lab02.lab02",
+        "description": "lab.lab02.lab02",
+        "peekOfCode": "def composite_identity(f, g):\n    \"\"\"\n    Return a function with one parameter x that returns True if f(g(x)) is\n    equal to g(f(x)). You can assume the result of g(x) is a valid input for f\n    and vice versa.\n    >>> add_one = lambda x: x + 1        # adds one to x\n    >>> square = lambda x: x**2          # squares x [returns x^2]\n    >>> b1 = composite_identity(square, add_one)\n    >>> b1(0)                            # (0 + 1) ** 2 == 0 ** 2 + 1\n    True",
+        "detail": "lab.lab02.lab02",
+        "documentation": {}
+    },
+    {
+        "label": "sum_digits",
+        "kind": 2,
+        "importPath": "lab.lab02.lab02",
+        "description": "lab.lab02.lab02",
+        "peekOfCode": "def sum_digits(y):\n    \"\"\"Return the sum of the digits of non-negative integer y.\"\"\"\n    total = 0\n    while y > 0:\n        total, y = total + y % 10, y // 10\n    return total\ndef is_prime(n):\n    \"\"\"Return whether positive integer n is prime.\"\"\"\n    if n == 1:\n        return False",
+        "detail": "lab.lab02.lab02",
+        "documentation": {}
+    },
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "lab.lab02.lab02",
+        "description": "lab.lab02.lab02",
+        "peekOfCode": "def is_prime(n):\n    \"\"\"Return whether positive integer n is prime.\"\"\"\n    if n == 1:\n        return False\n    k = 2\n    while k < n:\n        if n % k == 0:\n            return False\n        k += 1\n    return True",
+        "detail": "lab.lab02.lab02",
+        "documentation": {}
+    },
+    {
+        "label": "count_cond",
+        "kind": 2,
+        "importPath": "lab.lab02.lab02",
+        "description": "lab.lab02.lab02",
+        "peekOfCode": "def count_cond(condition):\n    \"\"\"Returns a function with one parameter N that counts all the numbers from\n    1 to N that satisfy the two-argument predicate function Condition, where\n    the first argument for Condition is N and the second argument is the\n    number from 1 to N.\n    >>> count_fives = count_cond(lambda n, i: sum_digits(n * i) == 5)\n    >>> count_fives(10)   # 50 (10 * 5)\n    1\n    >>> count_fives(50)   # 50 (50 * 1), 500 (50 * 10), 1400 (50 * 28), 2300 (50 * 46)\n    4",
+        "detail": "lab.lab02.lab02",
+        "documentation": {}
+    },
+    {
+        "label": "gcd",
+        "kind": 2,
+        "importPath": "lab.lab02.lab02",
+        "description": "lab.lab02.lab02",
+        "peekOfCode": "def gcd(x,y):\n    while y:\n        x,y = y,x%y\n    return x\ndef multiple(a, b):\n    \"\"\"Return the smallest number n that is a multiple of both a and b.\n    >>> multiple(3, 4)\n    12\n    >>> multiple(14, 21)\n    42",
+        "detail": "lab.lab02.lab02",
+        "documentation": {}
+    },
+    {
+        "label": "multiple",
+        "kind": 2,
+        "importPath": "lab.lab02.lab02",
+        "description": "lab.lab02.lab02",
+        "peekOfCode": "def multiple(a, b):\n    \"\"\"Return the smallest number n that is a multiple of both a and b.\n    >>> multiple(3, 4)\n    12\n    >>> multiple(14, 21)\n    42\n    \"\"\"\n    \"*** YOUR CODE HERE ***\"\n    \"\"\"st = min(a,b)\n    for i in range(1,max(a,b)+1):",
+        "detail": "lab.lab02.lab02",
+        "documentation": {}
+    },
+    {
+        "label": "cycle",
+        "kind": 2,
+        "importPath": "lab.lab02.lab02",
+        "description": "lab.lab02.lab02",
+        "peekOfCode": "def cycle(f1, f2, f3):\n    \"\"\"Returns a function that is itself a higher-order function.\n    >>> def add1(x):\n    ...     return x + 1\n    >>> def times2(x):\n    ...     return x * 2\n    >>> def add3(x):\n    ...     return x + 3\n    >>> my_cycle = cycle(add1, times2, add3)\n    >>> identity = my_cycle(0)",
+        "detail": "lab.lab02.lab02",
+        "documentation": {}
+    },
+    {
+        "label": "Handler",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "class Handler(server.BaseHTTPRequestHandler):\n    \"\"\"HTTP handler.\"\"\"\n    def do_GET(self):\n        try:\n            parsed_url = urlparse(unquote(self.path))\n            path = parsed_url.path\n            query_params = parse_qs(parsed_url.query)\n            if path in STATIC_PATHS:\n                out = bytes(STATIC_PATHS[path](**snakify(query_params)), \"utf-8\")\n            else:",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "Server",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "class Server:\n    def __getattr__(self, item):\n        def f(**kwargs):\n            if IS_SERVER:\n                return PATHS[\"/\" + item](**kwargs)\n            else:\n                return multiplayer_post(item, kwargs)\n        return f\nServer = Server()\ndef multiplayer_post(path, data, server_url=None):",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "path_optional",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def path_optional(decorator):\n    def wrapped(func_or_path):\n        if callable(func_or_path):\n            return decorator(\"/\" + func_or_path.__name__)(func_or_path)\n        else:\n            def actual_decorator(f):\n                return decorator(func_or_path)(f)\n            return actual_decorator\n    return wrapped\ndef route(path):",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def route(path):\n    \"\"\"Register a route handler.\"\"\"\n    if callable(path):\n        return route(\"/\" + path.__name__)(path)\n    if not path.startswith(\"/\"):\n        path = \"/\" + path\n    def wrap(f):\n        if \".\" in path:\n            STATIC_PATHS[path] = f\n        else:",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "multiplayer_post",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def multiplayer_post(path, data, server_url=None):\n    \"\"\"Post DATA to a multiplayer server PATH and return the response.\"\"\"\n    if not server_url:\n        server_url = DEFAULT_SERVER\n    data_bytes = bytes(json.dumps(data), encoding=\"utf-8\")\n    request = Request(server_url + \"/\" + path, data_bytes, method=\"POST\")\n    try:\n        response = urlopen(request, context=ssl._create_unverified_context())\n        text = response.read().decode(\"utf-8\")\n        if text.strip():",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "multiplayer_route",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def multiplayer_route(path, server_path=None):\n    \"\"\"Convert a function that takes (data, send) into a route.\"\"\"\n    if not server_path:\n        server_path = path\n    def wrap(f):\n        def send(data):\n            return multiplayer_post(server_path, data)\n        def routed_fn(data):\n            response = f(data, send)\n            return response",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "forward_to_server",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def forward_to_server(path):\n    def wrap(f):\n        @wraps(f)\n        def wrapped(*args, **kwargs):\n            if IS_SERVER:\n                return f(*args, **kwargs)\n            else:\n                return multiplayer_post(path, kwargs)\n        return wrapped\n    return wrap",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "server_only",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def server_only(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        if IS_SERVER:\n            return f(*args, **kwargs)\n        else:\n            raise Exception(\"Method not available locally!\")\n    return wrapped\ndef sendto(f):\n    def wrapped(data):",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "sendto",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def sendto(f):\n    def wrapped(data):\n        return f(**data)\n    return wrapped\ndef start_server():\n    global IS_SERVER\n    IS_SERVER = True\n    from flask import Flask, request, jsonify, send_from_directory, Response\n    app = Flask(__name__, static_url_path=\"\", static_folder=\"\")\n    for route, handler in PATHS.items():",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start_server",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def start_server():\n    global IS_SERVER\n    IS_SERVER = True\n    from flask import Flask, request, jsonify, send_from_directory, Response\n    app = Flask(__name__, static_url_path=\"\", static_folder=\"\")\n    for route, handler in PATHS.items():\n        def wrapped_handler(handler=handler):\n            return jsonify(handler(**snakify(request.get_json(force=True))))\n        app.add_url_rule(route, handler.__name__, wrapped_handler, methods=[\"POST\"])\n    for route, handler in STATIC_PATHS.items():",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start_client",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def start_client(port, default_server, gui_folder, standalone):\n    \"\"\"Start web server.\"\"\"\n    global DEFAULT_SERVER, GUI_FOLDER, IS_SERVER\n    DEFAULT_SERVER = default_server\n    GUI_FOLDER = gui_folder\n    IS_SERVER = False\n    socketserver.TCPServer.allow_reuse_address = True\n    httpd = HTTPServer((\"localhost\", port), Handler)\n    if not standalone:\n        webbrowser.open(\"http://localhost:\" + str(port), new=0, autoraise=True)",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "snakify",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def snakify(data):\n    out = {}\n    for key, val in data.items():\n        snake_key = []\n        for x in key:\n            if x != x.lower():\n                snake_key += \"_\"\n            snake_key += x.lower()\n        out[\"\".join(snake_key)] = val\n    return out",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "kill",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def kill():\n    if not IS_SERVER:\n        print(\"Exiting GUI\")\n        exit(0)\ndef start(port, default_server, gui_folder, db_init=None):\n    global DEFAULT_SERVER\n    DEFAULT_SERVER = default_server\n    parser = argparse.ArgumentParser(description=\"Project GUI Server\")\n    parser.add_argument(\n        \"-s\", help=\"Stand-alone: do not open browser\", action=\"store_true\"",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "def start(port, default_server, gui_folder, db_init=None):\n    global DEFAULT_SERVER\n    DEFAULT_SERVER = default_server\n    parser = argparse.ArgumentParser(description=\"Project GUI Server\")\n    parser.add_argument(\n        \"-s\", help=\"Stand-alone: do not open browser\", action=\"store_true\"\n    )\n    parser.add_argument(\"-f\", help=\"Force Flask app\", action=\"store_true\")\n    args, unknown = parser.parse_known_args()\n    import __main__",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_PATHS",
+        "kind": 5,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "STATIC_PATHS = {}\nPATHS = {}\nCONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "PATHS",
+        "kind": 5,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "PATHS = {}\nCONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)\ndef path_optional(decorator):",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "CONTENT_TYPE_LOOKUP",
+        "kind": 5,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "CONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)\ndef path_optional(decorator):\n    def wrapped(func_or_path):",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "Server",
+        "kind": 5,
+        "importPath": "projects.hog.gui_files.common_server",
+        "description": "projects.hog.gui_files.common_server",
+        "peekOfCode": "Server = Server()\ndef multiplayer_post(path, data, server_url=None):\n    \"\"\"Post DATA to a multiplayer server PATH and return the response.\"\"\"\n    if not server_url:\n        server_url = DEFAULT_SERVER\n    data_bytes = bytes(json.dumps(data), encoding=\"utf-8\")\n    request = Request(server_url + \"/\" + path, data_bytes, method=\"POST\")\n    try:\n        response = urlopen(request, context=ssl._create_unverified_context())\n        text = response.read().decode(\"utf-8\")",
+        "detail": "projects.hog.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "SVGRect",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "class SVGRect:\n    def __init__(self, x, y, width, height, stroke, fill):\n        self.x = x\n        self.y = y\n        self.width = width\n        self.height = height\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        return \"\"\"<rect x=\"{0}\" y=\"{1}\" width=\"{2}\" height=\"{3}\" stroke=\"{4}\" fill=\"{5}\" />\"\"\".format(",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGCircle",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "class SVGCircle:\n    def __init__(self, x, y, radius, stroke, fill):\n        self.x = x\n        self.y = y\n        self.radius = radius\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        return (\n            \"\"\"<circle cx=\"{0}\" cy=\"{1}\" r=\"{2}\" stroke=\"{3}\" fill=\"{4}\" />\"\"\".format(",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGLine",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "class SVGLine:\n    def __init__(self, x1, y1, x2, y2, stroke):\n        self.x1 = x1\n        self.y1 = y1\n        self.x2 = x2\n        self.y2 = y2\n        self.stroke = stroke\n    def __str__(self):\n        return \"\"\"<line x1=\"{0}\" y1=\"{1}\" x2=\"{2}\" y2=\"{3}\" stroke=\"{4}\" />\"\"\".format(\n            self.x1, self.y1, self.x2, self.y2, self.stroke",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGPolygon",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "class SVGPolygon:\n    def __init__(self, points, stroke, fill):\n        self.points = points  # list of lists\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        points_str = \" \".join(\",\".join(map(str, point)) for point in self.points)\n        return \"\"\"<polygon points=\"{0}\" stroke=\"{1}\" fill=\"{2}\"/>\"\"\".format(\n            points_str, self.stroke, self.fill\n        )",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGText",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "class SVGText:\n    def __init__(self, x, y, text, stroke, fill, font_size, font_family):\n        self.x = x\n        self.y = y\n        self.text = text\n        self.stroke = stroke\n        self.fill = fill\n        self.font_size = font_size\n        self.font_family = font_family\n    def __str__(self):",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGGraphic",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "class SVGGraphic:\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n        self.shapes = []\n    def draw_rect(self, x, y, width, height, stroke, fill):\n        self.shapes.append(SVGRect(x, y, width, height, stroke, fill))\n    def draw_circle(self, x, y, radius, stroke, fill):\n        self.shapes.append(SVGCircle(x, y, radius, stroke, fill))\n    def draw_line(self, x1, y1, x2, y2, stroke):",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "create_graphic",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "def create_graphic(width, height):\n    return SVGGraphic(width, height)\ndef draw_rect(graphic, x, y, width, height, stroke=\"black\", fill=\"black\"):\n    graphic.draw_rect(x, y, width, height, stroke, fill)\ndef draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "draw_rect",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "def draw_rect(graphic, x, y, width, height, stroke=\"black\", fill=\"black\"):\n    graphic.draw_rect(x, y, width, height, stroke, fill)\ndef draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "draw_circle",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "def draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "draw_line",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "def draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "draw_triangle",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "def draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",\n    fill=\"black\",\n    font_size=\"medium\",",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "write_text",
+        "kind": 2,
+        "importPath": "projects.hog.gui_files.svg",
+        "description": "projects.hog.gui_files.svg",
+        "peekOfCode": "def write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",\n    fill=\"black\",\n    font_size=\"medium\",\n    font_family=\"serif\",\n):",
+        "detail": "projects.hog.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "TestSVG",
+        "kind": 6,
+        "importPath": "projects.hog.gui_files.svg_test",
+        "description": "projects.hog.gui_files.svg_test",
+        "peekOfCode": "class TestSVG(unittest.TestCase):\n    def assert_contains_str(self, str, substr):\n        self.assertTrue(str.find(substr) > -1, \"%s does not contain %s\" % (str, substr))\n    def test_create_graphic(self):\n        graphic = svg.create_graphic(200, 300)\n        self.assertEqual(\n            str(graphic),\n            \"\"\"<svg width=\"200\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\"></svg>\"\"\",\n        )\n    def test_draw_rect(self):",
+        "detail": "projects.hog.gui_files.svg_test",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.00",
+        "description": "projects.hog.tests.00",
+        "peekOfCode": "test = {\n  'name': 'Question 0',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> test_dice = make_test_dice(4, 1, 2)\n          >>> test_dice()",
+        "detail": "projects.hog.tests.00",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.01",
+        "description": "projects.hog.tests.01",
+        "peekOfCode": "test = {\n  'name': 'Question 1',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> roll_dice(2, make_test_dice(4, 6, 1))\n          10",
+        "detail": "projects.hog.tests.01",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.02",
+        "description": "projects.hog.tests.02",
+        "peekOfCode": "test = {\n  'name': 'Question 2',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> boar_brawl(21, 46)\n          9",
+        "detail": "projects.hog.tests.02",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.03",
+        "description": "projects.hog.tests.03",
+        "peekOfCode": "test = {\n  'name': 'Question 3',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> take_turn(2, 7, 27, make_test_dice(4, 5, 1))\n          9",
+        "detail": "projects.hog.tests.03",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.04",
+        "description": "projects.hog.tests.04",
+        "peekOfCode": "test = {\n  'name': 'Question 4',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> num_factors(1)\n          1",
+        "detail": "projects.hog.tests.04",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.05",
+        "description": "projects.hog.tests.05",
+        "peekOfCode": "test = {\n  'name': 'Question 5',\n  'points': 4,\n  'suites': [\n    {\n      'cases': [\n        {\n          'answer': 'While score0 and score1 are both less than goal',\n          'choices': [\n            'While score0 and score1 are both less than goal',",
+        "detail": "projects.hog.tests.05",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.06",
+        "description": "projects.hog.tests.06",
+        "peekOfCode": "test = {\n  'name': 'Question 6',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> always_roll(3)(10, 20)\n          3",
+        "detail": "projects.hog.tests.06",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.07",
+        "description": "projects.hog.tests.07",
+        "peekOfCode": "test = {\n  'name': 'Question 7',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> is_always_roll(always_roll_5)\n          True",
+        "detail": "projects.hog.tests.07",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.08",
+        "description": "projects.hog.tests.08",
+        "peekOfCode": "test = {\n  'name': 'Question 8',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'answer': 'It takes in a function as an argument',\n          'choices': [\n            'It contains a nested function',",
+        "detail": "projects.hog.tests.08",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.09",
+        "description": "projects.hog.tests.09",
+        "peekOfCode": "test = {\n  'name': 'Question 9',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'answer': 'The lowest num_rolls',\n          'choices': [\n            'The lowest num_rolls',",
+        "detail": "projects.hog.tests.09",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.10",
+        "description": "projects.hog.tests.10",
+        "peekOfCode": "test = {\n  'name': 'Question 10',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> boar_strategy(40, 51, threshold=7, num_rolls=2)\n          0",
+        "detail": "projects.hog.tests.10",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.11",
+        "description": "projects.hog.tests.11",
+        "peekOfCode": "test = {\n  'name': 'Question 11',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> sus_strategy(31, 21, threshold=10, num_rolls=2)\n          2",
+        "detail": "projects.hog.tests.11",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.hog.tests.12",
+        "description": "projects.hog.tests.12",
+        "peekOfCode": "test = {\n  'name': 'Question 12',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> check_strategy(hog.final_strategy)\n          \"\"\",",
+        "detail": "projects.hog.tests.12",
+        "documentation": {}
+    },
+    {
+        "label": "check_strategy_roll",
+        "kind": 2,
+        "importPath": "projects.hog.tests.check_strategy",
+        "description": "projects.hog.tests.check_strategy",
+        "peekOfCode": "def check_strategy_roll(score, opponent_score, num_rolls):\n    \"\"\"Raises an error with a helpful message if NUM_ROLLS is an invalid\n    strategy output. All strategy outputs must be integers from 0 to 10.\n    >>> check_strategy_roll(10, 20, num_rolls=100)\n    Traceback (most recent call last):\n     ...\n    AssertionError: strategy(10, 20) returned 100 (invalid number of rolls)\n    >>> check_strategy_roll(20, 10, num_rolls=0.1)\n    Traceback (most recent call last):\n     ...",
+        "detail": "projects.hog.tests.check_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "check_strategy",
+        "kind": 2,
+        "importPath": "projects.hog.tests.check_strategy",
+        "description": "projects.hog.tests.check_strategy",
+        "peekOfCode": "def check_strategy(strategy, goal=GOAL_SCORE):\n    \"\"\"Checks the strategy with all valid inputs and verifies that the strategy\n    returns a valid output. Use `check_strategy_roll` to raise an error with a\n    helpful message if the strategy returns an invalid output.\n    >>> def fail_15_20(score, opponent_score):\n    ...     if score != 15 or opponent_score != 20:\n    ...         return 5\n    ...\n    >>> check_strategy(fail_15_20)\n    Traceback (most recent call last):",
+        "detail": "projects.hog.tests.check_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "ExclusionChecker",
+        "kind": 6,
+        "importPath": "projects.hog.tests.construct_check",
+        "description": "projects.hog.tests.construct_check",
+        "peekOfCode": "class ExclusionChecker(NodeVisitor):\n    \"\"\"An AST visitor that checks that certain constructs are excluded from\n    parts of a program.  ExclusionChecker(EXC) checks that AST node types\n    whose names are in the sequence or set EXC are not present.  Its check\n    method visits nodes in a given function of a source file checking that the\n    indicated node types are not used.\"\"\"\n    def __init__(self, disallow=()):\n        \"\"\"DISALLOW is the initial default list of disallowed\n        node-type names.\"\"\"\n        self._disallow = set(disallow)",
+        "detail": "projects.hog.tests.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "projects.hog.tests.construct_check",
+        "description": "projects.hog.tests.construct_check",
+        "peekOfCode": "def check(source_file, checked_funcs, disallow, source=None):\n    \"\"\"Checks that AST nodes whose type names are present in DISALLOW\n    (an object supporting 'in') are not present in the function(s) named\n    CHECKED_FUNCS in SOURCE.  By default, SOURCE is the contents of the\n    file SOURCE_FILE.  CHECKED_FUNCS is either a string (indicating a single\n    name) or an object of some other type that supports 'in'. CHECKED_FUNCS\n    may contain __main__ to indicate an entire  module. Prints reports of\n    each prohibited node and returns True iff none are found.\n    See ast.__dir__() for AST type names.  The special node name 'Recursion'\n    checks for overtly recursive calls (i.e., calls of the form NAME(...) where",
+        "detail": "projects.hog.tests.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "_NAMES",
+        "kind": 5,
+        "importPath": "projects.hog.tests.construct_check",
+        "description": "projects.hog.tests.construct_check",
+        "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
+        "detail": "projects.hog.tests.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "trace_play",
+        "kind": 2,
+        "importPath": "projects.hog.tests.play_utils",
+        "description": "projects.hog.tests.play_utils",
+        "peekOfCode": "def trace_play(play, strategy0, strategy1, update, score0, score1, dice, goal, say):\n    \"\"\"Wraps the user's play function and\n        (1) ensures that strategy0 and strategy1 are called exactly once per turn\n        (2) records the entire game, returning the result as a list of dictionaries,\n            each with keys \"s0_start\", \"s1_start\", \"who\", \"num_dice\", \"dice_values\"\n    Returns (s0, s1, trace) where s0, s1 are the return values from play and trace\n        is the trace as specified above.\n    This might seem a bit overcomplicated but it will also used to create the game\n        traces for the fuzz test (when run against the staff solution).\n    \"\"\"",
+        "detail": "projects.hog.tests.play_utils",
+        "documentation": {}
+    },
+    {
+        "label": "safe",
+        "kind": 2,
+        "importPath": "projects.hog.tests.play_utils",
+        "description": "projects.hog.tests.play_utils",
+        "peekOfCode": "def safe(commentary):\n    def new_commentary(score0, score1, leader=None):\n        try:\n            leader, message = commentary(score0, score1, leader)\n        except TypeError as e:\n            print(\"Error in commentary function\")\n        return leader, message\n    return new_commentary\ndef describe_game(hog, test_number, score0, score1, goal, update):\n    strat_seed0, strat_seed1, dice_seed = run_with_seed(test_number, lambda: [random.randrange(2**32) for _ in range(3)])",
+        "detail": "projects.hog.tests.play_utils",
+        "documentation": {}
+    },
+    {
+        "label": "describe_game",
+        "kind": 2,
+        "importPath": "projects.hog.tests.play_utils",
+        "description": "projects.hog.tests.play_utils",
+        "peekOfCode": "def describe_game(hog, test_number, score0, score1, goal, update):\n    strat_seed0, strat_seed1, dice_seed = run_with_seed(test_number, lambda: [random.randrange(2**32) for _ in range(3)])\n    strategy0 = random_strat(strat_seed0)\n    strategy1 = random_strat(strat_seed1)\n    dice = get_dice(dice_seed)\n    s0last, s1last, game_trace = trace_play(\n        hog.play,\n        strategy0,\n        strategy1,\n        update=update,",
+        "detail": "projects.hog.tests.play_utils",
+        "documentation": {}
+    },
+    {
+        "label": "random_strat",
+        "kind": 2,
+        "importPath": "projects.hog.tests.play_utils",
+        "description": "projects.hog.tests.play_utils",
+        "peekOfCode": "def random_strat(seed):\n    \"\"\"\n    Makes a random strategy from based on the given seed\n    \"\"\"\n    def random_strat(score, opponent_score):\n        # Save the state of the random generator, so strategy calls don't\n        # impact dice rolls.\n        # using this because python's hash function is NOT CONSISTENT ACROSS OSs!!!!!!!!!!!!11!!22!!2!\n        conditional_seed = score * 314159265358979 + opponent_score * 27182818284590452353602874713527 + seed * 161803398874989484820\n        return run_with_seed(conditional_seed % (2 ** 32), lambda: random.randrange(0, 11))",
+        "detail": "projects.hog.tests.play_utils",
+        "documentation": {}
+    },
+    {
+        "label": "run_with_seed",
+        "kind": 2,
+        "importPath": "projects.hog.tests.play_utils",
+        "description": "projects.hog.tests.play_utils",
+        "peekOfCode": "def run_with_seed(seed, fn):\n    state = random.getstate()\n    random.seed(seed)\n    result = fn()\n    random.setstate(state)\n    return result\ndef get_dice(seed):\n    def dice():\n        nonlocal seed\n        seed, value = run_with_seed(seed, lambda: (random.randrange(0, 2**32), random.randrange(1, 7)))",
+        "detail": "projects.hog.tests.play_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_dice",
+        "kind": 2,
+        "importPath": "projects.hog.tests.play_utils",
+        "description": "projects.hog.tests.play_utils",
+        "peekOfCode": "def get_dice(seed):\n    def dice():\n        nonlocal seed\n        seed, value = run_with_seed(seed, lambda: (random.randrange(0, 2**32), random.randrange(1, 7)))\n        return value\n    return dice",
+        "detail": "projects.hog.tests.play_utils",
+        "documentation": {}
+    },
+    {
+        "label": "SUMMARY",
+        "kind": 5,
+        "importPath": "projects.hog.tests.play_utils",
+        "description": "projects.hog.tests.play_utils",
+        "peekOfCode": "SUMMARY = \"Start scores = ({s0}, {s1}).\\nPlayer {w} rolls {nr} dice and gets outcomes {rv}.\\nEnd scores = ({e0}, {e1})\"\ndef trace_play(play, strategy0, strategy1, update, score0, score1, dice, goal, say):\n    \"\"\"Wraps the user's play function and\n        (1) ensures that strategy0 and strategy1 are called exactly once per turn\n        (2) records the entire game, returning the result as a list of dictionaries,\n            each with keys \"s0_start\", \"s1_start\", \"who\", \"num_dice\", \"dice_values\"\n    Returns (s0, s1, trace) where s0, s1 are the return values from play and trace\n        is the trace as specified above.\n    This might seem a bit overcomplicated but it will also used to create the game\n        traces for the fuzz test (when run against the staff solution).",
+        "detail": "projects.hog.tests.play_utils",
+        "documentation": {}
+    },
+    {
+        "label": "dice",
+        "kind": 5,
+        "importPath": "projects.hog.default_graphics",
+        "description": "projects.hog.default_graphics",
+        "peekOfCode": "dice = [\n    \"\",\n    \"\"\"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n        <svg data-name=\"Layer 1\" viewBox=\"0 0 76.08 76.08\" xmlns=\"http://www.w3.org/2000/svg\">\n        <defs>\n        <style>.cls-1{fill:#fff;stroke-miterlimit:10;}.cls-1,.cls-3{stroke:#000;}.cls-2{font-size:22.7px;font-family:\"Helvetica Neue\",Arial;}.cls-3{stroke-miterlimit:2;stroke-width:1.5px;fill-rule:evenodd;}</style>\n        </defs>\n        <rect class=\"cls-1\" x=\".5\" y=\".5\" width=\"75.08\" height=\"75.08\" rx=\"9.25\"/>\n        <path class=\"cls-3\" d=\"M44.29,38A6.25,6.25,0,1,1,38,31.79,6.25,6.25,0,0,1,44.29,38Z\"/>\n        </svg>",
+        "detail": "projects.hog.default_graphics",
+        "documentation": {}
+    },
+    {
+        "label": "make_fair_dice",
+        "kind": 2,
+        "importPath": "projects.hog.dice",
+        "description": "projects.hog.dice",
+        "peekOfCode": "def make_fair_dice(sides):\n    \"\"\"Return a die that returns 1 to SIDES with equal chance.\"\"\"\n    assert type(sides) == int and sides >= 1, 'Illegal value for sides'\n    def dice():\n        return randint(1,sides)\n    return dice\nfour_sided = make_fair_dice(4)\nsix_sided = make_fair_dice(6)\ndef make_test_dice(*outcomes):\n    \"\"\"Return a die that cycles deterministically through OUTCOMES.",
+        "detail": "projects.hog.dice",
+        "documentation": {}
+    },
+    {
+        "label": "make_test_dice",
+        "kind": 2,
+        "importPath": "projects.hog.dice",
+        "description": "projects.hog.dice",
+        "peekOfCode": "def make_test_dice(*outcomes):\n    \"\"\"Return a die that cycles deterministically through OUTCOMES.\n    >>> dice = make_test_dice(1, 2, 3)\n    >>> dice()\n    1\n    >>> dice()\n    2\n    >>> dice()\n    3\n    >>> dice()",
+        "detail": "projects.hog.dice",
+        "documentation": {}
+    },
+    {
+        "label": "four_sided",
+        "kind": 5,
+        "importPath": "projects.hog.dice",
+        "description": "projects.hog.dice",
+        "peekOfCode": "four_sided = make_fair_dice(4)\nsix_sided = make_fair_dice(6)\ndef make_test_dice(*outcomes):\n    \"\"\"Return a die that cycles deterministically through OUTCOMES.\n    >>> dice = make_test_dice(1, 2, 3)\n    >>> dice()\n    1\n    >>> dice()\n    2\n    >>> dice()",
+        "detail": "projects.hog.dice",
+        "documentation": {}
+    },
+    {
+        "label": "six_sided",
+        "kind": 5,
+        "importPath": "projects.hog.dice",
+        "description": "projects.hog.dice",
+        "peekOfCode": "six_sided = make_fair_dice(6)\ndef make_test_dice(*outcomes):\n    \"\"\"Return a die that cycles deterministically through OUTCOMES.\n    >>> dice = make_test_dice(1, 2, 3)\n    >>> dice()\n    1\n    >>> dice()\n    2\n    >>> dice()\n    3",
+        "detail": "projects.hog.dice",
+        "documentation": {}
+    },
+    {
+        "label": "roll_dice",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def roll_dice(num_rolls, dice=six_sided): \n    \"\"\"Simulate rolling the DICE exactly NUM_ROLLS > 0 times. Return the sum of\n    the outcomes unless any of the outcomes is 1. In that case, return 1.\n    num_rolls:  The number of dice rolls that will be made.\n    dice:       A function that simulates a single dice roll outcome.\n    The argument dice=six_sided means that when roll_dice is called, the dice argument is optional. \n    If no value for dice is provided, then six_sided is used by default.\n    \"\"\"\n    # These assert statements ensure that num_rolls is a positive integer.\n    assert type(num_rolls) == int, 'num_rolls must be an integer.'",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "boar_brawl",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def boar_brawl(player_score, opponent_score):\n    \"\"\"Return the points scored by rolling 0 dice according to Boar Brawl.\n    player_score:     The total score of the current player.\n    opponent_score:   The total score of the other player.\n    \"\"\"\n    # BEGIN PROBLEM 2\n    \"*** YOUR CODE HERE ***\"\n    ones_digits = player_score % 10\n    tens_digits = (opponent_score // 10) % 10\n    if ones_digits == tens_digits:",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "take_turn",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def take_turn(num_rolls, player_score, opponent_score, dice=six_sided):\n    \"\"\"Return the points scored on a turn rolling NUM_ROLLS dice when the\n    player has PLAYER_SCORE points and the opponent has OPPONENT_SCORE points.\n    num_rolls:       The number of dice rolls that will be made.\n    player_score:    The total score of the current player.\n    opponent_score:  The total score of the other player.\n    dice:            A function that simulates a single dice roll outcome.\n    \"\"\"\n    # Leave these assert statements here; they help check for errors.\n    assert type(num_rolls) == int, 'num_rolls must be an integer.'",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "simple_update",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def simple_update(num_rolls, player_score, opponent_score, dice=six_sided):\n    \"\"\"Return the total score of a player who starts their turn with\n    PLAYER_SCORE and then rolls NUM_ROLLS DICE, ignoring Sus Fuss.\n    \"\"\"\n    score = player_score + take_turn(num_rolls, player_score, opponent_score, dice)\n    return score\ndef is_prime(n):\n    \"\"\"Return whether N is prime.\"\"\"\n    if n == 1:\n        return False",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def is_prime(n):\n    \"\"\"Return whether N is prime.\"\"\"\n    if n == 1:\n        return False\n    k = 2\n    while k < n:\n        if n % k == 0:\n            return False\n        k += 1\n    return True",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "num_factors",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def num_factors(n):\n    \"\"\"Return the number of factors of N, including 1 and N itself.\"\"\"\n    # BEGIN PROBLEM 4\n    \"*** YOUR CODE HERE ***\"\n    from math import sqrt\n    if n == 1:\n        num = 1\n    else:\n        num = 2\n        for i in range(2,n):",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "sus_points",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def sus_points(score):\n    \"\"\"Return the new score of a player taking into account the Sus Fuss rule.\"\"\"\n    # BEGIN PROBLEM 4\n    \"*** YOUR CODE HERE ***\"\n    if num_factors(score) == 3 or num_factors(score) == 4:\n        while not is_prime(score):\n            score += 1\n    return score\n    # END PROBLEM 4\ndef sus_update(num_rolls, player_score, opponent_score, dice=six_sided):",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "sus_update",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def sus_update(num_rolls, player_score, opponent_score, dice=six_sided):\n    \"\"\"Return the total score of a player who starts their turn with\n    PLAYER_SCORE and then rolls NUM_ROLLS DICE, *including* Sus Fuss.\n    \"\"\"\n    # BEGIN PROBLEM 4\n    \"*** YOUR CODE HERE ***\"\n    new_score = simple_update(num_rolls, player_score, opponent_score, dice)\n    return sus_points(new_score)\n    # END PROBLEM 4\ndef always_roll_5(score, opponent_score):",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "always_roll_5",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def always_roll_5(score, opponent_score):\n    \"\"\"A strategy of always rolling 5 dice, regardless of the player's score or\n    the opponent's score.\n    \"\"\"\n    return 5\ndef play(strategy0, strategy1, update,\n         score0=0, score1=0, dice=six_sided, goal=GOAL):\n    \"\"\"Simulate a game and return the final scores of both players, with\n    Player 0's score first and Player 1's score second.\n    E.g., play(always_roll_5, always_roll_5, sus_update) simulates a game in",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "play",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def play(strategy0, strategy1, update,\n         score0=0, score1=0, dice=six_sided, goal=GOAL):\n    \"\"\"Simulate a game and return the final scores of both players, with\n    Player 0's score first and Player 1's score second.\n    E.g., play(always_roll_5, always_roll_5, sus_update) simulates a game in\n    which both players always choose to roll 5 dice on every turn and the Sus\n    Fuss rule is in effect.\n    A strategy function, such as always_roll_5, takes the current player's\n    score and their opponent's score and returns the number of dice the current\n    player chooses to roll.",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "always_roll",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def always_roll(n):\n    \"\"\"Return a player strategy that always rolls N dice.\n    A player strategy is a function that takes two total scores as arguments\n    (the current player's score, and the opponent's score), and returns a\n    number of dice that the current player will roll this turn.\n    >>> strategy = always_roll(3)\n    >>> strategy(0, 0)\n    3\n    >>> strategy(99, 99)\n    3",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "catch_up",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def catch_up(score, opponent_score):\n    \"\"\"A player strategy that always rolls 5 dice unless the opponent\n    has a higher score, in which case 6 dice are rolled.\n    >>> catch_up(9, 4)\n    5\n    >>> strategy(17, 18)\n    6\n    \"\"\"\n    if score < opponent_score:\n        return 6  # Roll one more to catch up",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "is_always_roll",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def is_always_roll(strategy, goal=GOAL):\n    \"\"\"Return whether STRATEGY always chooses the same number of dice to roll\n    given a game that goes to GOAL points.\n    >>> is_always_roll(always_roll_5)\n    True\n    >>> is_always_roll(always_roll(3))\n    True\n    >>> is_always_roll(catch_up)\n    False\n    \"\"\"",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "make_averaged",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def make_averaged(original_function, samples_count=1000):\n    \"\"\"Return a function that returns the average value of ORIGINAL_FUNCTION\n    called SAMPLES_COUNT times.\n    To implement this function, you will have to use *args syntax.\n    >>> dice = make_test_dice(4, 2, 5, 1)\n    >>> averaged_dice = make_averaged(roll_dice, 40)\n    >>> averaged_dice(1, dice)  # The avg of 10 4's, 10 2's, 10 5's, and 10 1's\n    3.0\n    \"\"\"\n    # BEGIN PROBLEM 8",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "max_scoring_num_rolls",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def max_scoring_num_rolls(dice=six_sided, samples_count=1000):\n    \"\"\"Return the number of dice (1 to 10) that gives the highest average turn score\n    by calling roll_dice with the provided DICE a total of SAMPLES_COUNT times.\n    Assume that the dice always return positive outcomes.\n    >>> dice = make_test_dice(1, 6)\n    >>> max_scoring_num_rolls(dice)\n    1\n    \"\"\"\n    # BEGIN PROBLEM 9\n    \"*** YOUR CODE HERE ***\"",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "winner",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def winner(strategy0, strategy1):\n    \"\"\"Return 0 if strategy0 wins against strategy1, and 1 otherwise.\"\"\"\n    score0, score1 = play(strategy0, strategy1, sus_update)\n    if score0 > score1:\n        return 0\n    else:\n        return 1\ndef average_win_rate(strategy, baseline=always_roll(6)):\n    \"\"\"Return the average win rate of STRATEGY against BASELINE. Averages the\n    winrate when starting the game as player 0 and as player 1.",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "average_win_rate",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def average_win_rate(strategy, baseline=always_roll(6)):\n    \"\"\"Return the average win rate of STRATEGY against BASELINE. Averages the\n    winrate when starting the game as player 0 and as player 1.\n    \"\"\"\n    win_rate_as_player_0 = 1 - make_averaged(winner)(strategy, baseline)\n    win_rate_as_player_1 = make_averaged(winner)(baseline, strategy)\n    return (win_rate_as_player_0 + win_rate_as_player_1) / 2\ndef run_experiments():\n    \"\"\"Run a series of strategy experiments and report results.\"\"\"\n    six_sided_max = max_scoring_num_rolls(six_sided)",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "run_experiments",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def run_experiments():\n    \"\"\"Run a series of strategy experiments and report results.\"\"\"\n    six_sided_max = max_scoring_num_rolls(six_sided)\n    print('Max scoring num rolls for six-sided dice:', six_sided_max)\n    print('always_roll(6) win rate:', average_win_rate(always_roll(6))) # near 0.5\n    print('catch_up win rate:', average_win_rate(catch_up))\n    print('always_roll(3) win rate:', average_win_rate(always_roll(3)))\n    print('always_roll(8) win rate:', average_win_rate(always_roll(8)))\n    print('boar_strategy win rate:', average_win_rate(boar_strategy))\n    print('sus_strategy win rate:', average_win_rate(sus_strategy))",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "boar_strategy",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def boar_strategy(score, opponent_score, threshold=11, num_rolls=6):\n    \"\"\"This strategy returns 0 dice if Boar Brawl gives at least THRESHOLD\n    points, and returns NUM_ROLLS otherwise. Ignore score and Sus Fuss.\n    \"\"\"\n    # BEGIN PROBLEM 10\n    point = boar_brawl(score,opponent_score)\n    if point >= threshold:\n        return 0\n    else:\n        return num_rolls  # Remove this line once implemented.",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "sus_strategy",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def sus_strategy(score, opponent_score, threshold=11, num_rolls=6):\n    \"\"\"This strategy returns 0 dice when your score would increase by at least threshold.\"\"\"\n    # BEGIN PROBLEM 11\n    point = boar_brawl(score,opponent_score)\n    new_score = sus_points(score + point)\n    if new_score - score >= threshold:\n        return 0\n    else:\n        return num_rolls  # Remove this line once implemented.\n    # END PROBLEM 11",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "final_strategy",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def final_strategy(score, opponent_score):\n    \"\"\"Write a brief description of your final strategy.\n    hushmoon hog final_strategy\n    2024 7 20\n    *** YOUR DESCRIPTION HERE ***   \n    \"\"\"\n    # BEGIN PROBLEM 12\n    if sus_strategy(score,opponent_score) == 0:\n        return 0\n    elif 100 - score <= 3:",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "def run(*args):\n    \"\"\"Read in the command-line argument and calls corresponding functions.\"\"\"\n    import argparse\n    parser = argparse.ArgumentParser(description=\"Play Hog\")\n    parser.add_argument('--run_experiments', '-r', action='store_true',\n                        help='Runs strategy experiments')\n    args = parser.parse_args()\n    if args.run_experiments:\n        run_experiments()",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "GOAL",
+        "kind": 5,
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "peekOfCode": "GOAL = 100  # The goal of Hog is to score 100 points.\n######################\n# Phase 1: Simulator #\n######################\ndef roll_dice(num_rolls, dice=six_sided): \n    \"\"\"Simulate rolling the DICE exactly NUM_ROLLS > 0 times. Return the sum of\n    the outcomes unless any of the outcomes is 1. In that case, return 1.\n    num_rolls:  The number of dice rolls that will be made.\n    dice:       A function that simulates a single dice roll outcome.\n    The argument dice=six_sided means that when roll_dice is called, the dice argument is optional. ",
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "HogLoggingException",
+        "kind": 6,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "class HogLoggingException(Exception):\n    pass\n@route\ndef take_turn(prev_rolls, move_history, goal, game_rules):\n    \"\"\"Simulate the whole game up to the current turn.\"\"\"\n    fair_dice = dice.make_fair_dice(6)\n    dice_results = []\n    sus_fuss = game_rules[\"Sus Fuss\"]\n    def logged_dice():\n        if len(dice_results) < len(prev_rolls):",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "take_turn",
+        "kind": 2,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "def take_turn(prev_rolls, move_history, goal, game_rules):\n    \"\"\"Simulate the whole game up to the current turn.\"\"\"\n    fair_dice = dice.make_fair_dice(6)\n    dice_results = []\n    sus_fuss = game_rules[\"Sus Fuss\"]\n    def logged_dice():\n        if len(dice_results) < len(prev_rolls):\n            out = prev_rolls[len(dice_results)]\n        else:\n            out = fair_dice()",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "strategy",
+        "kind": 2,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "def strategy(name, scores):\n    STRATEGIES = {\n        \"boar_strategy\": hog.boar_strategy,\n        \"sus_strategy\": hog.sus_strategy,\n        \"final_strategy\": hog.final_strategy,\n    }\n    return STRATEGIES[name](*scores[::-1])\n@route(\"dice_graphic.svg\")\ndef draw_dice_graphic(num):\n    num = int(num[0])",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "draw_dice_graphic",
+        "kind": 2,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "def draw_dice_graphic(num):\n    num = int(num[0])\n    # Either draw student-provided dice or our default dice\n    if hasattr(hog, \"draw_dice\"):\n        graphic = hog.draw_dice(num)\n        return str(graphic)\n    return default_graphics.dice[num]\ndef trace_play(play, strategy0, strategy1, update, score0, score1, dice, goal):\n    \"\"\"Wraps the user's play function and\n        (1) ensures that strategy0 and strategy1 are called exactly once per turn",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "trace_play",
+        "kind": 2,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "def trace_play(play, strategy0, strategy1, update, score0, score1, dice, goal):\n    \"\"\"Wraps the user's play function and\n        (1) ensures that strategy0 and strategy1 are called exactly once per turn\n        (2) records the entire game, returning the result as a list of dictionaries,\n            each with keys \"s0_start\", \"s1_start\", \"who\", \"num_dice\", \"dice_values\"\n    Returns (s0, s1, trace) where s0, s1 are the return values from play and trace\n        is the trace as specified above.\n    This might seem a bit overcomplicated but it will also used to create the game\n        traces for the fuzz test (when run against the staff solution).\n    \"\"\"",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "PORT",
+        "kind": 5,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "PORT = 31415\nDEFAULT_SERVER = \"https://hog.cs61a.org\"\nGUI_FOLDER = \"gui_files/\"\nPATHS = {}\nclass HogLoggingException(Exception):\n    pass\n@route\ndef take_turn(prev_rolls, move_history, goal, game_rules):\n    \"\"\"Simulate the whole game up to the current turn.\"\"\"\n    fair_dice = dice.make_fair_dice(6)",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_SERVER",
+        "kind": 5,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "DEFAULT_SERVER = \"https://hog.cs61a.org\"\nGUI_FOLDER = \"gui_files/\"\nPATHS = {}\nclass HogLoggingException(Exception):\n    pass\n@route\ndef take_turn(prev_rolls, move_history, goal, game_rules):\n    \"\"\"Simulate the whole game up to the current turn.\"\"\"\n    fair_dice = dice.make_fair_dice(6)\n    dice_results = []",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "GUI_FOLDER",
+        "kind": 5,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "GUI_FOLDER = \"gui_files/\"\nPATHS = {}\nclass HogLoggingException(Exception):\n    pass\n@route\ndef take_turn(prev_rolls, move_history, goal, game_rules):\n    \"\"\"Simulate the whole game up to the current turn.\"\"\"\n    fair_dice = dice.make_fair_dice(6)\n    dice_results = []\n    sus_fuss = game_rules[\"Sus Fuss\"]",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "PATHS",
+        "kind": 5,
+        "importPath": "projects.hog.hog_gui",
+        "description": "projects.hog.hog_gui",
+        "peekOfCode": "PATHS = {}\nclass HogLoggingException(Exception):\n    pass\n@route\ndef take_turn(prev_rolls, move_history, goal, game_rules):\n    \"\"\"Simulate the whole game up to the current turn.\"\"\"\n    fair_dice = dice.make_fair_dice(6)\n    dice_results = []\n    sus_fuss = game_rules[\"Sus Fuss\"]\n    def logged_dice():",
+        "detail": "projects.hog.hog_gui",
+        "documentation": {}
+    },
+    {
+        "label": "play_and_print",
+        "kind": 2,
+        "importPath": "projects.hog.hog_ui",
+        "description": "projects.hog.hog_ui",
+        "peekOfCode": "def play_and_print(strategy0, strategy1):\n    \"\"\"Simulate a game and print out what happened during the simulation.\"\"\"\n    final0, final1 = play(printing_strategy(0, strategy0),\n                          printing_strategy(1, strategy1),\n                          sus_update_and_print, 0, 0,\n                          printing_dice(six_sided))\n    print('The final score is Player 0:', final0, 'vs Player 1:', final1)\ndef printing_strategy(who, strategy):\n    \"\"\"Return a strategy that also prints the player's score and choice.\n    (This could print \"rolls 1 dice...\" which is ungrammatical, but that's ok.)",
+        "detail": "projects.hog.hog_ui",
+        "documentation": {}
+    },
+    {
+        "label": "printing_strategy",
+        "kind": 2,
+        "importPath": "projects.hog.hog_ui",
+        "description": "projects.hog.hog_ui",
+        "peekOfCode": "def printing_strategy(who, strategy):\n    \"\"\"Return a strategy that also prints the player's score and choice.\n    (This could print \"rolls 1 dice...\" which is ungrammatical, but that's ok.)\n    >>> strategy0 = printing_strategy(0, always_roll_5)\n    >>> strategy0(10, 20)\n    The score is 10 to 20 and Player 0 rolls 5 dice...\n    5\n    >>> strategy1 = printing_strategy(1, always_roll_5)\n    >>> strategy1(8, 16)\n    The score is 16 to 8 and Player 1 rolls 5 dice...",
+        "detail": "projects.hog.hog_ui",
+        "documentation": {}
+    },
+    {
+        "label": "printing_dice",
+        "kind": 2,
+        "importPath": "projects.hog.hog_ui",
+        "description": "projects.hog.hog_ui",
+        "peekOfCode": "def printing_dice(dice):\n    \"\"\"Return a dice function that also prints the outcome and a space.\"\"\"\n    def dice_and_print():\n        \"A dice function that also prints.\"\n        outcome = dice()\n        print(outcome, end=' ')\n        return outcome\n    return dice_and_print\ndef sus_update_and_print(num_rolls, player_score, opponent_score, dice):\n    \"\"\"Return the updated score, print out the score update, and print when",
+        "detail": "projects.hog.hog_ui",
+        "documentation": {}
+    },
+    {
+        "label": "sus_update_and_print",
+        "kind": 2,
+        "importPath": "projects.hog.hog_ui",
+        "description": "projects.hog.hog_ui",
+        "peekOfCode": "def sus_update_and_print(num_rolls, player_score, opponent_score, dice):\n    \"\"\"Return the updated score, print out the score update, and print when\n    Sus Fuss is triggered.\n    >>> d = printing_dice(make_test_dice(4, 5, 3))\n    >>> sus_update_and_print(3, 9, 99, d)\n      [ 4 5 3 ] => 12; 9 + 12 = 21 triggering **Sus Fuss**, increasing to 23\n    23\n    \"\"\"\n    print('  [', end=\" \")\n    turn_score = take_turn(num_rolls, player_score, opponent_score, dice)  # Prints dice outcomes",
+        "detail": "projects.hog.hog_ui",
+        "documentation": {}
+    },
+    {
+        "label": "get_int",
+        "kind": 2,
+        "importPath": "projects.hog.hog_ui",
+        "description": "projects.hog.hog_ui",
+        "peekOfCode": "def get_int(prompt, lower, upper):\n    \"\"\"Return an integer i such that i >= lower and i <= upper.\"\"\"\n    choice = input(prompt)\n    while not choice.isnumeric() or int(choice) < lower or int(choice) > upper:\n        print('Please enter an integer from', lower, 'to', upper)\n        choice = input(prompt)\n    return int(choice)\ndef interactive_strategy(who):\n    \"\"\"Return a strategy for which the user provides the number of rolls.\"\"\"\n    def strategy(score, opponent_score):",
+        "detail": "projects.hog.hog_ui",
+        "documentation": {}
+    },
+    {
+        "label": "interactive_strategy",
+        "kind": 2,
+        "importPath": "projects.hog.hog_ui",
+        "description": "projects.hog.hog_ui",
+        "peekOfCode": "def interactive_strategy(who):\n    \"\"\"Return a strategy for which the user provides the number of rolls.\"\"\"\n    def strategy(score, opponent_score):\n        print('Player', who, ', you have', score, 'and your opponent has', opponent_score)\n        choice = get_int('How many dice will you roll? ', 0, 10)\n        return choice\n    return strategy\n####################\n# Playing the game #\n####################",
+        "detail": "projects.hog.hog_ui",
+        "documentation": {}
+    },
+    {
+        "label": "play_with",
+        "kind": 2,
+        "importPath": "projects.hog.hog_ui",
+        "description": "projects.hog.hog_ui",
+        "peekOfCode": "def play_with(num_players):\n    \"\"\"Play a game with NUM_PLAYERS interactive (human) players.\"\"\"\n    if num_players == 0:\n        play_and_print(always_roll_5, always_roll_5)\n    elif num_players == 1:\n        play_and_print(interactive_strategy(0), always_roll_5)\n    elif num_players == 2:\n        play_and_print(interactive_strategy(0), interactive_strategy(1))\n    else:\n        print('num_players must be 0, 1, or 2.')",
+        "detail": "projects.hog.hog_ui",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "projects.hog.hog_ui",
+        "description": "projects.hog.hog_ui",
+        "peekOfCode": "def run(*args):\n    \"\"\"Select number of players and play a game.\"\"\"\n    import argparse\n    parser = argparse.ArgumentParser(description=\"Play Hog\")\n    parser.add_argument('--num_players', '-n', type=int, default=0,\n                        help='How many interactive players (0, 1, or 2)')\n    args = parser.parse_args()\n    play_with(args.num_players)",
+        "detail": "projects.hog.hog_ui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "projects.hog.ucb",
+        "description": "projects.hog.ucb",
+        "peekOfCode": "def main(fn):\n    \"\"\"Call fn with command line arguments.  Used as a decorator.\n    The main decorator marks the function that starts a program. For example,\n    @main\n    def my_run_function():\n        # function body\n    Use this instead of the typical __name__ == \"__main__\" predicate.\n    \"\"\"\n    if inspect.stack()[1][0].f_locals['__name__'] == '__main__':\n        args = sys.argv[1:] # Discard the script name from command line",
+        "detail": "projects.hog.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "trace",
+        "kind": 2,
+        "importPath": "projects.hog.ucb",
+        "description": "projects.hog.ucb",
+        "peekOfCode": "def trace(fn):\n    \"\"\"A decorator that prints a function's name, its arguments, and its return\n    values each time the function is called. For example,\n    @trace\n    def compute_something(x, y):\n        # function body\n    \"\"\"\n    @functools.wraps(fn)\n    def wrapped(*args, **kwds):\n        global _PREFIX",
+        "detail": "projects.hog.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "kind": 2,
+        "importPath": "projects.hog.ucb",
+        "description": "projects.hog.ucb",
+        "peekOfCode": "def log(message):\n    \"\"\"Print an indented message (used with trace).\"\"\"\n    print(_PREFIX + re.sub('\\n', '\\n' + _PREFIX, str(message)))\ndef log_current_line():\n    \"\"\"Print information about the current line of code.\"\"\"\n    frame = inspect.stack()[1]\n    log('Current line: File \"{f[1]}\", line {f[2]}, in {f[3]}'.format(f=frame))\ndef interact(msg=None):\n    \"\"\"Start an interactive interpreter session in the current environment.\n    On Unix:",
+        "detail": "projects.hog.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "log_current_line",
+        "kind": 2,
+        "importPath": "projects.hog.ucb",
+        "description": "projects.hog.ucb",
+        "peekOfCode": "def log_current_line():\n    \"\"\"Print information about the current line of code.\"\"\"\n    frame = inspect.stack()[1]\n    log('Current line: File \"{f[1]}\", line {f[2]}, in {f[3]}'.format(f=frame))\ndef interact(msg=None):\n    \"\"\"Start an interactive interpreter session in the current environment.\n    On Unix:\n      <Control>-D exits the interactive session and returns to normal execution.\n    In Windows:\n      <Control>-Z <Enter> exits the interactive session and returns to normal",
+        "detail": "projects.hog.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "interact",
+        "kind": 2,
+        "importPath": "projects.hog.ucb",
+        "description": "projects.hog.ucb",
+        "peekOfCode": "def interact(msg=None):\n    \"\"\"Start an interactive interpreter session in the current environment.\n    On Unix:\n      <Control>-D exits the interactive session and returns to normal execution.\n    In Windows:\n      <Control>-Z <Enter> exits the interactive session and returns to normal\n      execution.\n    \"\"\"\n    # evaluate commands in current namespace\n    frame = inspect.currentframe().f_back",
+        "detail": "projects.hog.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "_PREFIX",
+        "kind": 5,
+        "importPath": "projects.hog.ucb",
+        "description": "projects.hog.ucb",
+        "peekOfCode": "_PREFIX = ''\ndef trace(fn):\n    \"\"\"A decorator that prints a function's name, its arguments, and its return\n    values each time the function is called. For example,\n    @trace\n    def compute_something(x, y):\n        # function body\n    \"\"\"\n    @functools.wraps(fn)\n    def wrapped(*args, **kwds):",
+        "detail": "projects.hog.ucb",
+        "documentation": {}
+    }
+]
