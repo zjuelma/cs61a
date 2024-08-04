@@ -1,0 +1,133 @@
+[
+    {
+        "label": "parse",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "NodeVisitor",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "tests.list-comprehensions-wwpd",
+        "description": "tests.list-comprehensions-wwpd",
+        "peekOfCode": "test = {\n  'name': 'Comprehensions',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> [2 * x for x in range(4)]\n          40628ea906dbaef22f25b053c4dd1e1e",
+        "detail": "tests.list-comprehensions-wwpd",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "tests.lists-wwpd",
+        "description": "tests.lists-wwpd",
+        "peekOfCode": "test = {\n  'name': 'Lists',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> s = [7//3, 5, [4, 0, 1], 2]\n          >>> s[0]",
+        "detail": "tests.lists-wwpd",
+        "documentation": {}
+    },
+    {
+        "label": "ExclusionChecker",
+        "kind": 6,
+        "importPath": "construct_check",
+        "description": "construct_check",
+        "peekOfCode": "class ExclusionChecker(NodeVisitor):\n    \"\"\"An AST visitor that checks that certain constructs are excluded from\n    parts of a program.  ExclusionChecker(EXC) checks that AST node types\n    whose names are in the sequence or set EXC are not present.  Its check\n    method visits nodes in a given function of a source file checking that the\n    indicated node types are not used.\"\"\"\n    def __init__(self, disallow=()):\n        \"\"\"DISALLOW is the initial default list of disallowed\n        node-type names.\"\"\"\n        self._disallow = set(disallow)",
+        "detail": "construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "construct_check",
+        "description": "construct_check",
+        "peekOfCode": "def check(source_file, checked_funcs, disallow, source=None):\n    \"\"\"Checks that AST nodes whose type names are present in DISALLOW\n    (an object supporting 'in') are not present in the function(s) named\n    CHECKED_FUNCS in SOURCE.  By default, SOURCE is the contents of the\n    file SOURCE_FILE.  CHECKED_FUNCS is either a string (indicating a single\n    name) or an object of some other type that supports 'in'. CHECKED_FUNCS\n    may contain __main__ to indicate an entire  module. Prints reports of\n    each prohibited node and returns True iff none are found.\n    See ast.__dir__() for AST type names.  The special node name 'Recursion'\n    checks for overtly recursive calls (i.e., calls of the form NAME(...) where",
+        "detail": "construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "_NAMES",
+        "kind": 5,
+        "importPath": "construct_check",
+        "description": "construct_check",
+        "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
+        "detail": "construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "print_if",
+        "kind": 2,
+        "importPath": "lab03",
+        "description": "lab03",
+        "peekOfCode": "def print_if(s, f):\n    \"\"\"Print each element of s for which f returns a true value.\n    >>> print_if([3, 4, 5, 6], lambda x: x > 4)\n    5\n    6\n    >>> result = print_if([3, 4, 5, 6], lambda x: x % 2 == 0)\n    4\n    6\n    >>> print(result)  # print_if should return None\n    None",
+        "detail": "lab03",
+        "documentation": {}
+    },
+    {
+        "label": "close",
+        "kind": 2,
+        "importPath": "lab03",
+        "description": "lab03",
+        "peekOfCode": "def close(s, k):\n    \"\"\"Return how many elements of s that are within k of their index.\n    >>> t = [6, 2, 4, 3, 5]\n    >>> close(t, 0)  # Only 3 is equal to its index\n    1\n    >>> close(t, 1)  # 2, 3, and 5 are within 1 of their index\n    3\n    >>> close(t, 2)  # 2, 3, 4, and 5 are all within 2 of their index\n    4\n    >>> close(list(range(10)), 0)",
+        "detail": "lab03",
+        "documentation": {}
+    },
+    {
+        "label": "close_list",
+        "kind": 2,
+        "importPath": "lab03",
+        "description": "lab03",
+        "peekOfCode": "def close_list(s, k):\n    \"\"\"Return a list of the elements of s that are within k of their index.\n    >>> t = [6, 2, 4, 3, 5]\n    >>> close_list(t, 0)  # Only 3 is equal to its index\n    [3]\n    >>> close_list(t, 1)  # 2, 3, and 5 are within 1 of their index\n    [2, 3, 5]\n    >>> close_list(t, 2)  # 2, 3, 4, and 5 are all within 2 of their index\n    [2, 4, 3, 5]\n    \"\"\"",
+        "detail": "lab03",
+        "documentation": {}
+    },
+    {
+        "label": "squares",
+        "kind": 2,
+        "importPath": "lab03",
+        "description": "lab03",
+        "peekOfCode": "def squares(s):\n    \"\"\"Returns a new list containing square roots of the elements of the\n    original list that are perfect squares.\n    >>> seq = [8, 49, 8, 9, 2, 1, 100, 102]\n    >>> squares(seq)\n    [7, 3, 1, 10]\n    >>> seq = [500, 30]\n    >>> squares(seq)\n    []\n    \"\"\"",
+        "detail": "lab03",
+        "documentation": {}
+    },
+    {
+        "label": "double_eights",
+        "kind": 2,
+        "importPath": "lab03",
+        "description": "lab03",
+        "peekOfCode": "def double_eights(n):\n    \"\"\" Returns whether or not n has two digits in row that\n    are the number 8. Assume n has at least two digits in it.\n    >>> double_eights(1288)\n    True\n    >>> double_eights(880)\n    True\n    >>> double_eights(538835)\n    True\n    >>> double_eights(284682)",
+        "detail": "lab03",
+        "documentation": {}
+    },
+    {
+        "label": "make_onion",
+        "kind": 2,
+        "importPath": "lab03",
+        "description": "lab03",
+        "peekOfCode": "def make_onion(f, g):\n    \"\"\"Return a function can_reach(x, y, limit) that returns\n    whether some call expression containing only f, g, and x with\n    up to limit calls will give the result y.\n    >>> up = lambda x: x + 1\n    >>> double = lambda y: y * 2\n    >>> can_reach = make_onion(up, double)\n    >>> can_reach(5, 25, 4)      # 25 = up(double(double(up(5))))\n    True\n    >>> can_reach(5, 25, 3)      # Not possible",
+        "detail": "lab03",
+        "documentation": {}
+    }
+]

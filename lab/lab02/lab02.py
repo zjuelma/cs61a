@@ -1,3 +1,4 @@
+from projects.hog.hog import num_factors
 
 def composite_identity(f, g):
     """
@@ -123,4 +124,13 @@ def cycle(f1, f2, f3):
     19
     """
     "*** YOUR CODE HERE ***"
+    def make_cycle(n):
+        def do_cycle(x):
+            func = [f1,f2,f3]
+            result = x
+            for i in range(n):
+                result = func[i % 3](result)
+            return result
+        return do_cycle
+    return make_cycle
 

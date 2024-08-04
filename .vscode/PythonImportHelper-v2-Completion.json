@@ -104,6 +104,14 @@
         "documentation": {}
     },
     {
+        "label": "num_factors",
+        "importPath": "projects.hog.hog",
+        "description": "projects.hog.hog",
+        "isExtraImport": true,
+        "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
         "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
