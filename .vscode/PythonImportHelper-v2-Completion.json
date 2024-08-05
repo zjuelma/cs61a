@@ -72,6 +72,54 @@
         "documentation": {}
     },
     {
+        "label": "parse",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "NodeVisitor",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "NodeVisitor",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
         "label": "add",
         "importPath": "operator",
         "description": "operator",
@@ -104,11 +152,35 @@
         "documentation": {}
     },
     {
+        "label": "sub",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "mul",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
         "label": "num_factors",
         "importPath": "projects.hog.hog",
         "description": "projects.hog.hog",
         "isExtraImport": true,
         "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
         "documentation": {}
     },
     {
@@ -667,6 +739,123 @@
         "documentation": {}
     },
     {
+        "label": "ExclusionChecker",
+        "kind": 6,
+        "importPath": "homework.hw03.construct_check",
+        "description": "homework.hw03.construct_check",
+        "peekOfCode": "class ExclusionChecker(NodeVisitor):\n    \"\"\"An AST visitor that checks that certain constructs are excluded from\n    parts of a program.  ExclusionChecker(EXC) checks that AST node types\n    whose names are in the sequence or set EXC are not present.  Its check\n    method visits nodes in a given function of a source file checking that the\n    indicated node types are not used.\"\"\"\n    def __init__(self, disallow=()):\n        \"\"\"DISALLOW is the initial default list of disallowed\n        node-type names.\"\"\"\n        self._disallow = set(disallow)",
+        "detail": "homework.hw03.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "homework.hw03.construct_check",
+        "description": "homework.hw03.construct_check",
+        "peekOfCode": "def check(source_file, checked_funcs, disallow, source=None):\n    \"\"\"Checks that AST nodes whose type names are present in DISALLOW\n    (an object supporting 'in') are not present in the function(s) named\n    CHECKED_FUNCS in SOURCE.  By default, SOURCE is the contents of the\n    file SOURCE_FILE.  CHECKED_FUNCS is either a string (indicating a single\n    name) or an object of some other type that supports 'in'. CHECKED_FUNCS\n    may contain __main__ to indicate an entire  module. Prints reports of\n    each prohibited node and returns True iff none are found.\n    See ast.__dir__() for AST type names.  The special node name 'Recursion'\n    checks for overtly recursive calls (i.e., calls of the form NAME(...) where",
+        "detail": "homework.hw03.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "_NAMES",
+        "kind": 5,
+        "importPath": "homework.hw03.construct_check",
+        "description": "homework.hw03.construct_check",
+        "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
+        "detail": "homework.hw03.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "num_eights",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def num_eights(n):\n    \"\"\"Returns the number of times 8 appears as a digit of n.\n    >>> num_eights(3)\n    0\n    >>> num_eights(8)\n    1\n    >>> num_eights(88888888)\n    8\n    >>> num_eights(2638)\n    1",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "digit_distance",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def digit_distance(n):\n    \"\"\"Determines the digit distance of n.\n    >>> digit_distance(3)\n    0\n    >>> digit_distance(777)\n    0\n    >>> digit_distance(314)\n    5\n    >>> digit_distance(31415926535)\n    32",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "interleaved_sum",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def interleaved_sum(n, odd_func, even_func):\n    \"\"\"Compute the sum odd_func(1) + even_func(2) + odd_func(3) + ..., up\n    to n.\n    >>> identity = lambda x: x\n    >>> square = lambda x: x * x\n    >>> triple = lambda x: x * 3\n    >>> interleaved_sum(5, identity, square) # 1   + 2*2 + 3   + 4*4 + 5\n    29\n    >>> interleaved_sum(5, square, identity) # 1*1 + 2   + 3*3 + 4   + 5*5\n    41",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "next_larger_coin",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def next_larger_coin(coin):\n    \"\"\"Returns the next larger coin in order.\n    >>> next_larger_coin(1)\n    5\n    >>> next_larger_coin(5)\n    10\n    >>> next_larger_coin(10)\n    25\n    >>> next_larger_coin(2) # Other values return None\n    \"\"\"",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "next_smaller_coin",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def next_smaller_coin(coin):\n    \"\"\"Returns the next smaller coin in order.\n    >>> next_smaller_coin(25)\n    10\n    >>> next_smaller_coin(10)\n    5\n    >>> next_smaller_coin(5)\n    1\n    >>> next_smaller_coin(2) # Other values return None\n    \"\"\"",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "count_coins",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def count_coins(total):\n    \"\"\"Return the number of ways to make change using coins of value of 1, 5, 10, 25.\n    >>> count_coins(15)\n    6\n    >>> count_coins(10)\n    4\n    >>> count_coins(20)\n    9\n    >>> count_coins(100) # How many ways to make change for a dollar?\n    242",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "print_move",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def print_move(origin, destination):\n    \"\"\"Print instructions to move a disk.\"\"\"\n    print(\"Move the top disk from rod\", origin, \"to rod\", destination)\ndef find_auxiliary(source, target, all_pole_names):\n    all_pole = set(all_pole_names)\n    auxiliary = list(all_pole - {source,target})\n    return auxiliary[0]\ndef move_stack(n, start, end):\n    \"\"\"Print the moves required to move n disks on the start pole to the end\n    pole without violating the rules of Towers of Hanoi.",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "find_auxiliary",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def find_auxiliary(source, target, all_pole_names):\n    all_pole = set(all_pole_names)\n    auxiliary = list(all_pole - {source,target})\n    return auxiliary[0]\ndef move_stack(n, start, end):\n    \"\"\"Print the moves required to move n disks on the start pole to the end\n    pole without violating the rules of Towers of Hanoi.\n    n -- number of disks\n    start -- a pole position, either 1, 2, or 3\n    end -- a pole position, either 1, 2, or 3",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "move_stack",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def move_stack(n, start, end):\n    \"\"\"Print the moves required to move n disks on the start pole to the end\n    pole without violating the rules of Towers of Hanoi.\n    n -- number of disks\n    start -- a pole position, either 1, 2, or 3\n    end -- a pole position, either 1, 2, or 3\n    There are exactly three poles, and start and end must be different. Assume\n    that the start pole has at least n disks of increasing size, and the end\n    pole is either empty or has a top disk larger than the top n start disks.\n    >>> move_stack(1, 1, 3)",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
+        "label": "make_anonymous_factorial",
+        "kind": 2,
+        "importPath": "homework.hw03.hw03",
+        "description": "homework.hw03.hw03",
+        "peekOfCode": "def make_anonymous_factorial():\n    \"\"\"Return the value of an expression that computes factorial.\n    >>> make_anonymous_factorial()(5)\n    120\n    >>> from construct_check import check\n    >>> # ban any assignments or recursion\n    >>> check(HW_SOURCE_FILE, 'make_anonymous_factorial',\n    ...     ['Assign', 'AnnAssign', 'AugAssign', 'NamedExpr', 'FunctionDef', 'Recursion'])\n    True\n    \"\"\"",
+        "detail": "homework.hw03.hw03",
+        "documentation": {}
+    },
+    {
         "label": "test",
         "kind": 5,
         "importPath": "lab.lab00.tests.python-basics",
@@ -835,6 +1024,105 @@
         "description": "lab.lab02.lab02",
         "peekOfCode": "def cycle(f1, f2, f3):\n    \"\"\"Returns a function that is itself a higher-order function.\n    >>> def add1(x):\n    ...     return x + 1\n    >>> def times2(x):\n    ...     return x * 2\n    >>> def add3(x):\n    ...     return x + 3\n    >>> my_cycle = cycle(add1, times2, add3)\n    >>> identity = my_cycle(0)",
         "detail": "lab.lab02.lab02",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab03.tests.list-comprehensions-wwpd",
+        "description": "lab.lab03.tests.list-comprehensions-wwpd",
+        "peekOfCode": "test = {\n  'name': 'Comprehensions',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> [2 * x for x in range(4)]\n          40628ea906dbaef22f25b053c4dd1e1e",
+        "detail": "lab.lab03.tests.list-comprehensions-wwpd",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab03.tests.lists-wwpd",
+        "description": "lab.lab03.tests.lists-wwpd",
+        "peekOfCode": "test = {\n  'name': 'Lists',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> s = [7//3, 5, [4, 0, 1], 2]\n          >>> s[0]",
+        "detail": "lab.lab03.tests.lists-wwpd",
+        "documentation": {}
+    },
+    {
+        "label": "ExclusionChecker",
+        "kind": 6,
+        "importPath": "lab.lab03.construct_check",
+        "description": "lab.lab03.construct_check",
+        "peekOfCode": "class ExclusionChecker(NodeVisitor):\n    \"\"\"An AST visitor that checks that certain constructs are excluded from\n    parts of a program.  ExclusionChecker(EXC) checks that AST node types\n    whose names are in the sequence or set EXC are not present.  Its check\n    method visits nodes in a given function of a source file checking that the\n    indicated node types are not used.\"\"\"\n    def __init__(self, disallow=()):\n        \"\"\"DISALLOW is the initial default list of disallowed\n        node-type names.\"\"\"\n        self._disallow = set(disallow)",
+        "detail": "lab.lab03.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "lab.lab03.construct_check",
+        "description": "lab.lab03.construct_check",
+        "peekOfCode": "def check(source_file, checked_funcs, disallow, source=None):\n    \"\"\"Checks that AST nodes whose type names are present in DISALLOW\n    (an object supporting 'in') are not present in the function(s) named\n    CHECKED_FUNCS in SOURCE.  By default, SOURCE is the contents of the\n    file SOURCE_FILE.  CHECKED_FUNCS is either a string (indicating a single\n    name) or an object of some other type that supports 'in'. CHECKED_FUNCS\n    may contain __main__ to indicate an entire  module. Prints reports of\n    each prohibited node and returns True iff none are found.\n    See ast.__dir__() for AST type names.  The special node name 'Recursion'\n    checks for overtly recursive calls (i.e., calls of the form NAME(...) where",
+        "detail": "lab.lab03.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "_NAMES",
+        "kind": 5,
+        "importPath": "lab.lab03.construct_check",
+        "description": "lab.lab03.construct_check",
+        "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
+        "detail": "lab.lab03.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "print_if",
+        "kind": 2,
+        "importPath": "lab.lab03.lab03",
+        "description": "lab.lab03.lab03",
+        "peekOfCode": "def print_if(s, f):\n    \"\"\"Print each element of s for which f returns a true value.\n    >>> print_if([3, 4, 5, 6], lambda x: x > 4)\n    5\n    6\n    >>> result = print_if([3, 4, 5, 6], lambda x: x % 2 == 0)\n    4\n    6\n    >>> print(result)  # print_if should return None\n    None",
+        "detail": "lab.lab03.lab03",
+        "documentation": {}
+    },
+    {
+        "label": "close",
+        "kind": 2,
+        "importPath": "lab.lab03.lab03",
+        "description": "lab.lab03.lab03",
+        "peekOfCode": "def close(s, k):\n    \"\"\"Return how many elements of s that are within k of their index.\n    >>> t = [6, 2, 4, 3, 5]\n    >>> close(t, 0)  # Only 3 is equal to its index\n    1\n    >>> close(t, 1)  # 2, 3, and 5 are within 1 of their index\n    3\n    >>> close(t, 2)  # 2, 3, 4, and 5 are all within 2 of their index\n    4\n    >>> close(list(range(10)), 0)",
+        "detail": "lab.lab03.lab03",
+        "documentation": {}
+    },
+    {
+        "label": "close_list",
+        "kind": 2,
+        "importPath": "lab.lab03.lab03",
+        "description": "lab.lab03.lab03",
+        "peekOfCode": "def close_list(s, k):\n    \"\"\"Return a list of the elements of s that are within k of their index.\n    >>> t = [6, 2, 4, 3, 5]\n    >>> close_list(t, 0)  # Only 3 is equal to its index\n    [3]\n    >>> close_list(t, 1)  # 2, 3, and 5 are within 1 of their index\n    [2, 3, 5]\n    >>> close_list(t, 2)  # 2, 3, 4, and 5 are all within 2 of their index\n    [2, 4, 3, 5]\n    \"\"\"",
+        "detail": "lab.lab03.lab03",
+        "documentation": {}
+    },
+    {
+        "label": "squares",
+        "kind": 2,
+        "importPath": "lab.lab03.lab03",
+        "description": "lab.lab03.lab03",
+        "peekOfCode": "def squares(s):\n    \"\"\"Returns a new list containing square roots of the elements of the\n    original list that are perfect squares.\n    >>> seq = [8, 49, 8, 9, 2, 1, 100, 102]\n    >>> squares(seq)\n    [7, 3, 1, 10]\n    >>> seq = [500, 30]\n    >>> squares(seq)\n    []\n    \"\"\"",
+        "detail": "lab.lab03.lab03",
+        "documentation": {}
+    },
+    {
+        "label": "double_eights",
+        "kind": 2,
+        "importPath": "lab.lab03.lab03",
+        "description": "lab.lab03.lab03",
+        "peekOfCode": "def double_eights(n):\n    \"\"\" Returns whether or not n has two digits in row that\n    are the number 8. Assume n has at least two digits in it.\n    >>> double_eights(1288)\n    True\n    >>> double_eights(880)\n    True\n    >>> double_eights(538835)\n    True\n    >>> double_eights(284682)",
+        "detail": "lab.lab03.lab03",
+        "documentation": {}
+    },
+    {
+        "label": "make_onion",
+        "kind": 2,
+        "importPath": "lab.lab03.lab03",
+        "description": "lab.lab03.lab03",
+        "peekOfCode": "def make_onion(f, g):\n    \"\"\"Return a function can_reach(x, y, limit) that returns\n    whether some call expression containing only f, g, and x with\n    up to limit calls will give the result y.\n    >>> up = lambda x: x + 1\n    >>> double = lambda y: y * 2\n    >>> can_reach = make_onion(up, double)\n    >>> can_reach(5, 25, 4)      # 25 = up(double(double(up(5))))\n    True\n    >>> can_reach(5, 25, 3)      # Not possible",
+        "detail": "lab.lab03.lab03",
         "documentation": {}
     },
     {
