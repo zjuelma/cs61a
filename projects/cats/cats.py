@@ -1,5 +1,6 @@
 """Typing test implementation"""
 
+import operator
 from utils import lower, split, remove_punctuation, lines_from_file
 from ucb import main, interact, trace
 from datetime import datetime
@@ -31,8 +32,14 @@ def pick(paragraphs, select, k):
     """
     # BEGIN PROBLEM 1
     "*** YOUR CODE HERE ***"
+    selected_paragraph = [p for p in paragraphs if select(p)]
+    if k < len(selected_paragraph):
+        return selected_paragraph[k]
+    else:
+        return ''
     # END PROBLEM 1
 
+import re
 
 def about(subject):
     """Return a select function that returns whether
@@ -50,6 +57,14 @@ def about(subject):
     assert all([lower(x) == x for x in subject]), 'subjects should be lowercase.'
     # BEGIN PROBLEM 2
     "*** YOUR CODE HERE ***"
+    def select (paragraph):
+        para = remove_punctuation(paragraph).lower().split()
+        for t in subject:
+            for p in para:
+                if t == p:
+                    return True
+        return False
+    return select
     # END PROBLEM 2
 
 
@@ -80,6 +95,17 @@ def accuracy(typed, source):
     source_words = split(source)
     # BEGIN PROBLEM 3
     "*** YOUR CODE HERE ***"
+    if len(typed_words) == 0 and len(source_words) == 0:
+        return 100.0
+    elif len(typed_words) == 0 or len(source_words) == 0:
+        return 0.0
+    right_typed = 0
+    min_length = min(len(typed_words),len(source_words))
+    for i in range(min_length):
+        if typed_words[i] == source_words[i]:
+            right_typed += 1
+    accuracy_rate = (float(right_typed) / len(typed_words)) * 100.0
+    return accuracy_rate
     # END PROBLEM 3
 
 
@@ -98,6 +124,9 @@ def wpm(typed, elapsed):
     assert elapsed > 0, 'Elapsed time must be positive'
     # BEGIN PROBLEM 4
     "*** YOUR CODE HERE ***"
+    words = float(len(typed)) / 5.0
+    result = words / float(elapsed / 60.0)
+    return result
     # END PROBLEM 4
 
 
@@ -127,6 +156,16 @@ def autocorrect(typed_word, word_list, diff_function, limit):
     """
     # BEGIN PROBLEM 5
     "*** YOUR CODE HERE ***"
+    closest_word = typed_word
+    minimum_diff = limit + 1
+
+    for word in word_list:
+        diff = diff_function(typed_word, word, limit)
+        if diff < minimum_diff:
+            minimum_diff = diff
+            closest_word = word
+
+    return closest_word if minimum_diff <= limit else typed_word
     # END PROBLEM 5
 
 

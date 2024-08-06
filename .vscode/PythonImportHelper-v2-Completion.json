@@ -120,6 +120,39 @@
         "documentation": {}
     },
     {
+        "label": "parse",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "NodeVisitor",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
         "label": "add",
         "importPath": "operator",
         "description": "operator",
@@ -173,6 +206,14 @@
         "description": "projects.hog.hog",
         "isExtraImport": true,
         "detail": "projects.hog.hog",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
         "documentation": {}
     },
     {
@@ -273,6 +314,38 @@
         "documentation": {}
     },
     {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "server",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
         "label": "HTTPStatus",
         "importPath": "http",
         "description": "http",
@@ -297,11 +370,51 @@
         "documentation": {}
     },
     {
+        "label": "HTTPServer",
+        "importPath": "http.server",
+        "description": "http.server",
+        "isExtraImport": true,
+        "detail": "http.server",
+        "documentation": {}
+    },
+    {
         "label": "URLError",
         "importPath": "urllib.error",
         "description": "urllib.error",
         "isExtraImport": true,
         "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "URLError",
+        "importPath": "urllib.error",
+        "description": "urllib.error",
+        "isExtraImport": true,
+        "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "unquote",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_qs",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
         "documentation": {}
     },
     {
@@ -345,6 +458,22 @@
         "documentation": {}
     },
     {
+        "label": "Request",
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "isExtraImport": true,
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "urlopen",
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "isExtraImport": true,
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
         "label": "unittest",
         "kind": 6,
         "isExtraImport": true,
@@ -360,6 +489,328 @@
         "importPath": "gui_files.svg",
         "description": "gui_files.svg",
         "detail": "gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randrange",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "importPath": "queue",
+        "description": "queue",
+        "isExtraImport": true,
+        "detail": "queue",
+        "documentation": {}
+    },
+    {
+        "label": "Thread",
+        "importPath": "threading",
+        "description": "threading",
+        "isExtraImport": true,
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "cats",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cats",
+        "description": "cats",
+        "detail": "cats",
+        "documentation": {}
+    },
+    {
+        "label": "namedtuple",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "forward_to_server",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "server_only",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "Server",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "sendto",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "importPath": "gui_files.common_server",
+        "description": "gui_files.common_server",
+        "isExtraImport": true,
+        "detail": "gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "split",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "remove_punctuation",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "lines_from_file",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "interact",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "trace",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "trace",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "interact",
+        "importPath": "ucb",
+        "description": "ucb",
+        "isExtraImport": true,
+        "detail": "ucb",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "multiplayer",
+        "importPath": "multiplayer",
+        "description": "multiplayer",
+        "isExtraImport": true,
+        "detail": "multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "code",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "code",
+        "description": "code",
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inspect",
+        "description": "inspect",
+        "detail": "inspect",
+        "documentation": {}
+    },
+    {
+        "label": "signal",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "signal",
+        "description": "signal",
+        "detail": "signal",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -388,23 +839,6 @@
         "documentation": {}
     },
     {
-        "label": "random",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "random",
-        "description": "random",
-        "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "randint",
-        "importPath": "random",
-        "description": "random",
-        "isExtraImport": true,
-        "detail": "random",
-        "documentation": {}
-    },
-    {
         "label": "dice",
         "kind": 6,
         "isExtraImport": true,
@@ -427,30 +861,6 @@
         "description": "dice",
         "isExtraImport": true,
         "detail": "dice",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "ucb",
-        "description": "ucb",
-        "isExtraImport": true,
-        "detail": "ucb",
-        "documentation": {}
-    },
-    {
-        "label": "trace",
-        "importPath": "ucb",
-        "description": "ucb",
-        "isExtraImport": true,
-        "detail": "ucb",
-        "documentation": {}
-    },
-    {
-        "label": "interact",
-        "importPath": "ucb",
-        "description": "ucb",
-        "isExtraImport": true,
-        "detail": "ucb",
         "documentation": {}
     },
     {
@@ -480,73 +890,12 @@
         "documentation": {}
     },
     {
-        "label": "route",
-        "importPath": "gui_files.common_server",
-        "description": "gui_files.common_server",
-        "isExtraImport": true,
-        "detail": "gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "start",
-        "importPath": "gui_files.common_server",
-        "description": "gui_files.common_server",
-        "isExtraImport": true,
-        "detail": "gui_files.common_server",
-        "documentation": {}
-    },
-    {
         "label": "default_graphics",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "default_graphics",
         "description": "default_graphics",
         "detail": "default_graphics",
-        "documentation": {}
-    },
-    {
-        "label": "code",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "code",
-        "description": "code",
-        "detail": "code",
-        "documentation": {}
-    },
-    {
-        "label": "inspect",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "inspect",
-        "description": "inspect",
-        "detail": "inspect",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "signal",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "signal",
-        "description": "signal",
-        "detail": "signal",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
         "documentation": {}
     },
     {
@@ -1123,6 +1472,1230 @@
         "description": "lab.lab03.lab03",
         "peekOfCode": "def make_onion(f, g):\n    \"\"\"Return a function can_reach(x, y, limit) that returns\n    whether some call expression containing only f, g, and x with\n    up to limit calls will give the result y.\n    >>> up = lambda x: x + 1\n    >>> double = lambda y: y * 2\n    >>> can_reach = make_onion(up, double)\n    >>> can_reach(5, 25, 4)      # 25 = up(double(double(up(5))))\n    True\n    >>> can_reach(5, 25, 3)      # Not possible",
         "detail": "lab.lab03.lab03",
+        "documentation": {}
+    },
+    {
+        "label": "Handler",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "class Handler(server.BaseHTTPRequestHandler):\n    \"\"\"HTTP handler.\"\"\"\n    def do_GET(self):\n        try:\n            parsed_url = urlparse(unquote(self.path))\n            path = parsed_url.path\n            query_params = parse_qs(parsed_url.query)\n            if path in STATIC_PATHS:\n                out = bytes(STATIC_PATHS[path](**snakify(query_params)), \"utf-8\")\n            else:",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "Server",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "class Server:\n    def __getattr__(self, item):\n        def f(**kwargs):\n            if IS_SERVER:\n                return PATHS[\"/\" + item](**kwargs)\n            else:\n                return multiplayer_post(item, kwargs)\n        return f\nServer = Server()\ndef multiplayer_post(path, data, server_url=None):",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "path_optional",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def path_optional(decorator):\n    def wrapped(func_or_path):\n        if callable(func_or_path):\n            return decorator(\"/\" + func_or_path.__name__)(func_or_path)\n        else:\n            def actual_decorator(f):\n                return decorator(func_or_path)(f)\n            return actual_decorator\n    return wrapped\ndef route(path):",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def route(path):\n    \"\"\"Register a route handler.\"\"\"\n    if callable(path):\n        return route(\"/\" + path.__name__)(path)\n    if not path.startswith(\"/\"):\n        path = \"/\" + path\n    def wrap(f):\n        if \".\" in path:\n            STATIC_PATHS[path] = f\n        else:",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "multiplayer_post",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def multiplayer_post(path, data, server_url=None):\n    \"\"\"Post DATA to a multiplayer server PATH and return the response.\"\"\"\n    if not server_url:\n        server_url = DEFAULT_SERVER\n    data_bytes = bytes(json.dumps(data), encoding=\"utf-8\")\n    request = Request(server_url + \"/\" + path, data_bytes, method=\"POST\")\n    try:\n        response = urlopen(request, context=ssl._create_unverified_context())\n        text = response.read().decode(\"utf-8\")\n        if text.strip():",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "multiplayer_route",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def multiplayer_route(path, server_path=None):\n    \"\"\"Convert a function that takes (data, send) into a route.\"\"\"\n    if not server_path:\n        server_path = path\n    def wrap(f):\n        def send(data):\n            return multiplayer_post(server_path, data)\n        def routed_fn(data):\n            response = f(data, send)\n            return response",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "forward_to_server",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def forward_to_server(path):\n    def wrap(f):\n        @wraps(f)\n        def wrapped(*args, **kwargs):\n            if IS_SERVER:\n                return f(*args, **kwargs)\n            else:\n                return multiplayer_post(path, kwargs)\n        return wrapped\n    return wrap",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "server_only",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def server_only(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        if IS_SERVER:\n            return f(*args, **kwargs)\n        else:\n            raise Exception(\"Method not available locally!\")\n    return wrapped\ndef sendto(f):\n    def wrapped(data):",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "sendto",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def sendto(f):\n    def wrapped(data):\n        return f(**data)\n    return wrapped\ndef start_server():\n    global IS_SERVER\n    IS_SERVER = True\n    from flask import Flask, request, jsonify, send_from_directory, Response\n    app = Flask(__name__, static_url_path=\"\", static_folder=\"\")\n    for route, handler in PATHS.items():",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start_server",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def start_server():\n    global IS_SERVER\n    IS_SERVER = True\n    from flask import Flask, request, jsonify, send_from_directory, Response\n    app = Flask(__name__, static_url_path=\"\", static_folder=\"\")\n    for route, handler in PATHS.items():\n        def wrapped_handler(handler=handler):\n            return jsonify(handler(**snakify(request.get_json(force=True))))\n        app.add_url_rule(route, handler.__name__, wrapped_handler, methods=[\"POST\"])\n    for route, handler in STATIC_PATHS.items():",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start_client",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def start_client(port, default_server, gui_folder, standalone):\n    \"\"\"Start web server.\"\"\"\n    global DEFAULT_SERVER, GUI_FOLDER, IS_SERVER\n    DEFAULT_SERVER = default_server\n    GUI_FOLDER = gui_folder\n    IS_SERVER = False\n    socketserver.TCPServer.allow_reuse_address = True\n    httpd = HTTPServer((\"localhost\", port), Handler)\n    if not standalone:\n        webbrowser.open(\"http://localhost:\" + str(port), new=0, autoraise=True)",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "snakify",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def snakify(data):\n    out = {}\n    for key, val in data.items():\n        snake_key = []\n        for x in key:\n            if x != x.lower():\n                snake_key += \"_\"\n            snake_key += x.lower()\n        out[\"\".join(snake_key)] = val\n    return out",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "kill",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def kill():\n    if not IS_SERVER:\n        print(\"Exiting GUI\")\n        exit(0)\ndef start(port, default_server, gui_folder, db_init=None):\n    global DEFAULT_SERVER\n    DEFAULT_SERVER = default_server\n    parser = argparse.ArgumentParser(description=\"Project GUI Server\")\n    parser.add_argument(\n        \"-s\", help=\"Stand-alone: do not open browser\", action=\"store_true\"",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "def start(port, default_server, gui_folder, db_init=None):\n    global DEFAULT_SERVER\n    DEFAULT_SERVER = default_server\n    parser = argparse.ArgumentParser(description=\"Project GUI Server\")\n    parser.add_argument(\n        \"-s\", help=\"Stand-alone: do not open browser\", action=\"store_true\"\n    )\n    parser.add_argument(\"-f\", help=\"Force Flask app\", action=\"store_true\")\n    args, unknown = parser.parse_known_args()\n    import __main__",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_PATHS",
+        "kind": 5,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "STATIC_PATHS = {}\nPATHS = {}\nCONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "PATHS",
+        "kind": 5,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "PATHS = {}\nCONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)\ndef path_optional(decorator):",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "CONTENT_TYPE_LOOKUP",
+        "kind": 5,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "CONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)\ndef path_optional(decorator):\n    def wrapped(func_or_path):",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "Server",
+        "kind": 5,
+        "importPath": "projects.cats.gui_files.common_server",
+        "description": "projects.cats.gui_files.common_server",
+        "peekOfCode": "Server = Server()\ndef multiplayer_post(path, data, server_url=None):\n    \"\"\"Post DATA to a multiplayer server PATH and return the response.\"\"\"\n    if not server_url:\n        server_url = DEFAULT_SERVER\n    data_bytes = bytes(json.dumps(data), encoding=\"utf-8\")\n    request = Request(server_url + \"/\" + path, data_bytes, method=\"POST\")\n    try:\n        response = urlopen(request, context=ssl._create_unverified_context())\n        text = response.read().decode(\"utf-8\")",
+        "detail": "projects.cats.gui_files.common_server",
+        "documentation": {}
+    },
+    {
+        "label": "SVGRect",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "class SVGRect:\n    def __init__(self, x, y, width, height, stroke, fill):\n        self.x = x\n        self.y = y\n        self.width = width\n        self.height = height\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        return \"\"\"<rect x=\"{0}\" y=\"{1}\" width=\"{2}\" height=\"{3}\" stroke=\"{4}\" fill=\"{5}\" />\"\"\".format(",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGCircle",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "class SVGCircle:\n    def __init__(self, x, y, radius, stroke, fill):\n        self.x = x\n        self.y = y\n        self.radius = radius\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        return (\n            \"\"\"<circle cx=\"{0}\" cy=\"{1}\" r=\"{2}\" stroke=\"{3}\" fill=\"{4}\" />\"\"\".format(",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGLine",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "class SVGLine:\n    def __init__(self, x1, y1, x2, y2, stroke):\n        self.x1 = x1\n        self.y1 = y1\n        self.x2 = x2\n        self.y2 = y2\n        self.stroke = stroke\n    def __str__(self):\n        return \"\"\"<line x1=\"{0}\" y1=\"{1}\" x2=\"{2}\" y2=\"{3}\" stroke=\"{4}\" />\"\"\".format(\n            self.x1, self.y1, self.x2, self.y2, self.stroke",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGPolygon",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "class SVGPolygon:\n    def __init__(self, points, stroke, fill):\n        self.points = points  # list of lists\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        points_str = \" \".join(\",\".join(map(str, point)) for point in self.points)\n        return \"\"\"<polygon points=\"{0}\" stroke=\"{1}\" fill=\"{2}\"/>\"\"\".format(\n            points_str, self.stroke, self.fill\n        )",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGText",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "class SVGText:\n    def __init__(self, x, y, text, stroke, fill, font_size, font_family):\n        self.x = x\n        self.y = y\n        self.text = text\n        self.stroke = stroke\n        self.fill = fill\n        self.font_size = font_size\n        self.font_family = font_family\n    def __str__(self):",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "SVGGraphic",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "class SVGGraphic:\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n        self.shapes = []\n    def draw_rect(self, x, y, width, height, stroke, fill):\n        self.shapes.append(SVGRect(x, y, width, height, stroke, fill))\n    def draw_circle(self, x, y, radius, stroke, fill):\n        self.shapes.append(SVGCircle(x, y, radius, stroke, fill))\n    def draw_line(self, x1, y1, x2, y2, stroke):",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "create_graphic",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "def create_graphic(width, height):\n    return SVGGraphic(width, height)\ndef draw_rect(graphic, x, y, width, height, stroke=\"black\", fill=\"black\"):\n    graphic.draw_rect(x, y, width, height, stroke, fill)\ndef draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "draw_rect",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "def draw_rect(graphic, x, y, width, height, stroke=\"black\", fill=\"black\"):\n    graphic.draw_rect(x, y, width, height, stroke, fill)\ndef draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "draw_circle",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "def draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "draw_line",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "def draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "draw_triangle",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "def draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",\n    fill=\"black\",\n    font_size=\"medium\",",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "write_text",
+        "kind": 2,
+        "importPath": "projects.cats.gui_files.svg",
+        "description": "projects.cats.gui_files.svg",
+        "peekOfCode": "def write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",\n    fill=\"black\",\n    font_size=\"medium\",\n    font_family=\"serif\",\n):",
+        "detail": "projects.cats.gui_files.svg",
+        "documentation": {}
+    },
+    {
+        "label": "TestSVG",
+        "kind": 6,
+        "importPath": "projects.cats.gui_files.svg_test",
+        "description": "projects.cats.gui_files.svg_test",
+        "peekOfCode": "class TestSVG(unittest.TestCase):\n    def assert_contains_str(self, str, substr):\n        self.assertTrue(str.find(substr) > -1, \"%s does not contain %s\" % (str, substr))\n    def test_create_graphic(self):\n        graphic = svg.create_graphic(200, 300)\n        self.assertEqual(\n            str(graphic),\n            \"\"\"<svg width=\"200\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\"></svg>\"\"\",\n        )\n    def test_draw_rect(self):",
+        "detail": "projects.cats.gui_files.svg_test",
+        "documentation": {}
+    },
+    {
+        "label": "require_fernet",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def require_fernet(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        global fernet\n        if not fernet:\n            from cryptography.fernet import Fernet\n            fernet = Fernet(os.environ.get(\"FERNET_KEY\", Fernet.generate_key()))\n        return f(*args, **kwargs)\n    return wrapped\ndef token_writer(f):",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "token_writer",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def token_writer(f):\n    @wraps(f)\n    @require_fernet\n    def wrapped(*args, **kwargs):\n        data = f(*args, **kwargs)\n        decoded = json.dumps(data).encode(\"utf-8\")\n        return fernet.encrypt(decoded).decode(\"utf-8\")\n    return wrapped\ndef token_reader(fail):\n    def decorator(f):",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "token_reader",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def token_reader(fail):\n    def decorator(f):\n        @wraps(f)\n        @require_fernet\n        def wrapped(*, token, **kwargs):\n            from cryptography.fernet import InvalidToken\n            if not token:\n                return fail\n            try:\n                return f(",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "create_wpm_authorization",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def create_wpm_authorization(user, wpm):\n    return {\n        \"user\": user,\n        \"wpm\": wpm,\n    }\n@token_reader(fail=0)\ndef get_authorized_limit(user, token):\n    if token[\"user\"] != user:\n        return 0\n    return token[\"wpm\"]",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "get_authorized_limit",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def get_authorized_limit(user, token):\n    if token[\"user\"] != user:\n        return 0\n    return token[\"wpm\"]\n@token_writer\ndef encode_challenge(user, words):\n    return {\n        \"user\": user,\n        \"words\": words,\n        \"startTime\": time.time(),",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "encode_challenge",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def encode_challenge(user, words):\n    return {\n        \"user\": user,\n        \"words\": words,\n        \"startTime\": time.time(),\n    }\n@token_reader(fail=(False, False))\ndef decode_challenge(token):\n    return token[\"user\"], token[\"words\"], token[\"startTime\"]\ndef populate_captcha_queue():",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "decode_challenge",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def decode_challenge(token):\n    return token[\"user\"], token[\"words\"], token[\"startTime\"]\ndef populate_captcha_queue():\n    while captcha_queue.qsize() < CAPTCHA_QUEUE_LEN:\n        captcha_queue.put(generate_captcha())\ndef generate_captcha():\n    from claptcha import Claptcha\n    word = random.choice([x for x in COMMON_WORDS_SET if len(x) < CAPTCHA_WORD_LEN])\n    c = Claptcha(word, \"multiplayer/FreeMono.ttf\", margin=(20, 10))\n    image_b64 = base64.b64encode(c.bytes[1].getvalue()).decode(\"utf-8\")",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "populate_captcha_queue",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def populate_captcha_queue():\n    while captcha_queue.qsize() < CAPTCHA_QUEUE_LEN:\n        captcha_queue.put(generate_captcha())\ndef generate_captcha():\n    from claptcha import Claptcha\n    word = random.choice([x for x in COMMON_WORDS_SET if len(x) < CAPTCHA_WORD_LEN])\n    c = Claptcha(word, \"multiplayer/FreeMono.ttf\", margin=(20, 10))\n    image_b64 = base64.b64encode(c.bytes[1].getvalue()).decode(\"utf-8\")\n    return \"data:image/png;base64,\" + image_b64, word\ndef get_captcha_urls(num_words=CAPTCHA_LENGTH):",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "generate_captcha",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def generate_captcha():\n    from claptcha import Claptcha\n    word = random.choice([x for x in COMMON_WORDS_SET if len(x) < CAPTCHA_WORD_LEN])\n    c = Claptcha(word, \"multiplayer/FreeMono.ttf\", margin=(20, 10))\n    image_b64 = base64.b64encode(c.bytes[1].getvalue()).decode(\"utf-8\")\n    return \"data:image/png;base64,\" + image_b64, word\ndef get_captcha_urls(num_words=CAPTCHA_LENGTH):\n    Thread(target=populate_captcha_queue).start()\n    images, words = [], []\n    for _ in range(num_words):",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "get_captcha_urls",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "def get_captcha_urls(num_words=CAPTCHA_LENGTH):\n    Thread(target=populate_captcha_queue).start()\n    images, words = [], []\n    for _ in range(num_words):\n        image, word = captcha_queue.get()\n        images.append(image)\n        words.append(word)\n    return images, words",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "fernet",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "fernet = None\nCOMMON_WORDS_SET = set(cats.lines_from_file(\"data/common_words.txt\"))\nCAPTCHA_QUEUE_LEN = 200\nCAPTCHA_LENGTH = 10\nCAPTCHA_WORD_LEN = 10\ncaptcha_queue = Queue()\ndef require_fernet(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        global fernet",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "COMMON_WORDS_SET",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "COMMON_WORDS_SET = set(cats.lines_from_file(\"data/common_words.txt\"))\nCAPTCHA_QUEUE_LEN = 200\nCAPTCHA_LENGTH = 10\nCAPTCHA_WORD_LEN = 10\ncaptcha_queue = Queue()\ndef require_fernet(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        global fernet\n        if not fernet:",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "CAPTCHA_QUEUE_LEN",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "CAPTCHA_QUEUE_LEN = 200\nCAPTCHA_LENGTH = 10\nCAPTCHA_WORD_LEN = 10\ncaptcha_queue = Queue()\ndef require_fernet(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        global fernet\n        if not fernet:\n            from cryptography.fernet import Fernet",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "CAPTCHA_LENGTH",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "CAPTCHA_LENGTH = 10\nCAPTCHA_WORD_LEN = 10\ncaptcha_queue = Queue()\ndef require_fernet(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        global fernet\n        if not fernet:\n            from cryptography.fernet import Fernet\n            fernet = Fernet(os.environ.get(\"FERNET_KEY\", Fernet.generate_key()))",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "CAPTCHA_WORD_LEN",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "CAPTCHA_WORD_LEN = 10\ncaptcha_queue = Queue()\ndef require_fernet(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        global fernet\n        if not fernet:\n            from cryptography.fernet import Fernet\n            fernet = Fernet(os.environ.get(\"FERNET_KEY\", Fernet.generate_key()))\n        return f(*args, **kwargs)",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "captcha_queue",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.leaderboard_integrity",
+        "description": "projects.cats.multiplayer.leaderboard_integrity",
+        "peekOfCode": "captcha_queue = Queue()\ndef require_fernet(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        global fernet\n        if not fernet:\n            from cryptography.fernet import Fernet\n            fernet = Fernet(os.environ.get(\"FERNET_KEY\", Fernet.generate_key()))\n        return f(*args, **kwargs)\n    return wrapped",
+        "detail": "projects.cats.multiplayer.leaderboard_integrity",
+        "documentation": {}
+    },
+    {
+        "label": "db_init",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "def db_init():\n    global connect_db\n    from common.db import connect_db\n    with connect_db() as db:\n        db(\n            \"\"\"CREATE TABLE IF NOT EXISTS leaderboard (\n        name varchar(128),\n        user_id varchar(128),\n        wpm double,\n        PRIMARY KEY (`user_id`)",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "create_multiplayer_server",
+        "kind": 2,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "def create_multiplayer_server():\n    State = namedtuple(\"State\", [\"queue\", \"game_lookup\", \"game_data\", \"progress\"])\n    State = State({}, {}, {}, defaultdict(list))\n    @route\n    @server_only\n    def provide_id():\n        return randrange(1000000000)\n    @route\n    @forward_to_server\n    def request_match(id):",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_PLAYERS",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "MIN_PLAYERS = 2\nMAX_PLAYERS = 4\nQUEUE_TIMEOUT = timedelta(seconds=1)\nMAX_WAIT = timedelta(seconds=5)\nMAX_NAME_LENGTH = 90\nMAX_UNVERIFIED_WPM = 90\nCAPTCHA_ACCURACY_THRESHOLD = 80\nCAPTCHA_SLOWDOWN_FACTOR = 0.8\ndef db_init():\n    global connect_db",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_PLAYERS",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "MAX_PLAYERS = 4\nQUEUE_TIMEOUT = timedelta(seconds=1)\nMAX_WAIT = timedelta(seconds=5)\nMAX_NAME_LENGTH = 90\nMAX_UNVERIFIED_WPM = 90\nCAPTCHA_ACCURACY_THRESHOLD = 80\nCAPTCHA_SLOWDOWN_FACTOR = 0.8\ndef db_init():\n    global connect_db\n    from common.db import connect_db",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "QUEUE_TIMEOUT",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "QUEUE_TIMEOUT = timedelta(seconds=1)\nMAX_WAIT = timedelta(seconds=5)\nMAX_NAME_LENGTH = 90\nMAX_UNVERIFIED_WPM = 90\nCAPTCHA_ACCURACY_THRESHOLD = 80\nCAPTCHA_SLOWDOWN_FACTOR = 0.8\ndef db_init():\n    global connect_db\n    from common.db import connect_db\n    with connect_db() as db:",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_WAIT",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "MAX_WAIT = timedelta(seconds=5)\nMAX_NAME_LENGTH = 90\nMAX_UNVERIFIED_WPM = 90\nCAPTCHA_ACCURACY_THRESHOLD = 80\nCAPTCHA_SLOWDOWN_FACTOR = 0.8\ndef db_init():\n    global connect_db\n    from common.db import connect_db\n    with connect_db() as db:\n        db(",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_NAME_LENGTH",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "MAX_NAME_LENGTH = 90\nMAX_UNVERIFIED_WPM = 90\nCAPTCHA_ACCURACY_THRESHOLD = 80\nCAPTCHA_SLOWDOWN_FACTOR = 0.8\ndef db_init():\n    global connect_db\n    from common.db import connect_db\n    with connect_db() as db:\n        db(\n            \"\"\"CREATE TABLE IF NOT EXISTS leaderboard (",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_UNVERIFIED_WPM",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "MAX_UNVERIFIED_WPM = 90\nCAPTCHA_ACCURACY_THRESHOLD = 80\nCAPTCHA_SLOWDOWN_FACTOR = 0.8\ndef db_init():\n    global connect_db\n    from common.db import connect_db\n    with connect_db() as db:\n        db(\n            \"\"\"CREATE TABLE IF NOT EXISTS leaderboard (\n        name varchar(128),",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "CAPTCHA_ACCURACY_THRESHOLD",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "CAPTCHA_ACCURACY_THRESHOLD = 80\nCAPTCHA_SLOWDOWN_FACTOR = 0.8\ndef db_init():\n    global connect_db\n    from common.db import connect_db\n    with connect_db() as db:\n        db(\n            \"\"\"CREATE TABLE IF NOT EXISTS leaderboard (\n        name varchar(128),\n        user_id varchar(128),",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "CAPTCHA_SLOWDOWN_FACTOR",
+        "kind": 5,
+        "importPath": "projects.cats.multiplayer.multiplayer",
+        "description": "projects.cats.multiplayer.multiplayer",
+        "peekOfCode": "CAPTCHA_SLOWDOWN_FACTOR = 0.8\ndef db_init():\n    global connect_db\n    from common.db import connect_db\n    with connect_db() as db:\n        db(\n            \"\"\"CREATE TABLE IF NOT EXISTS leaderboard (\n        name varchar(128),\n        user_id varchar(128),\n        wpm double,",
+        "detail": "projects.cats.multiplayer.multiplayer",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.01",
+        "description": "projects.cats.tests.01",
+        "peekOfCode": "test = {\n  'name': 'Problem 1',\n  'points': 1,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> ps = ['short', 'really long', 'tiny']\n          >>> s = lambda p: len(p) <= 5",
+        "detail": "projects.cats.tests.01",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.02",
+        "description": "projects.cats.tests.02",
+        "peekOfCode": "test = {\n  'name': 'Problem 2',\n  'points': 1,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> dogs = about(['dogs', 'hounds'])\n          >>> dogs('A paragraph about cats.')",
+        "detail": "projects.cats.tests.02",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.03",
+        "description": "projects.cats.tests.03",
+        "peekOfCode": "test = {\n  'name': 'Problem 3',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> accuracy(\"12345\", \"12345\") # This should return 100.0 (not the integer 100!)\n          100.0",
+        "detail": "projects.cats.tests.03",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.04",
+        "description": "projects.cats.tests.04",
+        "peekOfCode": "test = {\n  'name': 'Problem 4',\n  'points': 1,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> wpm(\"12345\", 3) # Note: wpm returns a float (with a decimal point)\n          20.0",
+        "detail": "projects.cats.tests.04",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.05",
+        "description": "projects.cats.tests.05",
+        "peekOfCode": "test = {\n  'name': 'Problem 5',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> abs_diff = lambda w1, w2, limit: abs(len(w2) - len(w1))\n          >>> autocorrect(\"cul\", [\"culture\", \"cult\", \"cultivate\"], abs_diff, 10)",
+        "detail": "projects.cats.tests.05",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.06",
+        "description": "projects.cats.tests.06",
+        "peekOfCode": "test = {\n  'name': 'Problem 6',\n  'points': 3,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> big_limit = 10\n          >>> feline_fixes(\"car\", \"cad\", big_limit)",
+        "detail": "projects.cats.tests.06",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.07",
+        "description": "projects.cats.tests.07",
+        "peekOfCode": "test = {\n  'name': 'Problem 7',\n  'points': 3,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> big_limit = 10\n          >>> minimum_mewtations(\"wind\", \"wind\", big_limit)",
+        "detail": "projects.cats.tests.07",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.08",
+        "description": "projects.cats.tests.08",
+        "peekOfCode": "test = {\n  'name': 'Problem 8',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> typed = ['I', 'have', 'begun']\n          >>> source = ['I', 'have', 'begun', 'to', 'type']",
+        "detail": "projects.cats.tests.08",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.09",
+        "description": "projects.cats.tests.09",
+        "peekOfCode": "test = {\n  'name': 'Problem 9',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> p = [[1, 4, 6, 7], [0, 4, 6, 9]]\n          >>> words = ['This', 'is', 'fun']",
+        "detail": "projects.cats.tests.09",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.10",
+        "description": "projects.cats.tests.10",
+        "peekOfCode": "test = {\n  'name': 'Problem 10',\n  'points': 2,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> p0 = [2, 2, 3]\n          >>> p1 = [6, 1, 2]",
+        "detail": "projects.cats.tests.10",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractionViolation",
+        "kind": 6,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "class AbstractionViolation(Exception):\n    pass\ndef datatype(obj):\n    return type(obj).__name__\n# Generic abstract data type\nclass Abstract:\n    def __add__(self, other):\n        raise AbstractionViolation(\"Can't add {} object to {}\".format(datatype(self), datatype(other)))\n    def __radd__(self, other):\n        raise AbstractionViolation(\"Can't add {} object to {}\".format(datatype(self), datatype(other)))",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "Abstract",
+        "kind": 6,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "class Abstract:\n    def __add__(self, other):\n        raise AbstractionViolation(\"Can't add {} object to {}\".format(datatype(self), datatype(other)))\n    def __radd__(self, other):\n        raise AbstractionViolation(\"Can't add {} object to {}\".format(datatype(self), datatype(other)))\n    def __eq__(self, other):\n        if isinstance(other, type(self)):\n            return other is self\n        raise AbstractionViolation(\"Can't use == on {} object and {}\".format(datatype(self), datatype(other)))\n    def __ne__(self, other):",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "Match",
+        "kind": 6,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "class Match(Abstract):\n    def __init__(self, words, timestamps_per_player):\n        self.a, self.b = words, timestamps_per_player\n    def __repr__(self):\n        return '<Match {} {}>'.format(self.a, self.b)\nmatch = Match\nget_word = lambda u, v: u.a[v]\nget_all_words = lambda u: u.a\nget_all_times = lambda u: u.b\ntime = lambda u, v, w: u.b[v][w]",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "datatype",
+        "kind": 2,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "def datatype(obj):\n    return type(obj).__name__\n# Generic abstract data type\nclass Abstract:\n    def __add__(self, other):\n        raise AbstractionViolation(\"Can't add {} object to {}\".format(datatype(self), datatype(other)))\n    def __radd__(self, other):\n        raise AbstractionViolation(\"Can't add {} object to {}\".format(datatype(self), datatype(other)))\n    def __eq__(self, other):\n        if isinstance(other, type(self)):",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "swap_implementations",
+        "kind": 2,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "def swap_implementations(impl):\n    # save other implementations\n    old['match'] = impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time\n    # save our implementations\n    new_match = match, get_word, get_all_words, get_all_times, time\n    # replace impl's implementations with ours\n    impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time = match, get_word, get_all_words, get_all_times, time\ndef restore_implementations(impl):\n    impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time = old['match']",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "restore_implementations",
+        "kind": 2,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "def restore_implementations(impl):\n    impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time = old['match']",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "match",
+        "kind": 5,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "match = Match\nget_word = lambda u, v: u.a[v]\nget_all_words = lambda u: u.a\nget_all_times = lambda u: u.b\ntime = lambda u, v, w: u.b[v][w]\nold = {}\ndef swap_implementations(impl):\n    # save other implementations\n    old['match'] = impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time\n    # save our implementations",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "get_word",
+        "kind": 5,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "get_word = lambda u, v: u.a[v]\nget_all_words = lambda u: u.a\nget_all_times = lambda u: u.b\ntime = lambda u, v, w: u.b[v][w]\nold = {}\ndef swap_implementations(impl):\n    # save other implementations\n    old['match'] = impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time\n    # save our implementations\n    new_match = match, get_word, get_all_words, get_all_times, time",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_words",
+        "kind": 5,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "get_all_words = lambda u: u.a\nget_all_times = lambda u: u.b\ntime = lambda u, v, w: u.b[v][w]\nold = {}\ndef swap_implementations(impl):\n    # save other implementations\n    old['match'] = impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time\n    # save our implementations\n    new_match = match, get_word, get_all_words, get_all_times, time\n    # replace impl's implementations with ours",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_times",
+        "kind": 5,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "get_all_times = lambda u: u.b\ntime = lambda u, v, w: u.b[v][w]\nold = {}\ndef swap_implementations(impl):\n    # save other implementations\n    old['match'] = impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time\n    # save our implementations\n    new_match = match, get_word, get_all_words, get_all_times, time\n    # replace impl's implementations with ours\n    impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time = match, get_word, get_all_words, get_all_times, time",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 5,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "time = lambda u, v, w: u.b[v][w]\nold = {}\ndef swap_implementations(impl):\n    # save other implementations\n    old['match'] = impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time\n    # save our implementations\n    new_match = match, get_word, get_all_words, get_all_times, time\n    # replace impl's implementations with ours\n    impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time = match, get_word, get_all_words, get_all_times, time\ndef restore_implementations(impl):",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "old",
+        "kind": 5,
+        "importPath": "projects.cats.tests.abstraction_check",
+        "description": "projects.cats.tests.abstraction_check",
+        "peekOfCode": "old = {}\ndef swap_implementations(impl):\n    # save other implementations\n    old['match'] = impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time\n    # save our implementations\n    new_match = match, get_word, get_all_words, get_all_times, time\n    # replace impl's implementations with ours\n    impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time = match, get_word, get_all_words, get_all_times, time\ndef restore_implementations(impl):\n    impl.match, impl.get_word, impl.get_all_words, impl.get_all_times, impl.time = old['match']",
+        "detail": "projects.cats.tests.abstraction_check",
+        "documentation": {}
+    },
+    {
+        "label": "ExclusionChecker",
+        "kind": 6,
+        "importPath": "projects.cats.tests.construct_check",
+        "description": "projects.cats.tests.construct_check",
+        "peekOfCode": "class ExclusionChecker(NodeVisitor):\n    \"\"\"An AST visitor that checks that certain constructs are excluded from\n    parts of a program.  ExclusionChecker(EXC) checks that AST node types\n    whose names are in the sequence or set EXC are not present.  Its check\n    method visits nodes in a given function of a source file checking that the\n    indicated node types are not used.\"\"\"\n    def __init__(self, disallow=()):\n        \"\"\"DISALLOW is the initial default list of disallowed\n        node-type names.\"\"\"\n        self._disallow = set(disallow)",
+        "detail": "projects.cats.tests.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "projects.cats.tests.construct_check",
+        "description": "projects.cats.tests.construct_check",
+        "peekOfCode": "def check(source_file, checked_funcs, disallow, source=None):\n    \"\"\"Checks that AST nodes whose type names are present in DISALLOW\n    (an object supporting 'in') are not present in the function(s) named\n    CHECKED_FUNCS in SOURCE.  By default, SOURCE is the contents of the\n    file SOURCE_FILE.  CHECKED_FUNCS is either a string (indicating a single\n    name) or an object of some other type that supports 'in'. CHECKED_FUNCS\n    may contain __main__ to indicate an entire  module. Prints reports of\n    each prohibited node and returns True iff none are found.\n    See ast.__dir__() for AST type names.  The special node name 'Recursion'\n    checks for overtly recursive calls (i.e., calls of the form NAME(...) where",
+        "detail": "projects.cats.tests.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "_NAMES",
+        "kind": 5,
+        "importPath": "projects.cats.tests.construct_check",
+        "description": "projects.cats.tests.construct_check",
+        "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
+        "detail": "projects.cats.tests.construct_check",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.EC",
+        "description": "projects.cats.tests.EC",
+        "peekOfCode": "test = {\n  'name': 'Extra Credit',\n  'points': 1,\n  'suites': [\n      {\n      'cases': [\n        {\n          'answer': 'A function that takes another function as an input and returns a new function that extends or modifies the behavior of the original function',\n          'choices': [\n            'A type of design pattern',",
+        "detail": "projects.cats.tests.EC",
+        "documentation": {}
+    },
+    {
+        "label": "pick",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def pick(paragraphs, select, k):\n    \"\"\"Return the Kth paragraph from PARAGRAPHS for which SELECT called on the\n    paragraph returns True. If there are fewer than K such paragraphs, return\n    the empty string.\n    Arguments:\n        paragraphs: a list of strings\n        select: a function that returns True for paragraphs that can be selected\n        k: an integer\n    >>> ps = ['hi', 'how are you', 'fine']\n    >>> s = lambda p: len(p) <= 4",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def about(subject):\n    \"\"\"Return a select function that returns whether\n    a paragraph contains one of the words in SUBJECT.\n    Arguments:\n        subject: a list of words related to a subject\n    >>> about_dogs = about(['dog', 'dogs', 'pup', 'puppy'])\n    >>> pick(['Cute Dog!', 'That is a cat.', 'Nice pup!'], about_dogs, 0)\n    'Cute Dog!'\n    >>> pick(['Cute Dog!', 'That is a cat.', 'Nice pup.'], about_dogs, 1)\n    'Nice pup.'",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def accuracy(typed, source):\n    \"\"\"Return the accuracy (percentage of words typed correctly) of TYPED\n    when compared to the prefix of SOURCE that was typed.\n    Arguments:\n        typed: a string that may contain typos\n        source: a string without errors\n    >>> accuracy('Cute Dog!', 'Cute Dog.')\n    50.0\n    >>> accuracy('A Cute Dog!', 'Cute Dog.')\n    0.0",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "wpm",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def wpm(typed, elapsed):\n    \"\"\"Return the words-per-minute (WPM) of the TYPED string.\n    Arguments:\n        typed: an entered string\n        elapsed: an amount of time in seconds\n    >>> wpm('hello friend hello buddy hello', 15)\n    24.0\n    >>> wpm('0123456789',60)\n    2.0\n    \"\"\"",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "autocorrect",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def autocorrect(typed_word, word_list, diff_function, limit):\n    \"\"\"Returns the element of WORD_LIST that has the smallest difference\n    from TYPED_WORD. If multiple words are tied for the smallest difference,\n    return the one that appears closest to the front of WORD_LIST. If the\n    difference is greater than LIMIT, instead return TYPED_WORD.\n    Arguments:\n        typed_word: a string representing a word that may contain typos\n        word_list: a list of strings representing source words\n        diff_function: a function quantifying the difference between two words\n        limit: a number",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "feline_fixes",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def feline_fixes(typed, source, limit):\n    \"\"\"A diff function for autocorrect that determines how many letters\n    in TYPED need to be substituted to create SOURCE, then adds the difference in\n    their lengths and returns the result.\n    Arguments:\n        typed: a starting word\n        source: a string representing a desired goal word\n        limit: a number representing an upper bound on the number of chars that must change\n    >>> big_limit = 10\n    >>> feline_fixes(\"nice\", \"rice\", big_limit)    # Substitute: n -> r",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_mewtations",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def minimum_mewtations(typed, source, limit):\n    \"\"\"A diff function that computes the edit distance from TYPED to SOURCE.\n    This function takes in a string TYPED, a string SOURCE, and a number LIMIT.\n    Arguments:\n        typed: a starting word\n        source: a string representing a desired goal word\n        limit: a number representing an upper bound on the number of edits\n    >>> big_limit = 10\n    >>> minimum_mewtations(\"cats\", \"scat\", big_limit)       # cats -> scats -> scat\n    2",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "final_diff",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def final_diff(typed, source, limit):\n    \"\"\"A diff function that takes in a string TYPED, a string SOURCE, and a number LIMIT.\n    If you implement this function, it will be used.\"\"\"\n    assert False, 'Remove this line to use your final_diff function.'\nFINAL_DIFF_LIMIT = 6 # REPLACE THIS WITH YOUR LIMIT\n###########\n# Phase 3 #\n###########\ndef report_progress(typed, source, user_id, upload):\n    \"\"\"Upload a report of your id and progress so far to the multiplayer server.",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "report_progress",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def report_progress(typed, source, user_id, upload):\n    \"\"\"Upload a report of your id and progress so far to the multiplayer server.\n    Returns the progress so far.\n    Arguments:\n        typed: a list of the words typed so far\n        source: a list of the words in the typing source\n        user_id: a number representing the id of the current user\n        upload: a function used to upload progress to the multiplayer server\n    >>> print_progress = lambda d: print('ID:', d['id'], 'Progress:', d['progress'])\n    >>> # The above function displays progress in the format ID: __, Progress: __",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "time_per_word",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def time_per_word(words, timestamps_per_player):\n    \"\"\"Given timing data, return a match data abstraction, which contains a\n    list of words and the amount of time each player took to type each word.\n    Arguments:\n        words: a list of words, in the order they are typed.\n        timestamps_per_player: A list of lists of timestamps including the time\n                          the player started typing, followed by the time\n                          the player finished typing each word.\n    >>> p = [[75, 81, 84, 90, 92], [19, 29, 35, 36, 38]]\n    >>> match = time_per_word(['collar', 'plush', 'blush', 'repute'], p)",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "fastest_words",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def fastest_words(match):\n    \"\"\"Return a list of lists of which words each player typed fastest.\n    Arguments:\n        match: a match data abstraction as returned by time_per_word.\n    >>> p0 = [5, 1, 3]\n    >>> p1 = [4, 1, 6]\n    >>> fastest_words(match(['Just', 'have', 'fun'], [p0, p1]))\n    [['have', 'fun'], ['Just']]\n    >>> p0  # input lists should not be mutated\n    [5, 1, 3]",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "match",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def match(words, times):\n    \"\"\"A data abstraction containing all words typed and their times.\n    Arguments:\n        words: A list of strings, each string representing a word typed.\n        times: A list of lists for how long it took for each player to type\n            each word.\n            times[i][j] = time it took for player i to type words[j].\n    Example input:\n        words: ['Hello', 'world']\n        times: [[5, 1], [4, 2]]",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "get_word",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def get_word(match, word_index):\n    \"\"\"A utility function that gets the word with index word_index\"\"\"\n    assert 0 <= word_index < len(get_all_words(match)), \"word_index out of range of words\"\n    return get_all_words(match)[word_index]\ndef time(match, player_num, word_index):\n    \"\"\"A utility function for the time it took player_num to type the word at word_index\"\"\"\n    assert word_index < len(get_all_words(match)), \"word_index out of range of words\"\n    assert player_num < len(get_all_times(match)), \"player_num out of range of players\"\n    return get_all_times(match)[player_num][word_index]\ndef get_all_words(match):",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def time(match, player_num, word_index):\n    \"\"\"A utility function for the time it took player_num to type the word at word_index\"\"\"\n    assert word_index < len(get_all_words(match)), \"word_index out of range of words\"\n    assert player_num < len(get_all_times(match)), \"player_num out of range of players\"\n    return get_all_times(match)[player_num][word_index]\ndef get_all_words(match):\n    \"\"\"A selector function for all the words in the match\"\"\"\n    return match[\"words\"]\ndef get_all_times(match):\n    \"\"\"A selector function for all typing times for all players\"\"\"",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_words",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def get_all_words(match):\n    \"\"\"A selector function for all the words in the match\"\"\"\n    return match[\"words\"]\ndef get_all_times(match):\n    \"\"\"A selector function for all typing times for all players\"\"\"\n    return match[\"times\"]\ndef match_string(match):\n    \"\"\"A helper function that takes in a match data abstraction and returns a string representation of it\"\"\"\n    return f\"match({get_all_words(match)}, {get_all_times(match)})\"\nenable_multiplayer = False  # Change to True when you're ready to race.",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_times",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def get_all_times(match):\n    \"\"\"A selector function for all typing times for all players\"\"\"\n    return match[\"times\"]\ndef match_string(match):\n    \"\"\"A helper function that takes in a match data abstraction and returns a string representation of it\"\"\"\n    return f\"match({get_all_words(match)}, {get_all_times(match)})\"\nenable_multiplayer = False  # Change to True when you're ready to race.\n##########################\n# Command Line Interface #\n##########################",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "match_string",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def match_string(match):\n    \"\"\"A helper function that takes in a match data abstraction and returns a string representation of it\"\"\"\n    return f\"match({get_all_words(match)}, {get_all_times(match)})\"\nenable_multiplayer = False  # Change to True when you're ready to race.\n##########################\n# Command Line Interface #\n##########################\ndef run_typing_test(topics):\n    \"\"\"Measure typing speed and accuracy on the command line.\"\"\"\n    paragraphs = lines_from_file('data/sample_paragraphs.txt')",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "run_typing_test",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def run_typing_test(topics):\n    \"\"\"Measure typing speed and accuracy on the command line.\"\"\"\n    paragraphs = lines_from_file('data/sample_paragraphs.txt')\n    select = lambda p: True\n    if topics:\n        select = about(topics)\n    i = 0\n    while True:\n        source = pick(paragraphs, select, i)\n        if not source:",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "def run(*args):\n    \"\"\"Read in the command-line argument and calls corresponding functions.\"\"\"\n    import argparse\n    parser = argparse.ArgumentParser(description=\"Typing Test\")\n    parser.add_argument('topic', help=\"Topic word\", nargs='*')\n    parser.add_argument('-t', help=\"Run typing test\", action='store_true')\n    args = parser.parse_args()\n    if args.t:\n        run_typing_test(args.topic)",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "FINAL_DIFF_LIMIT",
+        "kind": 5,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "FINAL_DIFF_LIMIT = 6 # REPLACE THIS WITH YOUR LIMIT\n###########\n# Phase 3 #\n###########\ndef report_progress(typed, source, user_id, upload):\n    \"\"\"Upload a report of your id and progress so far to the multiplayer server.\n    Returns the progress so far.\n    Arguments:\n        typed: a list of the words typed so far\n        source: a list of the words in the typing source",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "enable_multiplayer",
+        "kind": 5,
+        "importPath": "projects.cats.cats",
+        "description": "projects.cats.cats",
+        "peekOfCode": "enable_multiplayer = False  # Change to True when you're ready to race.\n##########################\n# Command Line Interface #\n##########################\ndef run_typing_test(topics):\n    \"\"\"Measure typing speed and accuracy on the command line.\"\"\"\n    paragraphs = lines_from_file('data/sample_paragraphs.txt')\n    select = lambda p: True\n    if topics:\n        select = about(topics)",
+        "detail": "projects.cats.cats",
+        "documentation": {}
+    },
+    {
+        "label": "request_paragraph",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def request_paragraph(topics=None):\n    \"\"\"Return a random paragraph.\"\"\"\n    paragraphs = cats.lines_from_file(PARAGRAPH_PATH)\n    random.shuffle(paragraphs)\n    select = cats.about(topics) if topics else lambda x: True\n    return cats.pick(paragraphs, select, 0)\n@route\ndef analyze(prompted_text, typed_text, start_time, end_time):\n    \"\"\"Return [wpm, accuracy].\"\"\"\n    return {",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "analyze",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def analyze(prompted_text, typed_text, start_time, end_time):\n    \"\"\"Return [wpm, accuracy].\"\"\"\n    return {\n        \"wpm\": cats.wpm(typed_text, end_time - start_time),\n        \"accuracy\": cats.accuracy(typed_text, prompted_text),\n    }\ndef similar(w, v, n):\n    \"\"\"Whether W intersect V contains at least |W|-N and |V|-N elements.\"\"\"\n    intersect = len(w.intersection(v))\n    return intersect >= len(w) - n and intersect >= len(v) - n",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "similar",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def similar(w, v, n):\n    \"\"\"Whether W intersect V contains at least |W|-N and |V|-N elements.\"\"\"\n    intersect = len(w.intersection(v))\n    return intersect >= len(w) - n and intersect >= len(v) - n\n@route\ndef autocorrect(word=\"\"):\n    \"\"\"Call autocorrect using the best score function available.\"\"\"\n    raw_word = word\n    word = cats.lower(cats.remove_punctuation(raw_word))\n    if word in WORDS_SET or word == \"\":",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "autocorrect",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def autocorrect(word=\"\"):\n    \"\"\"Call autocorrect using the best score function available.\"\"\"\n    raw_word = word\n    word = cats.lower(cats.remove_punctuation(raw_word))\n    if word in WORDS_SET or word == \"\":\n        return raw_word\n    # Heuristically choose candidate words to score.\n    letters = set(word)\n    candidates = [w for w, s in LETTER_SETS if similar(s, letters, SIMILARITY_LIMIT)]\n    # Try various diff functions until one doesn't raise an exception.",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "reformat",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def reformat(word, raw_word):\n    \"\"\"Reformat WORD to match the capitalization and punctuation of RAW_WORD.\"\"\"\n    # handle capitalization\n    if raw_word != \"\" and raw_word[0].isupper():\n        word = word.capitalize()\n    # find the boundaries of the raw word\n    first = 0\n    while first < len(raw_word) and raw_word[first] in string.punctuation:\n        first += 1\n    last = len(raw_word) - 1",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "request_id",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def request_id():\n    if not cats.enable_multiplayer:\n        return\n    return Server.provide_id()\n@route\ndef report_progress(id, typed, prompt):\n    \"\"\"Report progress to the multiplayer server and also return it.\"\"\"\n    typed = typed.split()  # A list of word strings\n    prompt = prompt.split()  # A list of word strings\n    return cats.report_progress(typed, prompt, id, sendto(Server.set_progress))",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "report_progress",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def report_progress(id, typed, prompt):\n    \"\"\"Report progress to the multiplayer server and also return it.\"\"\"\n    typed = typed.split()  # A list of word strings\n    prompt = prompt.split()  # A list of word strings\n    return cats.report_progress(typed, prompt, id, sendto(Server.set_progress))\n@route\ndef fastest_words(prompt, targets):\n    \"\"\"Return a list of word_speed values describing the match.\"\"\"\n    words = prompt.split()\n    progress = Server.request_all_progress(targets=targets)",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "fastest_words",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def fastest_words(prompt, targets):\n    \"\"\"Return a list of word_speed values describing the match.\"\"\"\n    words = prompt.split()\n    progress = Server.request_all_progress(targets=targets)\n    start_times = [p[0][1] for p in progress]\n    times_per_player = [[p[1] - s for p in ps] for s, ps in zip(start_times, progress)]\n    match = cats.time_per_word(words, times_per_player)\n    return cats.fastest_words(match)\nmultiplayer.create_multiplayer_server()\n###############",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "favicon",
+        "kind": 2,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "def favicon():\n    favicon_folder = \"favicons\"\n    favicons = os.listdir(favicon_folder)\n    path = os.path.join(favicon_folder, random.choice(favicons))\n    with open(path, \"rb\") as f:\n        data = f.read()\n    image_b64 = base64.b64encode(data).decode(\"utf-8\")\n    return \"data:image/png;base64,\" + image_b64\nif __name__ == \"__main__\" or os.environ.get(\"ENV\") == \"prod\":\n    app = start(PORT, DEFAULT_SERVER, GUI_FOLDER, multiplayer.db_init)",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "PORT",
+        "kind": 5,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "PORT = 31415\nDEFAULT_SERVER = \"https://cats.cs61a.org\"\nGUI_FOLDER = \"gui_files/\"\nPARAGRAPH_PATH = \"./data/sample_paragraphs.txt\"\nWORDS_LIST = cats.lines_from_file(\"data/words.txt\")\nWORDS_SET = set(WORDS_LIST)\nLETTER_SETS = [(w, set(w)) for w in WORDS_LIST]\nSIMILARITY_LIMIT = 2\n@route\ndef request_paragraph(topics=None):",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_SERVER",
+        "kind": 5,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "DEFAULT_SERVER = \"https://cats.cs61a.org\"\nGUI_FOLDER = \"gui_files/\"\nPARAGRAPH_PATH = \"./data/sample_paragraphs.txt\"\nWORDS_LIST = cats.lines_from_file(\"data/words.txt\")\nWORDS_SET = set(WORDS_LIST)\nLETTER_SETS = [(w, set(w)) for w in WORDS_LIST]\nSIMILARITY_LIMIT = 2\n@route\ndef request_paragraph(topics=None):\n    \"\"\"Return a random paragraph.\"\"\"",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "GUI_FOLDER",
+        "kind": 5,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "GUI_FOLDER = \"gui_files/\"\nPARAGRAPH_PATH = \"./data/sample_paragraphs.txt\"\nWORDS_LIST = cats.lines_from_file(\"data/words.txt\")\nWORDS_SET = set(WORDS_LIST)\nLETTER_SETS = [(w, set(w)) for w in WORDS_LIST]\nSIMILARITY_LIMIT = 2\n@route\ndef request_paragraph(topics=None):\n    \"\"\"Return a random paragraph.\"\"\"\n    paragraphs = cats.lines_from_file(PARAGRAPH_PATH)",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "PARAGRAPH_PATH",
+        "kind": 5,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "PARAGRAPH_PATH = \"./data/sample_paragraphs.txt\"\nWORDS_LIST = cats.lines_from_file(\"data/words.txt\")\nWORDS_SET = set(WORDS_LIST)\nLETTER_SETS = [(w, set(w)) for w in WORDS_LIST]\nSIMILARITY_LIMIT = 2\n@route\ndef request_paragraph(topics=None):\n    \"\"\"Return a random paragraph.\"\"\"\n    paragraphs = cats.lines_from_file(PARAGRAPH_PATH)\n    random.shuffle(paragraphs)",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "WORDS_LIST",
+        "kind": 5,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "WORDS_LIST = cats.lines_from_file(\"data/words.txt\")\nWORDS_SET = set(WORDS_LIST)\nLETTER_SETS = [(w, set(w)) for w in WORDS_LIST]\nSIMILARITY_LIMIT = 2\n@route\ndef request_paragraph(topics=None):\n    \"\"\"Return a random paragraph.\"\"\"\n    paragraphs = cats.lines_from_file(PARAGRAPH_PATH)\n    random.shuffle(paragraphs)\n    select = cats.about(topics) if topics else lambda x: True",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "WORDS_SET",
+        "kind": 5,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "WORDS_SET = set(WORDS_LIST)\nLETTER_SETS = [(w, set(w)) for w in WORDS_LIST]\nSIMILARITY_LIMIT = 2\n@route\ndef request_paragraph(topics=None):\n    \"\"\"Return a random paragraph.\"\"\"\n    paragraphs = cats.lines_from_file(PARAGRAPH_PATH)\n    random.shuffle(paragraphs)\n    select = cats.about(topics) if topics else lambda x: True\n    return cats.pick(paragraphs, select, 0)",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "LETTER_SETS",
+        "kind": 5,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "LETTER_SETS = [(w, set(w)) for w in WORDS_LIST]\nSIMILARITY_LIMIT = 2\n@route\ndef request_paragraph(topics=None):\n    \"\"\"Return a random paragraph.\"\"\"\n    paragraphs = cats.lines_from_file(PARAGRAPH_PATH)\n    random.shuffle(paragraphs)\n    select = cats.about(topics) if topics else lambda x: True\n    return cats.pick(paragraphs, select, 0)\n@route",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "SIMILARITY_LIMIT",
+        "kind": 5,
+        "importPath": "projects.cats.cats_gui",
+        "description": "projects.cats.cats_gui",
+        "peekOfCode": "SIMILARITY_LIMIT = 2\n@route\ndef request_paragraph(topics=None):\n    \"\"\"Return a random paragraph.\"\"\"\n    paragraphs = cats.lines_from_file(PARAGRAPH_PATH)\n    random.shuffle(paragraphs)\n    select = cats.about(topics) if topics else lambda x: True\n    return cats.pick(paragraphs, select, 0)\n@route\ndef analyze(prompted_text, typed_text, start_time, end_time):",
+        "detail": "projects.cats.cats_gui",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "projects.cats.ucb",
+        "description": "projects.cats.ucb",
+        "peekOfCode": "def main(fn):\n    \"\"\"Call fn with command line arguments.  Used as a decorator.\n    The main decorator marks the function that starts a program. For example,\n    @main\n    def my_run_function():\n        # function body\n    Use this instead of the typical __name__ == \"__main__\" predicate.\n    \"\"\"\n    if inspect.stack()[1][0].f_locals['__name__'] == '__main__':\n        args = sys.argv[1:] # Discard the script name from command line",
+        "detail": "projects.cats.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "trace",
+        "kind": 2,
+        "importPath": "projects.cats.ucb",
+        "description": "projects.cats.ucb",
+        "peekOfCode": "def trace(fn):\n    \"\"\"A decorator that prints a function's name, its arguments, and its return\n    values each time the function is called. For example,\n    @trace\n    def compute_something(x, y):\n        # function body\n    \"\"\"\n    @functools.wraps(fn)\n    def wrapped(*args, **kwds):\n        global _PREFIX",
+        "detail": "projects.cats.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "kind": 2,
+        "importPath": "projects.cats.ucb",
+        "description": "projects.cats.ucb",
+        "peekOfCode": "def log(message):\n    \"\"\"Print an indented message (used with trace).\"\"\"\n    print(_PREFIX + re.sub('\\n', '\\n' + _PREFIX, str(message)))\ndef log_current_line():\n    \"\"\"Print information about the current line of code.\"\"\"\n    frame = inspect.stack()[1]\n    log('Current line: File \"{f[1]}\", line {f[2]}, in {f[3]}'.format(f=frame))\ndef interact(msg=None):\n    \"\"\"Start an interactive interpreter session in the current environment.\n    On Unix:",
+        "detail": "projects.cats.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "log_current_line",
+        "kind": 2,
+        "importPath": "projects.cats.ucb",
+        "description": "projects.cats.ucb",
+        "peekOfCode": "def log_current_line():\n    \"\"\"Print information about the current line of code.\"\"\"\n    frame = inspect.stack()[1]\n    log('Current line: File \"{f[1]}\", line {f[2]}, in {f[3]}'.format(f=frame))\ndef interact(msg=None):\n    \"\"\"Start an interactive interpreter session in the current environment.\n    On Unix:\n      <Control>-D exits the interactive session and returns to normal execution.\n    In Windows:\n      <Control>-Z <Enter> exits the interactive session and returns to normal",
+        "detail": "projects.cats.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "interact",
+        "kind": 2,
+        "importPath": "projects.cats.ucb",
+        "description": "projects.cats.ucb",
+        "peekOfCode": "def interact(msg=None):\n    \"\"\"Start an interactive interpreter session in the current environment.\n    On Unix:\n      <Control>-D exits the interactive session and returns to normal execution.\n    In Windows:\n      <Control>-Z <Enter> exits the interactive session and returns to normal\n      execution.\n    \"\"\"\n    # evaluate commands in current namespace\n    frame = inspect.currentframe().f_back",
+        "detail": "projects.cats.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "_PREFIX",
+        "kind": 5,
+        "importPath": "projects.cats.ucb",
+        "description": "projects.cats.ucb",
+        "peekOfCode": "_PREFIX = ''\ndef trace(fn):\n    \"\"\"A decorator that prints a function's name, its arguments, and its return\n    values each time the function is called. For example,\n    @trace\n    def compute_something(x, y):\n        # function body\n    \"\"\"\n    @functools.wraps(fn)\n    def wrapped(*args, **kwds):",
+        "detail": "projects.cats.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "lines_from_file",
+        "kind": 2,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "def lines_from_file(path):\n    \"\"\"Return a list of strings, one for each line in a file.\"\"\"\n    with open(path, 'r') as f:\n        return [line.strip() for line in f.readlines()]\ndef remove_punctuation(s):\n    \"\"\"Return a string with the same contents as s, but with punctuation removed.\n    >>> remove_punctuation(\"It's a lovely day, don't you think?\")\n    'Its a lovely day dont you think'\n    >>> remove_punctuation(\"Its a lovely day dont you think\")\n    'Its a lovely day dont you think'",
+        "detail": "projects.cats.utils",
+        "documentation": {}
+    },
+    {
+        "label": "remove_punctuation",
+        "kind": 2,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "def remove_punctuation(s):\n    \"\"\"Return a string with the same contents as s, but with punctuation removed.\n    >>> remove_punctuation(\"It's a lovely day, don't you think?\")\n    'Its a lovely day dont you think'\n    >>> remove_punctuation(\"Its a lovely day dont you think\")\n    'Its a lovely day dont you think'\n    \"\"\"\n    punctuation_remover = str.maketrans('', '', string.punctuation)\n    return s.strip().translate(punctuation_remover)\ndef lower(s):",
+        "detail": "projects.cats.utils",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "kind": 2,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "def lower(s):\n    \"\"\"Return a lowercased version of s.\n    >>> lower(\"HELLO\")\n    'hello'\n    >>> lower(\"World\")\n    'world'\n    >>> lower(\"hello WORLD\")\n    'hello world'\n    \"\"\"\n    return s.lower()",
+        "detail": "projects.cats.utils",
+        "documentation": {}
+    },
+    {
+        "label": "split",
+        "kind": 2,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "def split(s):\n    \"\"\"Return a list of words contained in s, which are sequences of characters\n    separated by whitespace (spaces, tabs, etc.).\n    >>> split(\"It's a lovely day, don't you think?\")\n    [\"It's\", 'a', 'lovely', 'day,', \"don't\", 'you', 'think?']\n    \"\"\"\n    return s.split()\n#############################\n# Keyboard layout functions #\n#############################",
+        "detail": "projects.cats.utils",
+        "documentation": {}
+    },
+    {
+        "label": "distance",
+        "kind": 2,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "def distance(p1, p2):\n    \"\"\"Return the Euclidean distance between two points\n    The Euclidean distance between two points, (x1, y1) and (x2, y2)\n    is the square root of (x1 - x2) ** 2 + (y1 - y2) ** 2\n    >>> distance((0, 1), (1, 1))\n    1.0\n    >>> distance((1, 1), (1, 1))\n    0.0\n    >>> round(distance((4, 0), (0, 4)), 3)\n    5.657",
+        "detail": "projects.cats.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_key_distances",
+        "kind": 2,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "def get_key_distances():\n    \"\"\"Return a new dictionary mapping key pairs to distances.\n    Each key of the dictionary is a tuple of two\n    letters as strings, and each value is the euclidean distance\n    between the two letters on a standard QWERTY keyboard, normalized\n    The scaling is constant, so a pair of keys that are twice\n    as far have a distance value that is twice as great\n    >>> distances = get_key_distances()\n    >>> distances[\"a\", \"a\"]\n    0.0",
+        "detail": "projects.cats.utils",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 2,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "def count(f):\n    \"\"\"Keeps track of the number of times a function f is called using the\n    variable call_count\n    >>> def factorial(n):\n    ...     if n <= 1:\n    ...         return 1\n    ...     return n * factorial(n - 1)\n    >>> factorial = count(factorial)\n    >>> factorial(5)\n    120",
+        "detail": "projects.cats.utils",
+        "documentation": {}
+    },
+    {
+        "label": "deep_convert_to_tuple",
+        "kind": 2,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "def deep_convert_to_tuple(sequence):\n    \"\"\"Deeply converts tuples to lists.\n    >>> deep_convert_to_tuple(5)\n    5\n    >>> deep_convert_to_tuple([2, 'hi'])\n    (2, 'hi')\n    >>> deep_convert_to_tuple([['These', 'are', 'all'], ['tuples.']])\n    (('These', 'are', 'all'), ('tuples.',))\n    \"\"\"\n    if isinstance(sequence, list) or isinstance(sequence, tuple):",
+        "detail": "projects.cats.utils",
+        "documentation": {}
+    },
+    {
+        "label": "KEY_LAYOUT",
+        "kind": 5,
+        "importPath": "projects.cats.utils",
+        "description": "projects.cats.utils",
+        "peekOfCode": "KEY_LAYOUT = [[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"0\",\"-\",\"=\"],\n              [\"q\", \"w\", \"e\", \"r\", \"t\", \"y\", \"u\", \"i\", \"o\", \"p\",\"[\",\"]\"],\n              [\"a\", \"s\", \"d\", \"f\", \"g\", \"h\", \"j\", \"k\", \"l\",\";\",\"'\"],\n              [\"z\", \"x\", \"c\", \"v\", \"b\", \"n\", \"m\",\",\",\".\",\"/\"],\n              [\" \"]]\ndef distance(p1, p2):\n    \"\"\"Return the Euclidean distance between two points\n    The Euclidean distance between two points, (x1, y1) and (x2, y2)\n    is the square root of (x1 - x2) ** 2 + (y1 - y2) ** 2\n    >>> distance((0, 1), (1, 1))",
+        "detail": "projects.cats.utils",
         "documentation": {}
     },
     {
