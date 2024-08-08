@@ -39,7 +39,6 @@ def pick(paragraphs, select, k):
         return ''
     # END PROBLEM 1
 
-import re
 
 def about(subject):
     """Return a select function that returns whether
@@ -156,16 +155,21 @@ def autocorrect(typed_word, word_list, diff_function, limit):
     """
     # BEGIN PROBLEM 5
     "*** YOUR CODE HERE ***"
-    closest_word = typed_word
-    minimum_diff = limit + 1
+    best_match = typed_word
+    smallest_diff = float('inf')
 
     for word in word_list:
         diff = diff_function(typed_word, word, limit)
-        if diff < minimum_diff:
-            minimum_diff = diff
-            closest_word = word
+        if typed_word == word:
+            return typed_word
+        if diff < smallest_diff:
+            smallest_diff = diff
+            best_match = word
 
-    return closest_word if minimum_diff <= limit else typed_word
+    if smallest_diff > limit:
+        return typed_word
+    else:
+        return best_match
     # END PROBLEM 5
 
 
@@ -192,7 +196,23 @@ def feline_fixes(typed, source, limit):
     5
     """
     # BEGIN PROBLEM 6
-    assert False, 'Remove this line'
+   # Helper function to count the substitutions
+    def count_substitutions(typed, source, index, changes):
+        if changes > limit:  # If the changes exceed the limit, return a large number
+            return changes
+        if index == len(typed) or index == len(source):  # If we reach the end of either string
+            return changes
+        
+        if typed[index] != source[index]:
+            changes += 1  # Increment the substitution count if characters differ
+        
+        return count_substitutions(typed, source, index + 1, changes)
+    
+    substitutions = count_substitutions(typed,source,0,0)
+    
+    length_diff = abs(len(typed) - len(source))
+    
+    return length_diff + substitutions
     # END PROBLEM 6
 
 
@@ -216,7 +236,6 @@ def minimum_mewtations(typed, source, limit):
     >>> minimum_mewtations("ckiteus", "kittens", big_limit) # ckiteus -> kiteus -> kitteus -> kittens
     3
     """
-    assert False, 'Remove this line'
     if ___________: # Base cases should go here, you may add more base cases as needed.
         # BEGIN
         "*** YOUR CODE HERE ***"
