@@ -236,28 +236,37 @@ def minimum_mewtations(typed, source, limit):
     >>> minimum_mewtations("ckiteus", "kittens", big_limit) # ckiteus -> kiteus -> kitteus -> kittens
     3
     """
-    if ___________: # Base cases should go here, you may add more base cases as needed.
-        # BEGIN
-        "*** YOUR CODE HERE ***"
-        # END
-    # Recursive cases should go below here
-    if ___________: # Feel free to remove or add additional cases
-        # BEGIN
-        "*** YOUR CODE HERE ***"
-        # END
-    else:
-        add = ... # Fill in these lines
-        remove = ...
-        substitute = ...
-        # BEGIN
-        "*** YOUR CODE HERE ***"
-        # END
+    def edit(i,j,edits):
+        if edits > limit:
+            return edits
+        if i == len(typed):
+            return len(source) - j + edits
+        if j == len(source):
+            return len(typed) - i + edits
+        
+        if typed[i] == source[j]:
+            return edit(i + 1,j + 1, edits)
+        
+        insert_cost = edit(i,j + 1,edits + 1)
+        delete_cost = edit(i + 1,j,edits + 1)
+        substitute_cost = edit(i + 1,j + 1,edits + 1)
+        
+        return min(insert_cost,delete_cost,substitute_cost)
 
+    return edit(0,0,0)
 
 def final_diff(typed, source, limit):
     """A diff function that takes in a string TYPED, a string SOURCE, and a number LIMIT.
-    If you implement this function, it will be used."""
-    assert False, 'Remove this line to use your final_diff function.'
+    Returns 1 if the last characters of TYPED and SOURCE are different, otherwise returns 0.
+    Arguments:
+        typed: a string representing the input word
+        source: a string representing the target word
+        limit: a number representing an upper bound on the number of edits
+    Returns:
+        int: 1 if last characters of typed and source differ, 0 otherwise.
+    """
+    return 1 if typed[-1] != source[-1] else 0
+    # Compare the last characters of both strings
 
 FINAL_DIFF_LIMIT = 6 # REPLACE THIS WITH YOUR LIMIT
 
@@ -292,6 +301,15 @@ def report_progress(typed, source, user_id, upload):
     """
     # BEGIN PROBLEM 8
     "*** YOUR CODE HERE ***"
+    progress = 0
+    for i in range(len(typed)):
+        if typed[i] == source[i]:
+            progress += 1
+        else:
+            break
+    progress_ratio = float(progress) / len(source)
+    upload({'id':user_id,'progress':progress_ratio})
+    print(progress_ratio)
     # END PROBLEM 8
 
 
@@ -314,6 +332,14 @@ def time_per_word(words, timestamps_per_player):
     """
     # BEGIN PROBLEM 9
     "*** YOUR CODE HERE ***"
+    times = []
+    for player in timestamps_per_player:
+        player_times = []
+        for i in range(1,len(player)):
+            player_times.append(player[i] - player[i - 1])
+        times.append(player_times)
+    
+    return match(words,times)
     # END PROBLEM 9
 
 
@@ -336,6 +362,17 @@ def fastest_words(match):
     word_indices = range(len(get_all_words(match)))    # contains an *index* for each word
     # BEGIN PROBLEM 10
     "*** YOUR CODE HERE ***"
+    fastest_indices = [[] for _ in player_indices]
+    for word in word_indices:
+        fastest_time = float('inf')
+        fastest_index = 0
+        for player in player_indices:
+            if time(match,player,word) < fastest_time:
+                fastest_time = time(match,player,word)
+                fastest_index = player
+        fastest_indices[fastest_index].append(get_word(match,word))       
+                    
+    return fastest_indices        
     # END PROBLEM 10
 
 

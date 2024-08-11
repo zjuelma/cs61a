@@ -2289,7 +2289,7 @@
         "kind": 2,
         "importPath": "projects.cats.cats",
         "description": "projects.cats.cats",
-        "peekOfCode": "def final_diff(typed, source, limit):\n    \"\"\"A diff function that takes in a string TYPED, a string SOURCE, and a number LIMIT.\n    If you implement this function, it will be used.\"\"\"\n    assert False, 'Remove this line to use your final_diff function.'\nFINAL_DIFF_LIMIT = 6 # REPLACE THIS WITH YOUR LIMIT\n###########\n# Phase 3 #\n###########\ndef report_progress(typed, source, user_id, upload):\n    \"\"\"Upload a report of your id and progress so far to the multiplayer server.",
+        "peekOfCode": "def final_diff(typed, source, limit):\n    \"\"\"A diff function that takes in a string TYPED, a string SOURCE, and a number LIMIT.\n    Returns 1 if the last characters of TYPED and SOURCE are different, otherwise returns 0.\n    Arguments:\n        typed: a string representing the input word\n        source: a string representing the target word\n        limit: a number representing an upper bound on the number of edits\n    Returns:\n        int: 1 if last characters of typed and source differ, 0 otherwise.\n    \"\"\"",
         "detail": "projects.cats.cats",
         "documentation": {}
     },
