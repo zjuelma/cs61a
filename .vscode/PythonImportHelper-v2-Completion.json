@@ -1651,6 +1651,204 @@
         "documentation": {}
     },
     {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab05.tests.iterators-wwpd",
+        "description": "lab.lab05.tests.iterators-wwpd",
+        "peekOfCode": "test = {\n  'name': 'Iterators',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> # Enter StopIteration if StopIteration exception occurs, Error for other errors\n          >>> # Enter Iterator if the output is an iterator object.",
+        "detail": "lab.lab05.tests.iterators-wwpd",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": "lab.lab05.tests.list-mutation",
+        "description": "lab.lab05.tests.list-mutation",
+        "peekOfCode": "test = {\n  'name': 'List Mutation',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> # If nothing would be output by Python, type Nothing\n          >>> # If the code would error, type Error",
+        "detail": "lab.lab05.tests.list-mutation",
+        "documentation": {}
+    },
+    {
+        "label": "insert_items",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def insert_items(s, before, after):\n    \"\"\"Insert after into s after each occurrence of before and then return s.\n    >>> test_s = [1, 5, 8, 5, 2, 3]\n    >>> new_s = insert_items(test_s, 5, 7)\n    >>> new_s\n    [1, 5, 7, 8, 5, 7, 2, 3]\n    >>> test_s\n    [1, 5, 7, 8, 5, 7, 2, 3]\n    >>> new_s is test_s\n    True",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "group_by",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def group_by(s, fn):\n    \"\"\"Return a dictionary of lists that together contain the elements of s.\n    The key for each list is the value that fn returns when called on any of the\n    values of that list.\n    >>> group_by([12, 23, 14, 45], lambda p: p // 10)\n    {1: [12, 14], 2: [23], 4: [45]}\n    >>> group_by(range(-3, 4), lambda x: x * x)\n    {9: [-3, 3], 4: [-2, 2], 1: [-1, 1], 0: [0]}\n    \"\"\"\n    grouped = {}",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "count_occurrences",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def count_occurrences(t, n, x):\n    \"\"\"Return the number of times that x is equal to one of the\n    first n elements of iterator t.\n    >>> s = iter([10, 9, 10, 9, 9, 10, 8, 8, 8, 7])\n    >>> count_occurrences(s, 10, 9)\n    3\n    >>> t = iter([10, 9, 10, 9, 9, 10, 8, 8, 8, 7])\n    >>> count_occurrences(t, 3, 10)\n    2\n    >>> u = iter([3, 2, 2, 2, 1, 2, 1, 4, 4, 5, 5, 5])",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "repeated",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def repeated(t, k):\n    \"\"\"Return the first value in iterator t that appears k times in a row,\n    calling next on t as few times as possible.\n    >>> s = iter([10, 9, 10, 9, 9, 10, 8, 8, 8, 7])\n    >>> repeated(s, 2)\n    9\n    >>> t = iter([10, 9, 10, 9, 9, 10, 8, 8, 8, 7])\n    >>> repeated(t, 3)\n    8\n    >>> u = iter([3, 2, 2, 2, 1, 2, 1, 4, 4, 5, 5, 5])",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "sprout_leaves",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def sprout_leaves(t, leaves):\n    \"\"\"Sprout new leaves containing the labels in leaves at each leaf of\n    the original tree t and return the resulting tree.\n    >>> t1 = tree(1, [tree(2), tree(3)])\n    >>> print_tree(t1)\n    1\n      2\n      3\n    >>> new1 = sprout_leaves(t1, [4, 5])\n    >>> print_tree(new1)",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "partial_reverse",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def partial_reverse(s, start):\n    \"\"\"Reverse part of a list in-place, starting with start up to the end of\n    the list.\n    >>> a = [1, 2, 3, 4, 5, 6, 7]\n    >>> partial_reverse(a, 2)\n    >>> a\n    [1, 2, 7, 6, 5, 4, 3]\n    >>> partial_reverse(a, 5)\n    >>> a\n    [1, 2, 7, 6, 5, 3, 4]",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def tree(label, branches=[]):\n    \"\"\"Construct a tree with the given label value and a list of branches.\"\"\"\n    for branch in branches:\n        assert is_tree(branch), 'branches must be trees'\n    return [label] + list(branches)\ndef label(tree):\n    \"\"\"Return the label value of a tree.\"\"\"\n    return tree[0]\ndef branches(tree):\n    \"\"\"Return the list of branches of the given tree.\"\"\"",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "label",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def label(tree):\n    \"\"\"Return the label value of a tree.\"\"\"\n    return tree[0]\ndef branches(tree):\n    \"\"\"Return the list of branches of the given tree.\"\"\"\n    return tree[1:]\ndef is_tree(tree):\n    \"\"\"Returns True if the given tree is a tree, and False otherwise.\"\"\"\n    if type(tree) != list or len(tree) < 1:\n        return False",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "branches",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def branches(tree):\n    \"\"\"Return the list of branches of the given tree.\"\"\"\n    return tree[1:]\ndef is_tree(tree):\n    \"\"\"Returns True if the given tree is a tree, and False otherwise.\"\"\"\n    if type(tree) != list or len(tree) < 1:\n        return False\n    for branch in branches(tree):\n        if not is_tree(branch):\n            return False",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "is_tree",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def is_tree(tree):\n    \"\"\"Returns True if the given tree is a tree, and False otherwise.\"\"\"\n    if type(tree) != list or len(tree) < 1:\n        return False\n    for branch in branches(tree):\n        if not is_tree(branch):\n            return False\n    return True\ndef is_leaf(tree):\n    \"\"\"Returns True if the given tree's list of branches is empty, and False",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "is_leaf",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def is_leaf(tree):\n    \"\"\"Returns True if the given tree's list of branches is empty, and False\n    otherwise.\n    \"\"\"\n    return not branches(tree)\ndef print_tree(t, indent=0):\n    \"\"\"Print a representation of this tree in which each node is\n    indented by two spaces times its depth from the root.\n    >>> print_tree(tree(1))\n    1",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "print_tree",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def print_tree(t, indent=0):\n    \"\"\"Print a representation of this tree in which each node is\n    indented by two spaces times its depth from the root.\n    >>> print_tree(tree(1))\n    1\n    >>> print_tree(tree(1, [tree(2)]))\n    1\n      2\n    >>> numbers = tree(1, [tree(2), tree(3, [tree(4), tree(5)]), tree(6, [tree(7)])])\n    >>> print_tree(numbers)",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "copy_tree",
+        "kind": 2,
+        "importPath": "lab.lab05.lab05",
+        "description": "lab.lab05.lab05",
+        "peekOfCode": "def copy_tree(t):\n    \"\"\"Returns a copy of t. Only for testing purposes.\n    >>> t = tree(5)\n    >>> copy = copy_tree(t)\n    >>> t = tree(6)\n    >>> print_tree(copy)\n    5\n    \"\"\"\n    return tree(label(t), [copy_tree(b) for b in branches(t)])",
+        "detail": "lab.lab05.lab05",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "kind": 2,
+        "importPath": "lab.lab05.tree",
+        "description": "lab.lab05.tree",
+        "peekOfCode": "def tree(label, branches=[]):\n    \"\"\"Construct a tree with the given label value and a list of branches.\"\"\"\n    for branch in branches:\n        assert is_tree(branch), 'branches must be trees'\n    return [label] + list(branches)\ndef label(tree):\n    \"\"\"Return the label value of a tree.\"\"\"\n    return tree[0]\ndef branches(tree):\n    \"\"\"Return the list of branches of the given tree.\"\"\"",
+        "detail": "lab.lab05.tree",
+        "documentation": {}
+    },
+    {
+        "label": "label",
+        "kind": 2,
+        "importPath": "lab.lab05.tree",
+        "description": "lab.lab05.tree",
+        "peekOfCode": "def label(tree):\n    \"\"\"Return the label value of a tree.\"\"\"\n    return tree[0]\ndef branches(tree):\n    \"\"\"Return the list of branches of the given tree.\"\"\"\n    return tree[1:]\ndef is_tree(tree):\n    \"\"\"Returns True if the given tree is a tree, and False otherwise.\"\"\"\n    if type(tree) != list or len(tree) < 1:\n        return False",
+        "detail": "lab.lab05.tree",
+        "documentation": {}
+    },
+    {
+        "label": "branches",
+        "kind": 2,
+        "importPath": "lab.lab05.tree",
+        "description": "lab.lab05.tree",
+        "peekOfCode": "def branches(tree):\n    \"\"\"Return the list of branches of the given tree.\"\"\"\n    return tree[1:]\ndef is_tree(tree):\n    \"\"\"Returns True if the given tree is a tree, and False otherwise.\"\"\"\n    if type(tree) != list or len(tree) < 1:\n        return False\n    for branch in branches(tree):\n        if not is_tree(branch):\n            return False",
+        "detail": "lab.lab05.tree",
+        "documentation": {}
+    },
+    {
+        "label": "is_tree",
+        "kind": 2,
+        "importPath": "lab.lab05.tree",
+        "description": "lab.lab05.tree",
+        "peekOfCode": "def is_tree(tree):\n    \"\"\"Returns True if the given tree is a tree, and False otherwise.\"\"\"\n    if type(tree) != list or len(tree) < 1:\n        return False\n    for branch in branches(tree):\n        if not is_tree(branch):\n            return False\n    return True\ndef is_leaf(tree):\n    \"\"\"Returns True if the given tree's list of branches is empty, and False",
+        "detail": "lab.lab05.tree",
+        "documentation": {}
+    },
+    {
+        "label": "is_leaf",
+        "kind": 2,
+        "importPath": "lab.lab05.tree",
+        "description": "lab.lab05.tree",
+        "peekOfCode": "def is_leaf(tree):\n    \"\"\"Returns True if the given tree's list of branches is empty, and False\n    otherwise.\n    \"\"\"\n    return not branches(tree)\ndef print_tree(t, indent=0):\n    \"\"\"Print a representation of this tree in which each node is\n    indented by two spaces times its depth from the root.\n    >>> print_tree(tree(1))\n    1",
+        "detail": "lab.lab05.tree",
+        "documentation": {}
+    },
+    {
+        "label": "print_tree",
+        "kind": 2,
+        "importPath": "lab.lab05.tree",
+        "description": "lab.lab05.tree",
+        "peekOfCode": "def print_tree(t, indent=0):\n    \"\"\"Print a representation of this tree in which each node is\n    indented by two spaces times its depth from the root.\n    >>> print_tree(tree(1))\n    1\n    >>> print_tree(tree(1, [tree(2)]))\n    1\n      2\n    >>> numbers = tree(1, [tree(2), tree(3, [tree(4), tree(5)]), tree(6, [tree(7)])])\n    >>> print_tree(numbers)",
+        "detail": "lab.lab05.tree",
+        "documentation": {}
+    },
+    {
+        "label": "copy_tree",
+        "kind": 2,
+        "importPath": "lab.lab05.tree",
+        "description": "lab.lab05.tree",
+        "peekOfCode": "def copy_tree(t):\n    \"\"\"Returns a copy of t. Only for testing purposes.\n    >>> t = tree(5)\n    >>> copy = copy_tree(t)\n    >>> t = tree(6)\n    >>> print_tree(copy)\n    5\n    \"\"\"\n    return tree(label(t), [copy_tree(b) for b in branches(t)])",
+        "detail": "lab.lab05.tree",
+        "documentation": {}
+    },
+    {
         "label": "Handler",
         "kind": 6,
         "importPath": "projects.cats.gui_files.common_server",

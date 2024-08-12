@@ -27,6 +27,12 @@ def insert_items(s, before, after):
     True
     """
     "*** YOUR CODE HERE ***"
+    for i in range(len(s)):
+        if s[i] == before:
+            s.insert(i + 1, after)
+            i += 1
+        i += 1
+    return  s    
 
 
 def group_by(s, fn):
@@ -40,12 +46,12 @@ def group_by(s, fn):
     {9: [-3, 3], 4: [-2, 2], 1: [-1, 1], 0: [0]}
     """
     grouped = {}
-    for ____ in ____:
-        key = ____
+    for element in s:
+        key = fn(element)
         if key in grouped:
-            ____
+            grouped[key].append(element)
         else:
-            grouped[key] = ____
+            grouped[key] = [element]
     return grouped
 
 
