@@ -65,6 +65,7 @@ def distance(city_a, city_b):
     5.0
     """
     "*** YOUR CODE HERE ***"
+    return sqrt((get_lat(city_a) - get_lat(city_b))**2 + (get_lon(city_a) - get_lon(city_b))**2)
 
 def closer_city(lat, lon, city_a, city_b):
     """
@@ -82,7 +83,13 @@ def closer_city(lat, lon, city_a, city_b):
     'Bucharest'
     """
     "*** YOUR CODE HERE ***"
-
+    the_city = make_city('the_city',lat,lon)
+    distance_a,distance_b = distance(the_city,city_a),distance(the_city,city_b)
+    if distance_a < distance_b:
+        return get_name(city_a)
+    else:
+        return get_name(city_b)
+    
 def check_city_abstraction():
     """
     There's nothing for you to do for this function, it's just here for the extra doctest
