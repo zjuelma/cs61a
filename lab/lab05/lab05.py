@@ -77,7 +77,14 @@ def count_occurrences(t, n, x):
     2
     """
     "*** YOUR CODE HERE ***"
-
+    count = 0
+    for _ in range(n):
+        try:
+            if next(t) == x:
+                count += 1
+        except StopIteration:
+            break
+    return count
 
 def repeated(t, k):
     """Return the first value in iterator t that appears k times in a row,
@@ -100,6 +107,7 @@ def repeated(t, k):
     """
     assert k > 1
     "*** YOUR CODE HERE ***"
+    
 
 
 def sprout_leaves(t, leaves):
