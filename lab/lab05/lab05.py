@@ -27,13 +27,13 @@ def insert_items(s, before, after):
     True
     """
     "*** YOUR CODE HERE ***"
-    for i in range(len(s)):
+    i = 0
+    while i < len(s):
         if s[i] == before:
             s.insert(i + 1, after)
             i += 1
-        i += 1
-    return  s    
-
+        i += 1  
+    return s
 
 def group_by(s, fn):
     """Return a dictionary of lists that together contain the elements of s.
@@ -107,9 +107,18 @@ def repeated(t, k):
     """
     assert k > 1
     "*** YOUR CODE HERE ***"
+    previous = next(t)
+    count = 1
     
-
-
+    for current in t:
+        if current == previous:
+            count += 1
+            if count == k:
+                return current
+        else:
+            previous = current
+            count = 1
+            
 def sprout_leaves(t, leaves):
     """Sprout new leaves containing the labels in leaves at each leaf of
     the original tree t and return the resulting tree.

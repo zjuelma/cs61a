@@ -1,1 +1,4 @@
 'Iterators-correct', (0, 66)
+'repeated-correct', (512, 66)
+'count_occurrences-correct', (1024, 66)
+'insert_items-correct', (1536, 66)

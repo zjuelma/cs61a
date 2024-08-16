@@ -257,12 +257,12 @@
         "documentation": {}
     },
     {
-        "label": "argparse",
+        "label": "base64",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "argparse",
-        "description": "argparse",
-        "detail": "argparse",
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
         "documentation": {}
     },
     {
@@ -275,261 +275,12 @@
         "documentation": {}
     },
     {
-        "label": "socketserver",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "socketserver",
-        "description": "socketserver",
-        "detail": "socketserver",
-        "documentation": {}
-    },
-    {
-        "label": "ssl",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "ssl",
-        "description": "ssl",
-        "detail": "ssl",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "traceback",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "traceback",
-        "description": "traceback",
-        "detail": "traceback",
-        "documentation": {}
-    },
-    {
-        "label": "webbrowser",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "webbrowser",
-        "description": "webbrowser",
-        "detail": "webbrowser",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os",
         "description": "os",
         "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "functools",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "functools",
-        "description": "functools",
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "wraps",
-        "importPath": "functools",
-        "description": "functools",
-        "isExtraImport": true,
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "wraps",
-        "importPath": "functools",
-        "description": "functools",
-        "isExtraImport": true,
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "wraps",
-        "importPath": "functools",
-        "description": "functools",
-        "isExtraImport": true,
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPStatus",
-        "importPath": "http",
-        "description": "http",
-        "isExtraImport": true,
-        "detail": "http",
-        "documentation": {}
-    },
-    {
-        "label": "server",
-        "importPath": "http",
-        "description": "http",
-        "isExtraImport": true,
-        "detail": "http",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPStatus",
-        "importPath": "http",
-        "description": "http",
-        "isExtraImport": true,
-        "detail": "http",
-        "documentation": {}
-    },
-    {
-        "label": "server",
-        "importPath": "http",
-        "description": "http",
-        "isExtraImport": true,
-        "detail": "http",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPServer",
-        "importPath": "http.server",
-        "description": "http.server",
-        "isExtraImport": true,
-        "detail": "http.server",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPServer",
-        "importPath": "http.server",
-        "description": "http.server",
-        "isExtraImport": true,
-        "detail": "http.server",
-        "documentation": {}
-    },
-    {
-        "label": "URLError",
-        "importPath": "urllib.error",
-        "description": "urllib.error",
-        "isExtraImport": true,
-        "detail": "urllib.error",
-        "documentation": {}
-    },
-    {
-        "label": "URLError",
-        "importPath": "urllib.error",
-        "description": "urllib.error",
-        "isExtraImport": true,
-        "detail": "urllib.error",
-        "documentation": {}
-    },
-    {
-        "label": "unquote",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "urlparse",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "parse_qs",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "unquote",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "urlparse",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "parse_qs",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "Request",
-        "importPath": "urllib.request",
-        "description": "urllib.request",
-        "isExtraImport": true,
-        "detail": "urllib.request",
-        "documentation": {}
-    },
-    {
-        "label": "urlopen",
-        "importPath": "urllib.request",
-        "description": "urllib.request",
-        "isExtraImport": true,
-        "detail": "urllib.request",
-        "documentation": {}
-    },
-    {
-        "label": "Request",
-        "importPath": "urllib.request",
-        "description": "urllib.request",
-        "isExtraImport": true,
-        "detail": "urllib.request",
-        "documentation": {}
-    },
-    {
-        "label": "urlopen",
-        "importPath": "urllib.request",
-        "description": "urllib.request",
-        "isExtraImport": true,
-        "detail": "urllib.request",
-        "documentation": {}
-    },
-    {
-        "label": "unittest",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "unittest",
-        "description": "unittest",
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "gui_files.svg",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "gui_files.svg",
-        "description": "gui_files.svg",
-        "detail": "gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "base64",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "base64",
-        "description": "base64",
-        "detail": "base64",
         "documentation": {}
     },
     {
@@ -555,6 +306,32 @@
         "description": "random",
         "isExtraImport": true,
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
         "documentation": {}
     },
     {
@@ -1849,285 +1626,6 @@
         "documentation": {}
     },
     {
-        "label": "Handler",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "class Handler(server.BaseHTTPRequestHandler):\n    \"\"\"HTTP handler.\"\"\"\n    def do_GET(self):\n        try:\n            parsed_url = urlparse(unquote(self.path))\n            path = parsed_url.path\n            query_params = parse_qs(parsed_url.query)\n            if path in STATIC_PATHS:\n                out = bytes(STATIC_PATHS[path](**snakify(query_params)), \"utf-8\")\n            else:",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "Server",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "class Server:\n    def __getattr__(self, item):\n        def f(**kwargs):\n            if IS_SERVER:\n                return PATHS[\"/\" + item](**kwargs)\n            else:\n                return multiplayer_post(item, kwargs)\n        return f\nServer = Server()\ndef multiplayer_post(path, data, server_url=None):",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "path_optional",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def path_optional(decorator):\n    def wrapped(func_or_path):\n        if callable(func_or_path):\n            return decorator(\"/\" + func_or_path.__name__)(func_or_path)\n        else:\n            def actual_decorator(f):\n                return decorator(func_or_path)(f)\n            return actual_decorator\n    return wrapped\ndef route(path):",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "route",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def route(path):\n    \"\"\"Register a route handler.\"\"\"\n    if callable(path):\n        return route(\"/\" + path.__name__)(path)\n    if not path.startswith(\"/\"):\n        path = \"/\" + path\n    def wrap(f):\n        if \".\" in path:\n            STATIC_PATHS[path] = f\n        else:",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "multiplayer_post",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def multiplayer_post(path, data, server_url=None):\n    \"\"\"Post DATA to a multiplayer server PATH and return the response.\"\"\"\n    if not server_url:\n        server_url = DEFAULT_SERVER\n    data_bytes = bytes(json.dumps(data), encoding=\"utf-8\")\n    request = Request(server_url + \"/\" + path, data_bytes, method=\"POST\")\n    try:\n        response = urlopen(request, context=ssl._create_unverified_context())\n        text = response.read().decode(\"utf-8\")\n        if text.strip():",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "multiplayer_route",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def multiplayer_route(path, server_path=None):\n    \"\"\"Convert a function that takes (data, send) into a route.\"\"\"\n    if not server_path:\n        server_path = path\n    def wrap(f):\n        def send(data):\n            return multiplayer_post(server_path, data)\n        def routed_fn(data):\n            response = f(data, send)\n            return response",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "forward_to_server",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def forward_to_server(path):\n    def wrap(f):\n        @wraps(f)\n        def wrapped(*args, **kwargs):\n            if IS_SERVER:\n                return f(*args, **kwargs)\n            else:\n                return multiplayer_post(path, kwargs)\n        return wrapped\n    return wrap",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "server_only",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def server_only(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        if IS_SERVER:\n            return f(*args, **kwargs)\n        else:\n            raise Exception(\"Method not available locally!\")\n    return wrapped\ndef sendto(f):\n    def wrapped(data):",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "sendto",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def sendto(f):\n    def wrapped(data):\n        return f(**data)\n    return wrapped\ndef start_server():\n    global IS_SERVER\n    IS_SERVER = True\n    from flask import Flask, request, jsonify, send_from_directory, Response\n    app = Flask(__name__, static_url_path=\"\", static_folder=\"\")\n    for route, handler in PATHS.items():",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "start_server",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def start_server():\n    global IS_SERVER\n    IS_SERVER = True\n    from flask import Flask, request, jsonify, send_from_directory, Response\n    app = Flask(__name__, static_url_path=\"\", static_folder=\"\")\n    for route, handler in PATHS.items():\n        def wrapped_handler(handler=handler):\n            return jsonify(handler(**snakify(request.get_json(force=True))))\n        app.add_url_rule(route, handler.__name__, wrapped_handler, methods=[\"POST\"])\n    for route, handler in STATIC_PATHS.items():",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "start_client",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def start_client(port, default_server, gui_folder, standalone):\n    \"\"\"Start web server.\"\"\"\n    global DEFAULT_SERVER, GUI_FOLDER, IS_SERVER\n    DEFAULT_SERVER = default_server\n    GUI_FOLDER = gui_folder\n    IS_SERVER = False\n    socketserver.TCPServer.allow_reuse_address = True\n    httpd = HTTPServer((\"localhost\", port), Handler)\n    if not standalone:\n        webbrowser.open(\"http://localhost:\" + str(port), new=0, autoraise=True)",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "snakify",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def snakify(data):\n    out = {}\n    for key, val in data.items():\n        snake_key = []\n        for x in key:\n            if x != x.lower():\n                snake_key += \"_\"\n            snake_key += x.lower()\n        out[\"\".join(snake_key)] = val\n    return out",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "kill",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def kill():\n    if not IS_SERVER:\n        print(\"Exiting GUI\")\n        exit(0)\ndef start(port, default_server, gui_folder, db_init=None):\n    global DEFAULT_SERVER\n    DEFAULT_SERVER = default_server\n    parser = argparse.ArgumentParser(description=\"Project GUI Server\")\n    parser.add_argument(\n        \"-s\", help=\"Stand-alone: do not open browser\", action=\"store_true\"",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "start",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "def start(port, default_server, gui_folder, db_init=None):\n    global DEFAULT_SERVER\n    DEFAULT_SERVER = default_server\n    parser = argparse.ArgumentParser(description=\"Project GUI Server\")\n    parser.add_argument(\n        \"-s\", help=\"Stand-alone: do not open browser\", action=\"store_true\"\n    )\n    parser.add_argument(\"-f\", help=\"Force Flask app\", action=\"store_true\")\n    args, unknown = parser.parse_known_args()\n    import __main__",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_PATHS",
-        "kind": 5,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "STATIC_PATHS = {}\nPATHS = {}\nCONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "PATHS",
-        "kind": 5,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "PATHS = {}\nCONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)\ndef path_optional(decorator):",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "CONTENT_TYPE_LOOKUP",
-        "kind": 5,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "CONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)\ndef path_optional(decorator):\n    def wrapped(func_or_path):",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "Server",
-        "kind": 5,
-        "importPath": "projects.cats.gui_files.common_server",
-        "description": "projects.cats.gui_files.common_server",
-        "peekOfCode": "Server = Server()\ndef multiplayer_post(path, data, server_url=None):\n    \"\"\"Post DATA to a multiplayer server PATH and return the response.\"\"\"\n    if not server_url:\n        server_url = DEFAULT_SERVER\n    data_bytes = bytes(json.dumps(data), encoding=\"utf-8\")\n    request = Request(server_url + \"/\" + path, data_bytes, method=\"POST\")\n    try:\n        response = urlopen(request, context=ssl._create_unverified_context())\n        text = response.read().decode(\"utf-8\")",
-        "detail": "projects.cats.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "SVGRect",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "class SVGRect:\n    def __init__(self, x, y, width, height, stroke, fill):\n        self.x = x\n        self.y = y\n        self.width = width\n        self.height = height\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        return \"\"\"<rect x=\"{0}\" y=\"{1}\" width=\"{2}\" height=\"{3}\" stroke=\"{4}\" fill=\"{5}\" />\"\"\".format(",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGCircle",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "class SVGCircle:\n    def __init__(self, x, y, radius, stroke, fill):\n        self.x = x\n        self.y = y\n        self.radius = radius\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        return (\n            \"\"\"<circle cx=\"{0}\" cy=\"{1}\" r=\"{2}\" stroke=\"{3}\" fill=\"{4}\" />\"\"\".format(",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGLine",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "class SVGLine:\n    def __init__(self, x1, y1, x2, y2, stroke):\n        self.x1 = x1\n        self.y1 = y1\n        self.x2 = x2\n        self.y2 = y2\n        self.stroke = stroke\n    def __str__(self):\n        return \"\"\"<line x1=\"{0}\" y1=\"{1}\" x2=\"{2}\" y2=\"{3}\" stroke=\"{4}\" />\"\"\".format(\n            self.x1, self.y1, self.x2, self.y2, self.stroke",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGPolygon",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "class SVGPolygon:\n    def __init__(self, points, stroke, fill):\n        self.points = points  # list of lists\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        points_str = \" \".join(\",\".join(map(str, point)) for point in self.points)\n        return \"\"\"<polygon points=\"{0}\" stroke=\"{1}\" fill=\"{2}\"/>\"\"\".format(\n            points_str, self.stroke, self.fill\n        )",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGText",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "class SVGText:\n    def __init__(self, x, y, text, stroke, fill, font_size, font_family):\n        self.x = x\n        self.y = y\n        self.text = text\n        self.stroke = stroke\n        self.fill = fill\n        self.font_size = font_size\n        self.font_family = font_family\n    def __str__(self):",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGGraphic",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "class SVGGraphic:\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n        self.shapes = []\n    def draw_rect(self, x, y, width, height, stroke, fill):\n        self.shapes.append(SVGRect(x, y, width, height, stroke, fill))\n    def draw_circle(self, x, y, radius, stroke, fill):\n        self.shapes.append(SVGCircle(x, y, radius, stroke, fill))\n    def draw_line(self, x1, y1, x2, y2, stroke):",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "create_graphic",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "def create_graphic(width, height):\n    return SVGGraphic(width, height)\ndef draw_rect(graphic, x, y, width, height, stroke=\"black\", fill=\"black\"):\n    graphic.draw_rect(x, y, width, height, stroke, fill)\ndef draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "draw_rect",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "def draw_rect(graphic, x, y, width, height, stroke=\"black\", fill=\"black\"):\n    graphic.draw_rect(x, y, width, height, stroke, fill)\ndef draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "draw_circle",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "def draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "draw_line",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "def draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "draw_triangle",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "def draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",\n    fill=\"black\",\n    font_size=\"medium\",",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "write_text",
-        "kind": 2,
-        "importPath": "projects.cats.gui_files.svg",
-        "description": "projects.cats.gui_files.svg",
-        "peekOfCode": "def write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",\n    fill=\"black\",\n    font_size=\"medium\",\n    font_family=\"serif\",\n):",
-        "detail": "projects.cats.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "TestSVG",
-        "kind": 6,
-        "importPath": "projects.cats.gui_files.svg_test",
-        "description": "projects.cats.gui_files.svg_test",
-        "peekOfCode": "class TestSVG(unittest.TestCase):\n    def assert_contains_str(self, str, substr):\n        self.assertTrue(str.find(substr) > -1, \"%s does not contain %s\" % (str, substr))\n    def test_create_graphic(self):\n        graphic = svg.create_graphic(200, 300)\n        self.assertEqual(\n            str(graphic),\n            \"\"\"<svg width=\"200\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\"></svg>\"\"\",\n        )\n    def test_draw_rect(self):",
-        "detail": "projects.cats.gui_files.svg_test",
-        "documentation": {}
-    },
-    {
         "label": "require_fernet",
         "kind": 2,
         "importPath": "projects.cats.multiplayer.leaderboard_integrity",
@@ -2452,6 +1950,15 @@
         "documentation": {}
     },
     {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.EC",
+        "description": "projects.cats.tests.EC",
+        "peekOfCode": "test = {\n  'name': 'Extra Credit',\n  'points': 1,\n  'suites': [\n      {\n      'cases': [\n        {\n          'answer': 'A function that takes another function as an input and returns a new function that extends or modifies the behavior of the original function',\n          'choices': [\n            'A type of design pattern',",
+        "detail": "projects.cats.tests.EC",
+        "documentation": {}
+    },
+    {
         "label": "AbstractionViolation",
         "kind": 6,
         "importPath": "projects.cats.tests.abstraction_check",
@@ -2584,15 +2091,6 @@
         "description": "projects.cats.tests.construct_check",
         "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
         "detail": "projects.cats.tests.construct_check",
-        "documentation": {}
-    },
-    {
-        "label": "test",
-        "kind": 5,
-        "importPath": "projects.cats.tests.EC",
-        "description": "projects.cats.tests.EC",
-        "peekOfCode": "test = {\n  'name': 'Extra Credit',\n  'points': 1,\n  'suites': [\n      {\n      'cases': [\n        {\n          'answer': 'A function that takes another function as an input and returns a new function that extends or modifies the behavior of the original function',\n          'choices': [\n            'A type of design pattern',",
-        "detail": "projects.cats.tests.EC",
         "documentation": {}
     },
     {
@@ -3070,285 +2568,6 @@
         "description": "projects.cats.utils",
         "peekOfCode": "KEY_LAYOUT = [[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"0\",\"-\",\"=\"],\n              [\"q\", \"w\", \"e\", \"r\", \"t\", \"y\", \"u\", \"i\", \"o\", \"p\",\"[\",\"]\"],\n              [\"a\", \"s\", \"d\", \"f\", \"g\", \"h\", \"j\", \"k\", \"l\",\";\",\"'\"],\n              [\"z\", \"x\", \"c\", \"v\", \"b\", \"n\", \"m\",\",\",\".\",\"/\"],\n              [\" \"]]\ndef distance(p1, p2):\n    \"\"\"Return the Euclidean distance between two points\n    The Euclidean distance between two points, (x1, y1) and (x2, y2)\n    is the square root of (x1 - x2) ** 2 + (y1 - y2) ** 2\n    >>> distance((0, 1), (1, 1))",
         "detail": "projects.cats.utils",
-        "documentation": {}
-    },
-    {
-        "label": "Handler",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "class Handler(server.BaseHTTPRequestHandler):\n    \"\"\"HTTP handler.\"\"\"\n    def do_GET(self):\n        try:\n            parsed_url = urlparse(unquote(self.path))\n            path = parsed_url.path\n            query_params = parse_qs(parsed_url.query)\n            if path in STATIC_PATHS:\n                out = bytes(STATIC_PATHS[path](**snakify(query_params)), \"utf-8\")\n            else:",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "Server",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "class Server:\n    def __getattr__(self, item):\n        def f(**kwargs):\n            if IS_SERVER:\n                return PATHS[\"/\" + item](**kwargs)\n            else:\n                return multiplayer_post(item, kwargs)\n        return f\nServer = Server()\ndef multiplayer_post(path, data, server_url=None):",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "path_optional",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def path_optional(decorator):\n    def wrapped(func_or_path):\n        if callable(func_or_path):\n            return decorator(\"/\" + func_or_path.__name__)(func_or_path)\n        else:\n            def actual_decorator(f):\n                return decorator(func_or_path)(f)\n            return actual_decorator\n    return wrapped\ndef route(path):",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "route",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def route(path):\n    \"\"\"Register a route handler.\"\"\"\n    if callable(path):\n        return route(\"/\" + path.__name__)(path)\n    if not path.startswith(\"/\"):\n        path = \"/\" + path\n    def wrap(f):\n        if \".\" in path:\n            STATIC_PATHS[path] = f\n        else:",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "multiplayer_post",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def multiplayer_post(path, data, server_url=None):\n    \"\"\"Post DATA to a multiplayer server PATH and return the response.\"\"\"\n    if not server_url:\n        server_url = DEFAULT_SERVER\n    data_bytes = bytes(json.dumps(data), encoding=\"utf-8\")\n    request = Request(server_url + \"/\" + path, data_bytes, method=\"POST\")\n    try:\n        response = urlopen(request, context=ssl._create_unverified_context())\n        text = response.read().decode(\"utf-8\")\n        if text.strip():",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "multiplayer_route",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def multiplayer_route(path, server_path=None):\n    \"\"\"Convert a function that takes (data, send) into a route.\"\"\"\n    if not server_path:\n        server_path = path\n    def wrap(f):\n        def send(data):\n            return multiplayer_post(server_path, data)\n        def routed_fn(data):\n            response = f(data, send)\n            return response",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "forward_to_server",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def forward_to_server(path):\n    def wrap(f):\n        @wraps(f)\n        def wrapped(*args, **kwargs):\n            if IS_SERVER:\n                return f(*args, **kwargs)\n            else:\n                return multiplayer_post(path, kwargs)\n        return wrapped\n    return wrap",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "server_only",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def server_only(f):\n    @wraps(f)\n    def wrapped(*args, **kwargs):\n        if IS_SERVER:\n            return f(*args, **kwargs)\n        else:\n            raise Exception(\"Method not available locally!\")\n    return wrapped\ndef sendto(f):\n    def wrapped(data):",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "sendto",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def sendto(f):\n    def wrapped(data):\n        return f(**data)\n    return wrapped\ndef start_server():\n    global IS_SERVER\n    IS_SERVER = True\n    from flask import Flask, request, jsonify, send_from_directory, Response\n    app = Flask(__name__, static_url_path=\"\", static_folder=\"\")\n    for route, handler in PATHS.items():",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "start_server",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def start_server():\n    global IS_SERVER\n    IS_SERVER = True\n    from flask import Flask, request, jsonify, send_from_directory, Response\n    app = Flask(__name__, static_url_path=\"\", static_folder=\"\")\n    for route, handler in PATHS.items():\n        def wrapped_handler(handler=handler):\n            return jsonify(handler(**snakify(request.get_json(force=True))))\n        app.add_url_rule(route, handler.__name__, wrapped_handler, methods=[\"POST\"])\n    for route, handler in STATIC_PATHS.items():",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "start_client",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def start_client(port, default_server, gui_folder, standalone):\n    \"\"\"Start web server.\"\"\"\n    global DEFAULT_SERVER, GUI_FOLDER, IS_SERVER\n    DEFAULT_SERVER = default_server\n    GUI_FOLDER = gui_folder\n    IS_SERVER = False\n    socketserver.TCPServer.allow_reuse_address = True\n    httpd = HTTPServer((\"localhost\", port), Handler)\n    if not standalone:\n        webbrowser.open(\"http://localhost:\" + str(port), new=0, autoraise=True)",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "snakify",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def snakify(data):\n    out = {}\n    for key, val in data.items():\n        snake_key = []\n        for x in key:\n            if x != x.lower():\n                snake_key += \"_\"\n            snake_key += x.lower()\n        out[\"\".join(snake_key)] = val\n    return out",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "kill",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def kill():\n    if not IS_SERVER:\n        print(\"Exiting GUI\")\n        exit(0)\ndef start(port, default_server, gui_folder, db_init=None):\n    global DEFAULT_SERVER\n    DEFAULT_SERVER = default_server\n    parser = argparse.ArgumentParser(description=\"Project GUI Server\")\n    parser.add_argument(\n        \"-s\", help=\"Stand-alone: do not open browser\", action=\"store_true\"",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "start",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "def start(port, default_server, gui_folder, db_init=None):\n    global DEFAULT_SERVER\n    DEFAULT_SERVER = default_server\n    parser = argparse.ArgumentParser(description=\"Project GUI Server\")\n    parser.add_argument(\n        \"-s\", help=\"Stand-alone: do not open browser\", action=\"store_true\"\n    )\n    parser.add_argument(\"-f\", help=\"Force Flask app\", action=\"store_true\")\n    args, unknown = parser.parse_known_args()\n    import __main__",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_PATHS",
-        "kind": 5,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "STATIC_PATHS = {}\nPATHS = {}\nCONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "PATHS",
-        "kind": 5,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "PATHS = {}\nCONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)\ndef path_optional(decorator):",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "CONTENT_TYPE_LOOKUP",
-        "kind": 5,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "CONTENT_TYPE_LOOKUP = dict(\n    html=\"text/html\",\n    css=\"text/css\",\n    js=\"application/javascript\",\n    svg=\"image/svg+xml\",\n    gif=\"image/gif\",\n    ico=\"image/x-icon\",\n)\ndef path_optional(decorator):\n    def wrapped(func_or_path):",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "Server",
-        "kind": 5,
-        "importPath": "projects.hog.gui_files.common_server",
-        "description": "projects.hog.gui_files.common_server",
-        "peekOfCode": "Server = Server()\ndef multiplayer_post(path, data, server_url=None):\n    \"\"\"Post DATA to a multiplayer server PATH and return the response.\"\"\"\n    if not server_url:\n        server_url = DEFAULT_SERVER\n    data_bytes = bytes(json.dumps(data), encoding=\"utf-8\")\n    request = Request(server_url + \"/\" + path, data_bytes, method=\"POST\")\n    try:\n        response = urlopen(request, context=ssl._create_unverified_context())\n        text = response.read().decode(\"utf-8\")",
-        "detail": "projects.hog.gui_files.common_server",
-        "documentation": {}
-    },
-    {
-        "label": "SVGRect",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "class SVGRect:\n    def __init__(self, x, y, width, height, stroke, fill):\n        self.x = x\n        self.y = y\n        self.width = width\n        self.height = height\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        return \"\"\"<rect x=\"{0}\" y=\"{1}\" width=\"{2}\" height=\"{3}\" stroke=\"{4}\" fill=\"{5}\" />\"\"\".format(",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGCircle",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "class SVGCircle:\n    def __init__(self, x, y, radius, stroke, fill):\n        self.x = x\n        self.y = y\n        self.radius = radius\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        return (\n            \"\"\"<circle cx=\"{0}\" cy=\"{1}\" r=\"{2}\" stroke=\"{3}\" fill=\"{4}\" />\"\"\".format(",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGLine",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "class SVGLine:\n    def __init__(self, x1, y1, x2, y2, stroke):\n        self.x1 = x1\n        self.y1 = y1\n        self.x2 = x2\n        self.y2 = y2\n        self.stroke = stroke\n    def __str__(self):\n        return \"\"\"<line x1=\"{0}\" y1=\"{1}\" x2=\"{2}\" y2=\"{3}\" stroke=\"{4}\" />\"\"\".format(\n            self.x1, self.y1, self.x2, self.y2, self.stroke",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGPolygon",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "class SVGPolygon:\n    def __init__(self, points, stroke, fill):\n        self.points = points  # list of lists\n        self.stroke = stroke\n        self.fill = fill\n    def __str__(self):\n        points_str = \" \".join(\",\".join(map(str, point)) for point in self.points)\n        return \"\"\"<polygon points=\"{0}\" stroke=\"{1}\" fill=\"{2}\"/>\"\"\".format(\n            points_str, self.stroke, self.fill\n        )",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGText",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "class SVGText:\n    def __init__(self, x, y, text, stroke, fill, font_size, font_family):\n        self.x = x\n        self.y = y\n        self.text = text\n        self.stroke = stroke\n        self.fill = fill\n        self.font_size = font_size\n        self.font_family = font_family\n    def __str__(self):",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "SVGGraphic",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "class SVGGraphic:\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n        self.shapes = []\n    def draw_rect(self, x, y, width, height, stroke, fill):\n        self.shapes.append(SVGRect(x, y, width, height, stroke, fill))\n    def draw_circle(self, x, y, radius, stroke, fill):\n        self.shapes.append(SVGCircle(x, y, radius, stroke, fill))\n    def draw_line(self, x1, y1, x2, y2, stroke):",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "create_graphic",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "def create_graphic(width, height):\n    return SVGGraphic(width, height)\ndef draw_rect(graphic, x, y, width, height, stroke=\"black\", fill=\"black\"):\n    graphic.draw_rect(x, y, width, height, stroke, fill)\ndef draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "draw_rect",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "def draw_rect(graphic, x, y, width, height, stroke=\"black\", fill=\"black\"):\n    graphic.draw_rect(x, y, width, height, stroke, fill)\ndef draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "draw_circle",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "def draw_circle(graphic, x, y, radius, stroke=\"black\", fill=\"black\"):\n    graphic.draw_circle(x, y, radius, stroke, fill)\ndef draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "draw_line",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "def draw_line(graphic, x1, y1, x2, y2, stroke=\"black\"):\n    graphic.draw_line(x1, y1, x2, y2, stroke)\ndef draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "draw_triangle",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "def draw_triangle(graphic, x1, y1, x2, y2, x3, y3, stroke=\"black\", fill=\"black\"):\n    graphic.draw_polygon([[x1, y1], [x2, y2], [x3, y3]], stroke, fill)\ndef write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",\n    fill=\"black\",\n    font_size=\"medium\",",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "write_text",
-        "kind": 2,
-        "importPath": "projects.hog.gui_files.svg",
-        "description": "projects.hog.gui_files.svg",
-        "peekOfCode": "def write_text(\n    graphic,\n    x,\n    y,\n    text,\n    stroke=\"black\",\n    fill=\"black\",\n    font_size=\"medium\",\n    font_family=\"serif\",\n):",
-        "detail": "projects.hog.gui_files.svg",
-        "documentation": {}
-    },
-    {
-        "label": "TestSVG",
-        "kind": 6,
-        "importPath": "projects.hog.gui_files.svg_test",
-        "description": "projects.hog.gui_files.svg_test",
-        "peekOfCode": "class TestSVG(unittest.TestCase):\n    def assert_contains_str(self, str, substr):\n        self.assertTrue(str.find(substr) > -1, \"%s does not contain %s\" % (str, substr))\n    def test_create_graphic(self):\n        graphic = svg.create_graphic(200, 300)\n        self.assertEqual(\n            str(graphic),\n            \"\"\"<svg width=\"200\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\"></svg>\"\"\",\n        )\n    def test_draw_rect(self):",
-        "detail": "projects.hog.gui_files.svg_test",
         "documentation": {}
     },
     {
