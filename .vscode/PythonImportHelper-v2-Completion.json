@@ -6545,7 +6545,7 @@
         "kind": 6,
         "importPath": "lab.lab06.lab06",
         "description": "lab.lab06.lab06",
-        "peekOfCode": "class Transaction:\n    def __init__(self, id, before, after):\n        self.id = id\n        self.before = before\n        self.after = after\n    def changed(self):\n        \"\"\"Return whether the transaction resulted in a changed balance.\"\"\"\n        \"*** YOUR CODE HERE ***\"\n    def report(self):\n        \"\"\"Return a string describing the transaction.",
+        "peekOfCode": "class Transaction:\n    def __init__(self, id, before, after):\n        self.id = id\n        self.before = before\n        self.after = after\n    def changed(self):\n        \"\"\"Return whether the transaction resulted in a changed balance.\"\"\"\n        \"*** YOUR CODE HERE ***\"\n        return self.before != self.after\n    def report(self):",
         "detail": "lab.lab06.lab06",
         "documentation": {}
     },
