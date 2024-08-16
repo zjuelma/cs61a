@@ -6572,7 +6572,7 @@
         "kind": 6,
         "importPath": "lab.lab06.lab06",
         "description": "lab.lab06.lab06",
-        "peekOfCode": "class Server:\n    \"\"\"Each Server has one instance attribute called clients that is a\n    dictionary from client names to client objects.\n    \"\"\"\n    def __init__(self):\n        self.clients = {}\n    def send(self, email):\n        \"\"\"Append the email to the inbox of the client it is addressed to.\"\"\"\n        ____.inbox.append(email)\n    def register_client(self, client):",
+        "peekOfCode": "class Server:\n    \"\"\"Each Server has one instance attribute called clients that is a\n    dictionary from client names to client objects.\n    \"\"\"\n    def __init__(self):\n        self.clients = {}\n    def send(self, email):\n        \"\"\"Append the email to the inbox of the client it is addressed to.\"\"\"\n        self.clients[email.recipient_name].inbox.append(email)\n    def register_client(self, client):",
         "detail": "lab.lab06.lab06",
         "documentation": {}
     },
