@@ -185,13 +185,22 @@ def make_change(amount, coins):
     >>> make_change(25, coins)
     [2, 2, 4, 4, 5, 8]
     """
-    if not coins:
-        return None
-    smallest = min(coins)
-    rest = remove_one(coins, smallest)
-    if amount < smallest:
-        return None
-    "*** YOUR CODE HERE ***"
+    sorted_coins = sorted(coins.keys())
+    change = []
+    
+    for coin in sorted_coins:
+        while amount >= coin and coins[coin] > 0:
+            amount -= coin
+            change.append(coin)
+            coins[coin] -= 1
+            if amount == 0:
+                return change
+    
+    return None 
+            
+        
+            
+    
 
 def remove_one(coins, coin):
     """Remove one coin from a dictionary of coins. Return a new dictionary,
