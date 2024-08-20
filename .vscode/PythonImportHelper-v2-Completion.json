@@ -5308,6 +5308,14 @@
         "documentation": {}
     },
     {
+        "label": "Dog",
+        "importPath": "classinheritance",
+        "description": "classinheritance",
+        "isExtraImport": true,
+        "detail": "classinheritance",
+        "documentation": {}
+    },
+    {
         "label": "ExclusionChecker",
         "kind": 6,
         "importPath": "homework.hw01.construct_check",
@@ -16348,6 +16356,33 @@
         "description": "projects.hog.ucb",
         "peekOfCode": "_PREFIX = ''\ndef trace(fn):\n    \"\"\"A decorator that prints a function's name, its arguments, and its return\n    values each time the function is called. For example,\n    @trace\n    def compute_something(x, y):\n        # function body\n    \"\"\"\n    @functools.wraps(fn)\n    def wrapped(*args, **kwds):",
         "detail": "projects.hog.ucb",
+        "documentation": {}
+    },
+    {
+        "label": "Pet",
+        "kind": 6,
+        "importPath": "workfile.classinheritance",
+        "description": "workfile.classinheritance",
+        "peekOfCode": "class Pet:\n    def __init__(self, name, owner):\n        self.is_alive = True  \n        self.name = name\n        self.owner = owner\n    def eat(self, thing):\n        print(self.name + \" ate a \" + str(thing) + \"!\")\n    def talk(self):\n        print(self.name)\nclass Dog(Pet):",
+        "detail": "workfile.classinheritance",
+        "documentation": {}
+    },
+    {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "workfile.classinheritance",
+        "description": "workfile.classinheritance",
+        "peekOfCode": "class Dog(Pet):\n    def talk(self):\n        super().talk()\n        print('This Dog says woof!')",
+        "detail": "workfile.classinheritance",
+        "documentation": {}
+    },
+    {
+        "label": "mzb",
+        "kind": 5,
+        "importPath": "workfile.pet",
+        "description": "workfile.pet",
+        "peekOfCode": "mzb = Dog('mzb','ycy')\nmzb.talk()",
+        "detail": "workfile.pet",
         "documentation": {}
     }
 ]
