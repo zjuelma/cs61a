@@ -1,3 +1,4 @@
+
 class Account:
     """An account has a balance and a holder.
     >>> a = Account('John')
@@ -39,6 +40,12 @@ class Account:
         """Return the number of years until balance would grow to amount."""
         assert self.balance > 0 and amount > 0 and self.interest > 0
         "*** YOUR CODE HERE ***"
+        sum = self.balance
+        years = 0
+        while sum < amount:
+            sum *= (1 + self.interest)
+            years += 1
+        return years
 
 
 class FreeChecking(Account):
@@ -66,8 +73,16 @@ class FreeChecking(Account):
     """
     withdraw_fee = 1
     free_withdrawals = 2
-
+    withdrawls = 0
     "*** YOUR CODE HERE ***"
+    def withdraw(self,amount):
+        self.withdrawls += 1
+        fee = 0
+        if self.withdrawls > self.free_withdrawals:
+            fee = self.withdraw_fee
+        return super().withdraw(amount + fee)
+    
+    
 
 
 def duplicate_link(s, val):
