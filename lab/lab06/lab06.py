@@ -185,23 +185,23 @@ def make_change(amount, coins):
     >>> make_change(25, coins)
     [2, 2, 4, 4, 5, 8]
     """
-    sorted_coins = sorted(coins.keys())
-    change = []
+    if not coins:
+        return None
+    min_coin = min(coins.keys())
+    rest = remove_one(coins,min_coin)
+    if amount < min_coin:
+        return None
+    elif amount == min_coin:
+        return [min_coin]
+    else:
+        result = make_change(amount - min_coin,rest)
+        if result:
+            return [min_coin] + result
+        else: 
+            return make_change(amount,rest)
     
-    for coin in sorted_coins:
-        while amount >= coin and coins[coin] > 0:
-            amount -= coin
-            change.append(coin)
-            coins[coin] -= 1
-            if amount == 0:
-                return change
-    
-    return None 
-            
         
-            
-    
-
+        
 def remove_one(coins, coin):
     """Remove one coin from a dictionary of coins. Return a new dictionary,
     leaving the original dictionary coins unchanged.
@@ -296,4 +296,16 @@ class ChangeMachine:
     def change(self, coin):
         """Return change for coin, removing the result from self.coins."""
         "*** YOUR CODE HERE ***"
+        result = make_change(coin,self.coins)
+        if result:
+            for i in range(len(result)):
+                self.coins = remove_one(self.coins,result[i])
+            if coin in self.coins:
+                self.coins[coin] += 1
+            else:
+                self.coins[coin] = 1
+            return result
+        else:
+            return [coin]
+        
 
