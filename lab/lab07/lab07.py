@@ -102,6 +102,13 @@ def duplicate_link(s, val):
     Link(1, Link(2, Link(2, Link(2, Link(2, Link(3))))))
     """
     "*** YOUR CODE HERE ***"
+    while s is not Link.empty:
+        if s.first == val:
+            s.rest = Link(val,s.rest)
+            s = s.rest.rest
+        else:
+            s = s.rest
+    
 
 
 class Link:
