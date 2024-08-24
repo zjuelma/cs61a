@@ -6679,7 +6679,7 @@
         "kind": 5,
         "importPath": "lab.lab08.tests.trees-wwpd",
         "description": "lab.lab08.tests.trees-wwpd",
-        "peekOfCode": "test = {\n  'name': 'Trees',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> t = Tree(1, Tree(2)) # Enter Function if you believe the answer is <function ...>, Error if it errors, and Nothing if nothing is displayed.\n          8a2fd4e4c3c6dcce2dc631af62ee217a",
+        "peekOfCode": "test = {\n  'name': 'Trees',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          >>> t = Tree(1, Tree(2)) # Enter Function if you believe the answer is <function ...>, Error if it errors, and Nothing if nothing is displayed.\n          Error",
         "detail": "lab.lab08.tests.trees-wwpd",
         "documentation": {}
     },
