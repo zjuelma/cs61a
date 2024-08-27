@@ -53,7 +53,16 @@ def delete(t, x):
     node is deleted, the deleted node's children become children of its parent.
 
     The root node will never be removed.
-
+    
+    new_branch = []
+    for branch in t.branches:
+        delete(branch, x)
+        if branch.lable == x:
+            new_branch.extend(branch.branches)
+        else:
+            new_branch.append(branch)
+    t.branch = new_branch
+    
     >>> t = Tree(3, [Tree(2, [Tree(2), Tree(2)]), Tree(2), Tree(2, [Tree(2, [Tree(2), Tree(2)])])])
     >>> delete(t, 2)
     >>> t

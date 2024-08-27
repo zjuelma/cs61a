@@ -6742,7 +6742,7 @@
         "kind": 2,
         "importPath": "lab.lab08.lab08",
         "description": "lab.lab08.lab08",
-        "peekOfCode": "def delete(t, x):\n    \"\"\"Remove all nodes labeled x below the root within Tree t. When a non-leaf\n    node is deleted, the deleted node's children become children of its parent.\n    The root node will never be removed.\n    >>> t = Tree(3, [Tree(2, [Tree(2), Tree(2)]), Tree(2), Tree(2, [Tree(2, [Tree(2), Tree(2)])])])\n    >>> delete(t, 2)\n    >>> t\n    Tree(3)\n    >>> t = Tree(1, [Tree(2, [Tree(4, [Tree(2)]), Tree(5)]), Tree(3, [Tree(6), Tree(2)]), Tree(4)])\n    >>> delete(t, 2)",
+        "peekOfCode": "def delete(t, x):\n    \"\"\"Remove all nodes labeled x below the root within Tree t. When a non-leaf\n    node is deleted, the deleted node's children become children of its parent.\n    The root node will never be removed.\n    new_branch = []\n    for branch in t.branches:\n        delete(branch, x)\n        if branch.lable == x:\n            new_branch.extend(branch.branches)\n        else:",
         "detail": "lab.lab08.lab08",
         "documentation": {}
     },
