@@ -1,4 +1,3 @@
-
 def cumulative_mul(t):
     """Mutates t so that each node's label becomes the product of its own
     label and all labels in the corresponding subtree rooted at t.
@@ -36,11 +35,11 @@ def prune_small(t, n):
     >>> t3
     Tree(6, [Tree(1), Tree(3, [Tree(1), Tree(2)])])
     """
-    while ___________________________:
-        largest = max(_______________, key=____________________)
-        _________________________
-    for __ in _____________:
-        ___________________
+    while len(t.branches) > n:
+        largest = max(t.branches, key=lambda x:x.label)
+        t.branches.remove(largest)
+    for branch in t.branches:
+        prune_small(branch,n)
 
 
 def delete(t, x):
@@ -63,13 +62,13 @@ def delete(t, x):
     Tree(1, [Tree(4), Tree(5), Tree(3, [Tree(6)]), Tree(6), Tree(7), Tree(8), Tree(4)])
     """
     new_branches = []
-    for _________ in ________________:
-        _______________________
+    for b in t.branches:
+        delete(b, x)
         if b.label == x:
-            __________________________________
+            new_branches.extend(b.branches)
         else:
-            __________________________________
-    t.branches = ___________________
+            new_branches.append(b)
+    t.branches = new_branches
 
 
 class Tree:
