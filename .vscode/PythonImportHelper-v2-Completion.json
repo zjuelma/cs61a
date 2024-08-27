@@ -6733,7 +6733,7 @@
         "kind": 2,
         "importPath": "lab.lab08.lab08",
         "description": "lab.lab08.lab08",
-        "peekOfCode": "def prune_small(t, n):\n    \"\"\"Prune the tree mutatively, keeping only the n branches\n    of each node with the smallest labels.\n    >>> t1 = Tree(6)\n    >>> prune_small(t1, 2)\n    >>> t1\n    Tree(6)\n    >>> t2 = Tree(6, [Tree(3), Tree(4)])\n    >>> prune_small(t2, 1)\n    >>> t2",
+        "peekOfCode": "def prune_small(t, n):\n    \"\"\"Prune the tree mutatively, keeping only the n branches\n    of each node with the smallest labels.\n    while len(t.branches) > n:\n        largest = max(t.branches,key = lambda b:b.lable)\n        t.branches.remove(largest)\n    for branch in t.branches:\n        prune_small(branch, n)\n    >>> t1 = Tree(6)\n    >>> prune_small(t1, 2)",
         "detail": "lab.lab08.lab08",
         "documentation": {}
     },

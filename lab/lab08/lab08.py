@@ -21,7 +21,13 @@ def cumulative_mul(t):
 def prune_small(t, n):
     """Prune the tree mutatively, keeping only the n branches
     of each node with the smallest labels.
-
+    
+    while len(t.branches) > n:
+        largest = max(t.branches,key = lambda b:b.lable)
+        t.branches.remove(largest)
+    for branch in t.branches:
+        prune_small(branch, n)
+        
     >>> t1 = Tree(6)
     >>> prune_small(t1, 2)
     >>> t1
