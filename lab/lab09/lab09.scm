@@ -10,9 +10,20 @@
    (+ num inc))
 )
 
-(define (composed f g) 'YOUR-CODE-HERE)
+(define (composed f g)
+  (lambda (x)
+  (f (g x)))
+)
 
-(define (repeat f n) 'YOUR-CODE-HERE)
+(define (repeat f n)
+  (lambda (x)
+    (define (iter x i)
+    (if (> i n)
+      x
+      (iter (f x) (+ i 1))
+      ))(iter x 1)
+  )
+)
 
 (define (max a b)
   (if (> a b)
@@ -24,4 +35,11 @@
       b
       a))
 
-(define (gcd a b) 'YOUR-CODE-HERE)
+(define (gcd a b) 
+  (define (helper a b)
+    (if (= b 0)
+      a
+      (helper b (modulo a b))
+    )
+  )(helper a b)
+)
