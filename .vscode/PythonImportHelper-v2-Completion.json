@@ -485,6 +485,22 @@
         "documentation": {}
     },
     {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -510,22 +526,6 @@
     },
     {
         "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -773,6 +773,22 @@
         "documentation": {}
     },
     {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -798,22 +814,6 @@
     },
     {
         "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -7656,6 +7656,60 @@
         "documentation": {}
     },
     {
+        "label": "FormatList",
+        "kind": 6,
+        "importPath": "lab.lab09.editor.format_parser",
+        "description": "lab.lab09.editor.format_parser",
+        "peekOfCode": "class FormatList:\n    def __init__(self,\n                 contents: List['Formatted'],\n                 close_paren,\n                 prefix: str=\"\"):\n        self.contents = contents\n        self.open_paren = \"(\" if close_paren == \")\" else \"[\"\n        self.close_paren = close_paren\n        self.prefix = prefix\n    class PrefixManager:",
+        "detail": "lab.lab09.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "FormatAtom",
+        "kind": 6,
+        "importPath": "lab.lab09.editor.format_parser",
+        "description": "lab.lab09.editor.format_parser",
+        "peekOfCode": "class FormatAtom:\n    def __init__(self, value: str):\n        self.value = value\n        self.prefix = \"\"\nclass FormatComment:\n    def __init__(self, value: str, allow_inline: bool):\n        self.value = value\n        self.prefix = \"\"\n        self.allow_inline = allow_inline\nFormatted = Union[FormatList, FormatAtom, FormatComment]",
+        "detail": "lab.lab09.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "FormatComment",
+        "kind": 6,
+        "importPath": "lab.lab09.editor.format_parser",
+        "description": "lab.lab09.editor.format_parser",
+        "peekOfCode": "class FormatComment:\n    def __init__(self, value: str, allow_inline: bool):\n        self.value = value\n        self.prefix = \"\"\n        self.allow_inline = allow_inline\nFormatted = Union[FormatList, FormatAtom, FormatComment]\ndef get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)",
+        "detail": "lab.lab09.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "get_expression",
+        "kind": 2,
+        "importPath": "lab.lab09.editor.format_parser",
+        "description": "lab.lab09.editor.format_parser",
+        "peekOfCode": "def get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)\n    elif token == \"#\" and not buffer.done and buffer.get_next_token() == \"[\":\n        buffer.pop_next_token()\n        out = FormatAtom(\"#[\" + buffer.pop_next_token().value + \"]\")\n        buffer.pop_next_token()\n    elif token in SPECIALS:\n        if token in (\"(\", \"[\"):",
+        "detail": "lab.lab09.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "get_rest_of_list",
+        "kind": 2,
+        "importPath": "lab.lab09.editor.format_parser",
+        "description": "lab.lab09.editor.format_parser",
+        "peekOfCode": "def get_rest_of_list(buffer: TokenBuffer, end_paren: str):\n    out = []\n    while buffer.get_next_token() != end_paren:\n        out.append(get_expression(buffer))\n    buffer.pop_next_token()\n    return FormatList(out, end_paren)",
+        "detail": "lab.lab09.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "Formatted",
+        "kind": 5,
+        "importPath": "lab.lab09.editor.format_parser",
+        "description": "lab.lab09.editor.format_parser",
+        "peekOfCode": "Formatted = Union[FormatList, FormatAtom, FormatComment]\ndef get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)\n    elif token == \"#\" and not buffer.done and buffer.get_next_token() == \"[\":\n        buffer.pop_next_token()\n        out = FormatAtom(\"#[\" + buffer.pop_next_token().value + \"]\")\n        buffer.pop_next_token()\n    elif token in SPECIALS:",
+        "detail": "lab.lab09.editor.format_parser",
+        "documentation": {}
+    },
+    {
         "label": "OptimalFormattingReached",
         "kind": 6,
         "importPath": "lab.lab09.editor.formatter",
@@ -8058,60 +8112,6 @@
         "description": "lab.lab09.editor.formatter",
         "peekOfCode": "CACHE_SIZE = 2 ** 8\ndef prettify(strings: List[str], javastyle: bool = False) -> str:\n    out = []\n    for i, string in enumerate(strings):\n        if not string.strip():\n            continue\n        out.extend(prettify_single(string, javastyle))\n    raw_out = []\n    for expr in out:\n        if expr.startswith(\";\"):",
         "detail": "lab.lab09.editor.formatter",
-        "documentation": {}
-    },
-    {
-        "label": "FormatList",
-        "kind": 6,
-        "importPath": "lab.lab09.editor.format_parser",
-        "description": "lab.lab09.editor.format_parser",
-        "peekOfCode": "class FormatList:\n    def __init__(self,\n                 contents: List['Formatted'],\n                 close_paren,\n                 prefix: str=\"\"):\n        self.contents = contents\n        self.open_paren = \"(\" if close_paren == \")\" else \"[\"\n        self.close_paren = close_paren\n        self.prefix = prefix\n    class PrefixManager:",
-        "detail": "lab.lab09.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "FormatAtom",
-        "kind": 6,
-        "importPath": "lab.lab09.editor.format_parser",
-        "description": "lab.lab09.editor.format_parser",
-        "peekOfCode": "class FormatAtom:\n    def __init__(self, value: str):\n        self.value = value\n        self.prefix = \"\"\nclass FormatComment:\n    def __init__(self, value: str, allow_inline: bool):\n        self.value = value\n        self.prefix = \"\"\n        self.allow_inline = allow_inline\nFormatted = Union[FormatList, FormatAtom, FormatComment]",
-        "detail": "lab.lab09.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "FormatComment",
-        "kind": 6,
-        "importPath": "lab.lab09.editor.format_parser",
-        "description": "lab.lab09.editor.format_parser",
-        "peekOfCode": "class FormatComment:\n    def __init__(self, value: str, allow_inline: bool):\n        self.value = value\n        self.prefix = \"\"\n        self.allow_inline = allow_inline\nFormatted = Union[FormatList, FormatAtom, FormatComment]\ndef get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)",
-        "detail": "lab.lab09.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "get_expression",
-        "kind": 2,
-        "importPath": "lab.lab09.editor.format_parser",
-        "description": "lab.lab09.editor.format_parser",
-        "peekOfCode": "def get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)\n    elif token == \"#\" and not buffer.done and buffer.get_next_token() == \"[\":\n        buffer.pop_next_token()\n        out = FormatAtom(\"#[\" + buffer.pop_next_token().value + \"]\")\n        buffer.pop_next_token()\n    elif token in SPECIALS:\n        if token in (\"(\", \"[\"):",
-        "detail": "lab.lab09.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "get_rest_of_list",
-        "kind": 2,
-        "importPath": "lab.lab09.editor.format_parser",
-        "description": "lab.lab09.editor.format_parser",
-        "peekOfCode": "def get_rest_of_list(buffer: TokenBuffer, end_paren: str):\n    out = []\n    while buffer.get_next_token() != end_paren:\n        out.append(get_expression(buffer))\n    buffer.pop_next_token()\n    return FormatList(out, end_paren)",
-        "detail": "lab.lab09.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "Formatted",
-        "kind": 5,
-        "importPath": "lab.lab09.editor.format_parser",
-        "description": "lab.lab09.editor.format_parser",
-        "peekOfCode": "Formatted = Union[FormatList, FormatAtom, FormatComment]\ndef get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)\n    elif token == \"#\" and not buffer.done and buffer.get_next_token() == \"[\":\n        buffer.pop_next_token()\n        out = FormatAtom(\"#[\" + buffer.pop_next_token().value + \"]\")\n        buffer.pop_next_token()\n    elif token in SPECIALS:",
-        "detail": "lab.lab09.editor.format_parser",
         "documentation": {}
     },
     {
@@ -10779,6 +10779,60 @@
         "documentation": {}
     },
     {
+        "label": "FormatList",
+        "kind": 6,
+        "importPath": "lab.lab11.editor.format_parser",
+        "description": "lab.lab11.editor.format_parser",
+        "peekOfCode": "class FormatList:\n    def __init__(self,\n                 contents: List['Formatted'],\n                 close_paren,\n                 prefix: str=\"\"):\n        self.contents = contents\n        self.open_paren = \"(\" if close_paren == \")\" else \"[\"\n        self.close_paren = close_paren\n        self.prefix = prefix\n    class PrefixManager:",
+        "detail": "lab.lab11.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "FormatAtom",
+        "kind": 6,
+        "importPath": "lab.lab11.editor.format_parser",
+        "description": "lab.lab11.editor.format_parser",
+        "peekOfCode": "class FormatAtom:\n    def __init__(self, value: str):\n        self.value = value\n        self.prefix = \"\"\nclass FormatComment:\n    def __init__(self, value: str, allow_inline: bool):\n        self.value = value\n        self.prefix = \"\"\n        self.allow_inline = allow_inline\nFormatted = Union[FormatList, FormatAtom, FormatComment]",
+        "detail": "lab.lab11.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "FormatComment",
+        "kind": 6,
+        "importPath": "lab.lab11.editor.format_parser",
+        "description": "lab.lab11.editor.format_parser",
+        "peekOfCode": "class FormatComment:\n    def __init__(self, value: str, allow_inline: bool):\n        self.value = value\n        self.prefix = \"\"\n        self.allow_inline = allow_inline\nFormatted = Union[FormatList, FormatAtom, FormatComment]\ndef get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)",
+        "detail": "lab.lab11.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "get_expression",
+        "kind": 2,
+        "importPath": "lab.lab11.editor.format_parser",
+        "description": "lab.lab11.editor.format_parser",
+        "peekOfCode": "def get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)\n    elif token == \"#\" and not buffer.done and buffer.get_next_token() == \"[\":\n        buffer.pop_next_token()\n        out = FormatAtom(\"#[\" + buffer.pop_next_token().value + \"]\")\n        buffer.pop_next_token()\n    elif token in SPECIALS:\n        if token in (\"(\", \"[\"):",
+        "detail": "lab.lab11.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "get_rest_of_list",
+        "kind": 2,
+        "importPath": "lab.lab11.editor.format_parser",
+        "description": "lab.lab11.editor.format_parser",
+        "peekOfCode": "def get_rest_of_list(buffer: TokenBuffer, end_paren: str):\n    out = []\n    while buffer.get_next_token() != end_paren:\n        out.append(get_expression(buffer))\n    buffer.pop_next_token()\n    return FormatList(out, end_paren)",
+        "detail": "lab.lab11.editor.format_parser",
+        "documentation": {}
+    },
+    {
+        "label": "Formatted",
+        "kind": 5,
+        "importPath": "lab.lab11.editor.format_parser",
+        "description": "lab.lab11.editor.format_parser",
+        "peekOfCode": "Formatted = Union[FormatList, FormatAtom, FormatComment]\ndef get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)\n    elif token == \"#\" and not buffer.done and buffer.get_next_token() == \"[\":\n        buffer.pop_next_token()\n        out = FormatAtom(\"#[\" + buffer.pop_next_token().value + \"]\")\n        buffer.pop_next_token()\n    elif token in SPECIALS:",
+        "detail": "lab.lab11.editor.format_parser",
+        "documentation": {}
+    },
+    {
         "label": "OptimalFormattingReached",
         "kind": 6,
         "importPath": "lab.lab11.editor.formatter",
@@ -11181,60 +11235,6 @@
         "description": "lab.lab11.editor.formatter",
         "peekOfCode": "CACHE_SIZE = 2 ** 8\ndef prettify(strings: List[str], javastyle: bool = False) -> str:\n    out = []\n    for i, string in enumerate(strings):\n        if not string.strip():\n            continue\n        out.extend(prettify_single(string, javastyle))\n    raw_out = []\n    for expr in out:\n        if expr.startswith(\";\"):",
         "detail": "lab.lab11.editor.formatter",
-        "documentation": {}
-    },
-    {
-        "label": "FormatList",
-        "kind": 6,
-        "importPath": "lab.lab11.editor.format_parser",
-        "description": "lab.lab11.editor.format_parser",
-        "peekOfCode": "class FormatList:\n    def __init__(self,\n                 contents: List['Formatted'],\n                 close_paren,\n                 prefix: str=\"\"):\n        self.contents = contents\n        self.open_paren = \"(\" if close_paren == \")\" else \"[\"\n        self.close_paren = close_paren\n        self.prefix = prefix\n    class PrefixManager:",
-        "detail": "lab.lab11.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "FormatAtom",
-        "kind": 6,
-        "importPath": "lab.lab11.editor.format_parser",
-        "description": "lab.lab11.editor.format_parser",
-        "peekOfCode": "class FormatAtom:\n    def __init__(self, value: str):\n        self.value = value\n        self.prefix = \"\"\nclass FormatComment:\n    def __init__(self, value: str, allow_inline: bool):\n        self.value = value\n        self.prefix = \"\"\n        self.allow_inline = allow_inline\nFormatted = Union[FormatList, FormatAtom, FormatComment]",
-        "detail": "lab.lab11.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "FormatComment",
-        "kind": 6,
-        "importPath": "lab.lab11.editor.format_parser",
-        "description": "lab.lab11.editor.format_parser",
-        "peekOfCode": "class FormatComment:\n    def __init__(self, value: str, allow_inline: bool):\n        self.value = value\n        self.prefix = \"\"\n        self.allow_inline = allow_inline\nFormatted = Union[FormatList, FormatAtom, FormatComment]\ndef get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)",
-        "detail": "lab.lab11.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "get_expression",
-        "kind": 2,
-        "importPath": "lab.lab11.editor.format_parser",
-        "description": "lab.lab11.editor.format_parser",
-        "peekOfCode": "def get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)\n    elif token == \"#\" and not buffer.done and buffer.get_next_token() == \"[\":\n        buffer.pop_next_token()\n        out = FormatAtom(\"#[\" + buffer.pop_next_token().value + \"]\")\n        buffer.pop_next_token()\n    elif token in SPECIALS:\n        if token in (\"(\", \"[\"):",
-        "detail": "lab.lab11.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "get_rest_of_list",
-        "kind": 2,
-        "importPath": "lab.lab11.editor.format_parser",
-        "description": "lab.lab11.editor.format_parser",
-        "peekOfCode": "def get_rest_of_list(buffer: TokenBuffer, end_paren: str):\n    out = []\n    while buffer.get_next_token() != end_paren:\n        out.append(get_expression(buffer))\n    buffer.pop_next_token()\n    return FormatList(out, end_paren)",
-        "detail": "lab.lab11.editor.format_parser",
-        "documentation": {}
-    },
-    {
-        "label": "Formatted",
-        "kind": 5,
-        "importPath": "lab.lab11.editor.format_parser",
-        "description": "lab.lab11.editor.format_parser",
-        "peekOfCode": "Formatted = Union[FormatList, FormatAtom, FormatComment]\ndef get_expression(buffer: TokenBuffer) -> Formatted:\n    token = buffer.pop_next_token()\n    if isinstance(token, Comment):\n        return FormatComment(token.value, not token.first_in_line)\n    elif token == \"#\" and not buffer.done and buffer.get_next_token() == \"[\":\n        buffer.pop_next_token()\n        out = FormatAtom(\"#[\" + buffer.pop_next_token().value + \"]\")\n        buffer.pop_next_token()\n    elif token in SPECIALS:",
-        "detail": "lab.lab11.editor.format_parser",
         "documentation": {}
     },
     {
@@ -12844,7 +12844,7 @@
         "kind": 5,
         "importPath": "lab.lab11.tests.wwsd-quasiquote",
         "description": "lab.lab11.tests.wwsd-quasiquote",
-        "peekOfCode": "test = {\n  'name': 'wwsd-quasiquote',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          scm> '(1 x 3)\n          7026b4496459392f36b9a5b9dc64e31d",
+        "peekOfCode": "test = {\n  'name': 'wwsd-quasiquote',\n  'points': 0,\n  'suites': [\n    {\n      'cases': [\n        {\n          'code': r\"\"\"\n          scm> '(1 x 3)\n          (1 x 3)",
         "detail": "lab.lab11.tests.wwsd-quasiquote",
         "documentation": {}
     },
@@ -15054,6 +15054,15 @@
         "documentation": {}
     },
     {
+        "label": "test",
+        "kind": 5,
+        "importPath": "projects.cats.tests.EC",
+        "description": "projects.cats.tests.EC",
+        "peekOfCode": "test = {\n  'name': 'Extra Credit',\n  'points': 1,\n  'suites': [\n      {\n      'cases': [\n        {\n          'answer': 'A function that takes another function as an input and returns a new function that extends or modifies the behavior of the original function',\n          'choices': [\n            'A type of design pattern',",
+        "detail": "projects.cats.tests.EC",
+        "documentation": {}
+    },
+    {
         "label": "AbstractionViolation",
         "kind": 6,
         "importPath": "projects.cats.tests.abstraction_check",
@@ -15186,15 +15195,6 @@
         "description": "projects.cats.tests.construct_check",
         "peekOfCode": "_NAMES = {\n    'Add': '+',\n    'And': 'and',\n    'Assert': 'assert',\n    'Assign': '=',\n    'AnnAssign': '=',\n    'AugAssign': 'op=',\n    'BitAnd': '&',\n    'BitOr': '|',\n    'BitXor': '^',",
         "detail": "projects.cats.tests.construct_check",
-        "documentation": {}
-    },
-    {
-        "label": "test",
-        "kind": 5,
-        "importPath": "projects.cats.tests.EC",
-        "description": "projects.cats.tests.EC",
-        "peekOfCode": "test = {\n  'name': 'Extra Credit',\n  'points': 1,\n  'suites': [\n      {\n      'cases': [\n        {\n          'answer': 'A function that takes another function as an input and returns a new function that extends or modifies the behavior of the original function',\n          'choices': [\n            'A type of design pattern',",
-        "detail": "projects.cats.tests.EC",
         "documentation": {}
     },
     {
